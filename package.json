@@ -40,7 +40,7 @@
 	},
 	"browserslist": "> 0.5%, last 4 versions, not ie <= 11, not ie_mob <= 11",
 	"pudding": {
-		"subdirectory": "2022/06/aztec-gods"
+		"subdirectory": "LegadoOlimpico2"
 	},
 	"dependencies": {
 		"intersection-observer": "^0.12.0",
