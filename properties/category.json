@@ -1,0 +1,34 @@
+{
+  "category": {
+    "primordial": {
+      "value": "#008AA1"
+    },
+    "creation": {
+      "value": "#D28360"
+    },
+    "elemental": {
+      "value": "#5C8A73"
+    },
+    "human": {
+      "value": "#B08699"
+    },
+    "secondary": {
+      "value": "#D90B0B"
+    },
+    "primordialLight": {
+      "value": "#EAF8FB"
+    },
+    "creationLight": {
+      "value": "#FFF0E9"
+    },
+    "elementalLight": {
+      "value": "#F3F7F5"
+    },
+    "humanLight": {
+      "value": "#F9F6F8"
+    },
+    "secondaryLight": {
+      "value": "#FFEDED"
+    }
+  }
+}

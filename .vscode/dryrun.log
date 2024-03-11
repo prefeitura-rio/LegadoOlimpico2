@@ -1,0 +1,13 @@
+make: Entering directory `/Users/lucguillemot/Documents/projects/work/aztec-gods'
+npm run build
+rm -rf docs
+cp -r build docs
+touch docs/.nojekyll
+git add -A
+git commit -m "update github pages"
+git push
+ 
+make: *** No rule to make target `pudding', needed by `PHONY'.
+
+make: Leaving directory `/Users/lucguillemot/Documents/projects/work/aztec-gods'
+ 
