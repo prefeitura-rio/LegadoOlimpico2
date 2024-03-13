@@ -36,7 +36,7 @@
     </div>
   </div>
 
-  <h1 class="title">A Visual Guide to the Aztec Pantheon</h1>
+  <h1 class="title">O que seria do Rio sem as Olimpíadas?</h1>
 
   <div class="hero-image">
     {#await loadImage(`${dev ? "/" : "/2022/06/aztec-gods/"}assets/gods/svg/ometeotl.svg`)}
@@ -49,12 +49,12 @@
   </div>
   <div class="credits">
     <div class="credits-line">
-      <div>Story & Illustrations</div>
-      <div><a href="https://pudding.cool/author/gwendal-uguen/">Gwendal Uguen</a></div>
+      <div>Produzido pelo</div>
+      <div><a href="https://www.dados.rio/">Escritório de Dados</a></div>
     </div>
     <div class="credits-line">
-      <div>Code</div>
-      <div><a href="https://pudding.cool/author/luc-guillemot/">Luc Guillemot</a></div>
+      <div>da</div>
+      <div><a href="https://prefeitura.rio/">Prefeitura da Cidade do Rio de Janeiro</a></div>
     </div>
   </div>
 </Section>

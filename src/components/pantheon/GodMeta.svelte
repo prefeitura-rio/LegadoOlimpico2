@@ -16,7 +16,7 @@
       {getFieldLabel(field)}
     </button>
   {/each}
-  <button class="text-button" disabled={!$keyword} on:click={() => keyword.lowlight()}>Reset</button
+  <button class="text-button" disabled={!$keyword} on:click={() => keyword.lowlight()}>Resetar</button
   >
 </fieldset>
 
