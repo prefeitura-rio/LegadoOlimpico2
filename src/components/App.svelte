@@ -23,14 +23,14 @@
   </div>
 </Section>
 
-<Section id="iconography">
+<!-- <Section id="iconography">
   <Heading>{@html doc.iconography_title}</Heading>
 
   <Paragraph hasCap={true}>{@html doc.iconography_intro}</Paragraph>
   <Paragraph>{@html doc.iconography_imaginarygods}</Paragraph>
 </Section>
 
-<VisualLibrary />
+<VisualLibrary /> -->
 
 <!-- PANTHEON -->
 <Section id="pantheon">
@@ -42,11 +42,22 @@
 
 <ScrollyTlalte />
 
+<br><br><br><br>
+
+<Section id="intro">
+  <div class="intro">
+    {#each doc.introduction as p, i}
+      <IntroParagraph hasCap={i === 0}>{@html p}</IntroParagraph>
+    {/each}
+  </div>
+</Section>
+
+<br><br><br><br>
 <ScrollyTezca />
 
 <Pantheon />
 
-<Sources />
+<!-- <Sources /> -->
 
 <style>
   .intro {

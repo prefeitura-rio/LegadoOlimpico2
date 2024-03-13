@@ -1,162 +1,75 @@
+<!-- src/components/Footer.svelte -->
+
 <script>
-  import { onMount } from "svelte";
-  import wordmark from "$svg/wordmark.svg";
-
-  let localURL;
-  let stories = [];
-
-  const v = Date.now();
-  const url = `https://pudding.cool/assets/data/stories.json?v=${v}`;
-
-  const links = [
-    { name: "about", url: "https://pudding.cool/about" },
-    { name: "facebook", url: "https://facebook.com/pudding.viz/" },
-    { name: "twitter", url: "https://twitter.com/puddingviz/" },
-    {
-      name: "instagram",
-      url: "https://www.instagram.com/the.pudding"
-    },
-    { name: "patreon", url: "https://patreon.com/thepudding/" },
-    { name: "privacy", url: "https://pudding.cool/privacy/" },
-    { name: "newsletter", url: "http://eepurl.com/czym6f" },
-    { name: "rss", url: "https://pudding.cool/feed/index.xml" }
-  ];
-
-  onMount(async () => {
-    localURL = window.location.href;
-    const response = await fetch(url);
-    const data = await response.json();
-    const story = data.find((d) => localURL.includes(d.url));
-    const topic = story ? story.topic : "culture";
-    stories = data.filter((d) => !localURL.includes(d.url)).slice(0, 4);
-  });
+  import logo from "$svg/logo.svg"; 
+	// import { activeBar } from "$stores/misc.js";
 </script>
 
-<footer>
-  <section class="stories">
-    {#each stories as { hed, url, image }}
-      <div class="story">
-        <a href="https://pudding.cool/{url}">
-          <img
-            src="https://pudding.cool/common/assets/thumbnails/640/{image}.jpg"
-            alt="thumbnail"
-          />
-          <span>{hed}</span>
-        </a>
-      </div>
-    {/each}
-  </section>
 
-  <section class="about">
-    <div class="wordmark">
-      {@html wordmark}
-    </div>
-    <p>
-      <a href="https://pudding.cool">The Pudding</a>
-      is a digital publication that explains ideas debated in culture with visual essays.
-    </p>
-  </section>
+ <footer class="footer">
+	<h3 id="autores">Autores</h3>
+	<h6>Caio Jacintho</h6>
+	<h6>Judite Cypreste</h6>
+	<h6>Pedro Meneghel</h6>
+	<h6>Lucas Tavares</h6>
+  
+	<br>
+	<br>
+	<h3 id="agradecimentos">Agradecimentos</h3>
+	<h6>Cláudia Escarlate</h6>
+	<h6>João Carabetta</h6>
+	<h6>Joice Nascimento</h6>
+	<h6>Michel Castellar</h6>
+	<h6>Pedro Simões</h6>
+	<h6>Rafael Lisboa</h6>
+	<h6>Teresa Fayal</h6>
 
-  <section class="links">
-    <ul>
-      {#each links as link}
-        <li>
-          <a href={link.url}>
-            <span>{link.name.toUpperCase()}</span>
-          </a>
-        </li>
-      {/each}
-    </ul>
-  </section>
-</footer>
+	<br>
+	<br>
+	<h3 id="prefeito">Prefeito</h3>
+	<h6>Eduardo Paes</h6>
+	<div class="footer_logo">
+		<img class="photo_logo" src="assets/logo_preto_horizontal.png" alt="Foto" />
+	</div>
+	<br>
+	<br>
+ </footer>
+ 
+ <style>
+	@media (max-width: 640px) {
+		.footer{
+			margin-left: 0.9rem ;
+		}
+	}
+	#autores, #agradecimentos, #prefeito{
+		font-size: 25px;
+	}
+	.footer_logo{
+		padding-top:10rem;
+		padding-bottom:10rem;
+	}
+	.photo_logo{
+		width: 200px;
+	}
+	.footer {
+	margin-top: 20vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
 
-<style>
-  footer {
-    background-color: var(--color-fg);
-    color: var(--color-bg);
-    font-family: var(--sans);
-    padding: 3em 1em;
-    margin-top: 3em;
-  }
+}
+	.footer h3,
+	.footer h6 {
+		margin: 0 20px 10px;
+		font-size: 15px;
+	}
+	
+	.footer h3{
+		font-weight: bold
+	}
+ 
 
-  a,
-  a:visited,
-  a:hover {
-    color: var(--color-bg);
-  }
-
-  .stories {
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 70em;
-  }
-
-  .story {
-    display: block;
-    width: 100%;
-    border: none;
-    margin-bottom: 3rem;
-  }
-
-  .story a {
-    display: block;
-    font-weight: 700;
-    text-decoration: none;
-    border: none;
-  }
-
-  .story span {
-    display: block;
-    margin-top: 1em;
-    line-height: 1.2;
-  }
-
-  .wordmark {
-    max-width: 10em;
-    margin: 1em auto;
-  }
-
-  .about {
-    margin: 3rem auto;
-    margin-top: 0;
-    text-align: center;
-  }
-
-  .links ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .links li {
-    display: flex;
-    padding: 0.5em 1em;
-  }
-
-  .links a {
-    display: flex;
-    border: none;
-    align-items: center;
-    text-decoration: none;
-  }
-
-  .links span {
-    margin-left: 0.5em;
-  }
-
-  @media only screen and (min-width: 30em) {
-    .story {
-      width: 50%;
-      padding: 0 1em;
-    }
-  }
-
-  @media only screen and (min-width: 50em) {
-    .story {
-      width: 25%;
-      padding: 0 1em;
-    }
-  }
-</style>
+ </style>
+ 

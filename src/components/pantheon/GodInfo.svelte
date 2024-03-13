@@ -47,7 +47,7 @@
   {#if $selection}
     <div class="illu-info-wrapper">
       <div class="illustration">
-        {#await loadImage(`${dev ? "/" : "/2022/06/aztec-gods/"}assets/gods/svg/${$selection.id}.svg`)}
+        {#await loadImage(`${dev ? "/" : "/LegadoOlimpico2/"}assets/gods/svg/${$selection.id}.svg`)}
           <span>Loading...</span>
         {:then img}
           <img src={img.src} alt="Image of {getName($selection)}." />
@@ -63,22 +63,22 @@
             </div>
             <h3 class="name">{@html getName($selection)}</h3>
             <p class="minibio">{@html $selection.bio}</p>
-            {#if content}
+            <!-- {#if content}
               {#each content as c}
                 <h4>{@html c.subtitle}</h4>
                 {#each c.subcontent as p}
                   <p>{@html p}</p>
                 {/each}
               {/each}
-            {/if}
+            {/if} -->
           </div>
           <div class="scrollable-fade" />
-          <TextButton
+          <!-- <TextButton
             iconName="chevron-right"
             position="end"
             buttonLabel="sources"
             handleClick={() => (visible = "details")}
-          />
+          /> -->
         {:else}
           <!-- SOURCES -->
           <div class="scrollable">

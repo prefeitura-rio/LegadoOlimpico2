@@ -1,5 +1,5 @@
 <script>
-  export let title = "A Visual Guide to the Aztec Pantheon";
+  export let title = "Legado Olímpico";
   export let description = "An introduction to aztec gods";
   export let url = "https://pudding.cool/2022/06/aztec-gods";
 </script>

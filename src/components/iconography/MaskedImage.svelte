@@ -24,7 +24,7 @@
 >
   <g mask={`url(#mask-${name})`}>
     <image
-      href={`${dev ? "/" : "/2022/06/aztec-gods/"}assets/img/${imgPath}`}
+      href={`${dev ? "/" : "/LegadoOlimpico2/"}assets/img/${imgPath}`}
       x="0"
       y="0"
       height="100%"

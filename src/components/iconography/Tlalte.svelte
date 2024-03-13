@@ -8,7 +8,7 @@
 </script>
 
 <ScrollableImage
-  title="Tlaltecuhtli"
+  title="reformasurbanas"
   source={doc.source_tlalte_label}
   sourceUrl={doc.source_tlalte_url}
   name="tlalte"
