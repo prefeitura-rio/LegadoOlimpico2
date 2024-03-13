@@ -4,7 +4,7 @@
     "creation": "#D28360",
     "elemental": "#5C8A73",
     "human": "#B08699",
-    "secondary": "#D90B0B",
+    "secondary": "#014A7F",
     "primordialLight": "#EAF8FB",
     "creationLight": "#FFF0E9",
     "elementalLight": "#F3F7F5",
@@ -12,7 +12,7 @@
     "secondaryLight": "#FFEDED"
   },
   "color": {
-    "background": "#FFE198",
+    "background": "#f3f3f3",
     "background-transparent": "rgba(255, 225, 152, 0.8)",
     "background-2": "#FDE7B2",
     "highlight": "#D90B0B",

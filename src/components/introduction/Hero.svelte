@@ -24,7 +24,7 @@
     <div class="grid">
       {#each icons as icon, i}
         <div style="grid-area: i{i}">
-          {#await loadImage(`${dev ? "/" : "/2022/06/aztec-gods/"}assets/gods/svg/${icon}.svg`)}
+          {#await loadImage(`${dev ? "/" : "/LegadoOlimpico2/"}assets/gods/svg/${icon}.svg`)}
             <span />
           {:then img}
             <img src={img.src} alt={"icon"} />
@@ -37,9 +37,11 @@
   </div>
 
   <h1 class="title">O que seria do Rio sem as Olimpíadas?</h1>
-
+  <div class="center">
+    <a href="https://prefeitura-rio.github.io/LegadoOlimpico2_3D/" target="_blank" class="button">Tour 3D</a>
+  </div>
   <div class="hero-image">
-    {#await loadImage(`${dev ? "/" : "/2022/06/aztec-gods/"}assets/gods/svg/ometeotl.svg`)}
+    {#await loadImage(`${dev ? "/" : "/LegadoOlimpico2/"}assets/gods/svg/ometeotl.svg`)}
       <span />
     {:then img}
       <img src={img.src} alt={"icon"} />
@@ -60,6 +62,29 @@
 </Section>
 
 <style>
+  .center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 100px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #f8f9fa;
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+  }
+
+  .button:hover {
+    background-color: #e2e6ea;
+  }
   .title {
     max-width: 10em;
     padding: 0 2rem;

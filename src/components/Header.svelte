@@ -4,17 +4,19 @@
 
 <header>
   <div class="wordmark">
-    <a href="https://pudding.cool" aria-label="The Pudding">{@html wordmark}</a>
+    <img class="photo_logo" src="assets/logo_preto_horizontal.png" alt="Foto" />
   </div>
 </header>
 
 <style>
   .wordmark {
-    max-width: 10em;
+    max-width: 15em;
     margin: 0 auto;
     padding: 1em 0;
   }
-
+  .photo_logo{
+		width: 200px;
+	}
   .wordmark a {
     border: none;
     color: var(--color-fg);

@@ -41,18 +41,17 @@
 <Section id="gods-iconography-{title}" fullBleed>
   <div id="scrolly">
     <figure>
-      <h3>{@html title}</h3>
-      <div class="illustration-source">
+      <h3>{@html title == "reformasurbanas" ? "Reformas Urbanas" : title}</h3>
+      <!-- <div class="illustration-source">
         {#if sourceUrl}
           (<a href={sourceUrl}>{@html source}</a>)
         {:else}
           ({@html source})
         {/if}
-      </div>
+      </div> -->
 
       <MaskedImage {name} selected={activeStep.id} {imgPath} {positions} {imageRange} />
     </figure>
-
     <div class="scroll-area">
       {#each steps as step, i}
         <div class="step step-{title}">
@@ -61,7 +60,11 @@
               {@html step.title}
             </div>
           {/if}
+          {#if step.text == "foto1" || step.text == "foto2" || step.text == "foto3" || step.text == "foto4" || step.text == "foto5" || step.text == "foto6" || step.text == "foto7"}
+          <img class="photo_logo" src="assets/img/tezca-explorable.png" alt="Foto" />
+          {:else}
           <div class="step-text">{@html step.text}</div>
+          {/if}
         </div>
       {/each}
     </div>

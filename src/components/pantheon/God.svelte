@@ -72,7 +72,7 @@
   tabindex="-1"
   style="width:{rad}px; height: {rad}px; left:{x}px; top:{y}px; background-color: {backgroundColor}; border: {borderWidth}px solid {borderColor}; 
   background-image: url({`${
-    dev ? '/' : '/2022/06/aztec-gods/'
+    dev ? '/' : '/LegadoOlimpico2/'
   }assets/gods/sprite/gods.sprite.png`});
   transform: translate(-50%, -50%); z-index: {isHighlighted ? 20 : 10};
   opacity:{opacity}; background-position: 0% {(((SINGLE_IMAGE_WIDTH + OFFSET) * godIndex) /

@@ -6,9 +6,9 @@
 
 <li>
   {#if url || url !== ""}
-    <span class="title"><a href={url}>{title}</a>, </span>
+    <span class="title"><a href={url}>{title}</a> </span>
   {:else}
-    <span class="title">{title}, </span>
+    <span class="title">{title} </span>
   {/if}
   <span class="author">{author}</span>
 </li>

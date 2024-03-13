@@ -20,7 +20,7 @@
     <ul>
       {#each group.sources_group as groupItem}
         {#if groupItem.sources_subgroup}
-          <h4>{groupItem.subgroup_title}</h4>
+          <!-- <h4>{groupItem.subgroup_title}</h4> -->
           <ul>
             {#each groupItem.sources_subgroup as subgroupItem}
               <SourceItem
@@ -37,7 +37,7 @@
     </ul>
   {/each}
 
-  <h3>
+  <!-- <h3>
     {doc.cta_wip_title}
   </h3>
   {#each doc.cta_wip as p}
@@ -56,7 +56,7 @@
   </h3>
   {#each doc.cta_websites as p}
     <p>{@html p}</p>
-  {/each}
+  {/each} -->
 </Section>
 
 <style>

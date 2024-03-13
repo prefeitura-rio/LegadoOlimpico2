@@ -14,9 +14,9 @@
   --category-elemental-light: #F3F7F5;
   --category-human-light: #F9F6F8;
   --category-secondary-light: #FFEDED;
-  --color-background: #ffe198;
-  --color-background-transparent: rgba(255, 225, 152, 0.8);
-  --color-background-2: #fde7b2;
+  --color-background: #f3f3f3;
+  --color-background-transparent:	#E5E4E2;
+  --color-background-2: 	#E5E4E2;
   --color-highlight: #014A7F;
   --color-highlight-lighter: #fbf2f2;
   --color-secondary: #000000;
@@ -30,6 +30,6 @@
   --color-purple: #a239ca;
   --color-blue: #4717f6;
   --color-green: #34a29e;
-  --color-red: #ff533d;
+  --color-red: black;
   --color-yellow: #e5e338;
 }
