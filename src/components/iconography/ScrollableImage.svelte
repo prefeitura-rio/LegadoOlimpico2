@@ -118,12 +118,13 @@
   h3 {
     font-size: 2rem;
     line-height: 1.4;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 0.1em; */
     font-weight: 500;
-    background-color: var(--color-background-transparent);
+    /* background-color: var(--color-background-transparent); */
+    border-bottom: 3.5px solid var(--color-highlight);
     border-radius: 2px;
-    padding: 1rem;
+    /* padding: 1rem; */
     z-index: 2;
     text-align: center;
   }
@@ -139,7 +140,7 @@
 
     pointer-events: all;
 
-    background-color: var(--color-background-transparent);
+    background-color: #eaeaea;
     border-radius: 2px;
 
     position: relative;

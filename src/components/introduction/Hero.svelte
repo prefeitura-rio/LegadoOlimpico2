@@ -38,7 +38,7 @@
 
   <h1 class="title">O que seria do Rio sem as Olimpíadas?</h1>
   <div class="center">
-    <a href="https://prefeitura-rio.github.io/LegadoOlimpico2_3D/" target="_blank" class="button">Tour 3D</a>
+    <a href="https://prefeitura-rio.github.io/LegadoOlimpico2_3D/" target="_blank" class="button">Explorar mapa interativo</a>
   </div>
   <div class="hero-image">
     {#await loadImage(`${dev ? "/" : "/LegadoOlimpico2/"}assets/gods/svg/ometeotl.svg`)}
@@ -67,23 +67,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
- 
   }
   .button {
     display: inline-block;
-    padding: 10px 100px;
+    font-family: var(--serif);
+    padding: 3px 10px;
     font-size: 20px;
     text-align: center;
-    border: 1px solid black;
-    background-color: #f8f9fa;
-    color: black;
+    font-weight: bold;
+    border-bottom: 3px solid var(--color-highlight);
+    transition: 0.3s;
+    /* color: black; */
     text-decoration: none;
-    transition: background-color 0.3s ease;
-    border-radius: 5px;
   }
 
   .button:hover {
-    background-color: #e2e6ea;
+    scale: 1.1;
   }
   .title {
     max-width: 10em;
