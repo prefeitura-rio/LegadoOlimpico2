@@ -42,6 +42,7 @@
 		}
 	}
 	#autores, #agradecimentos, #prefeito{
+		border-bottom: 3px solid var(--color-highlight);
 		font-size: 25px;
 	}
 	.footer_logo{
