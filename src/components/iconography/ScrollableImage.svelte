@@ -41,7 +41,7 @@
 <Section id="gods-iconography-{title}" fullBleed>
   <div id="scrolly">
     <figure>
-      <h3>{@html title == "reformasurbanas" ? "Reformas Urbanas" : title}</h3>
+      <h3>{@html title == "reformasurbanas" ? "" : title}</h3>
       <!-- <div class="illustration-source">
         {#if sourceUrl}
           (<a href={sourceUrl}>{@html source}</a>)
@@ -61,7 +61,7 @@
             </div>
           {/if}
           {#if step.text == "foto1" || step.text == "foto2" || step.text == "foto3" || step.text == "foto4" || step.text == "foto5" || step.text == "foto6" || step.text == "foto7"}
-          <img class="photo_logo" src="assets/img/tezca-explorable.png" alt="Foto" />
+          <img class="photo_logo" src="assets/img/tuneis.png" alt="Foto" />
           {:else}
           <div class="step-text">{@html step.text}</div>
           {/if}
@@ -130,18 +130,17 @@
   }
 
   .step {
-    width: 100%;
-    /* max-width: 24rem; */
+    width: calc(100% - 100px); /* Subtraindo 100px da largura total */
     margin: 30rem auto 2rem auto;
-    padding: 1rem 1rem;
+    padding: 1rem;
 
     opacity: 1;
     transition: opacity 400ms;
 
     pointer-events: all;
 
-    background-color: #eaeaea;
-    border-radius: 2px;
+    background-color: #ffffff;
+    border: 4px solid #014A7F; /* Adicionando um contorno preto */
 
     position: relative;
     z-index: 10;
@@ -156,17 +155,17 @@
   .step-title {
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     /* border-bottom: 3px solid var(--color-highlight); */
-    padding-top: 1rem;
+    padding-top: 0.4rem;
   }
   .step-title::after {
     display: block;
     content: "";
     background: var(--color-highlight);
     height: 3px;
-    width: 220px;
-    margin: 1rem 0 0 0;
+    width: 100%;
+    margin: 1rem 0 1rem 0;
     border-radius: 2px;
   }
   .step-text {

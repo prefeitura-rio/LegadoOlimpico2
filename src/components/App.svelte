@@ -46,7 +46,7 @@
 
 <Section id="intro">
   <div class="intro">
-    {#each doc.introduction as p, i}
+    {#each doc.introductionone as p, i}
       <IntroParagraph hasCap={i === 0}>{@html p}</IntroParagraph>
     {/each}
   </div>
