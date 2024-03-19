@@ -55,7 +55,19 @@
 <br><br><br><br>
 <ScrollyTezca />
 
+<Section id="intro">
+  <div class="intro">
+    {#each doc.introductiontwo as p, i}
+      <IntroParagraph hasCap={i === 0}>{@html p}</IntroParagraph>
+    {/each}
+  </div>
+</Section>
+
+<br><br><br><br>
+
 <Pantheon />
+
+
 
 <!-- <Sources /> -->
 

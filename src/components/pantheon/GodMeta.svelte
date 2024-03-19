@@ -9,7 +9,7 @@
   const { keyword } = getContext("chart-state");
 </script>
 
-<fieldset class="wrapper" style="pointer-events:{preventInteraction ? 'none' : 'all'};">
+<fieldset class="wrapper" >
   <legend class="hidden">{@html doc.pantheon_control_map}</legend>
   {#each FIELDS as field}
     <button class:selected={$keyword === field} on:click={() => keyword.highlight(field)}>

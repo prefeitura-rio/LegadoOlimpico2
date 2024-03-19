@@ -1494,6 +1494,25 @@
     "expansion": 1
   },
   {
+    "x": -4.362499547453764,
+    "y": 3.653484842724064,
+    "id": "ometecuhtli",
+    "name": "Ometecuhtli",
+    "importance": "secondary",
+    "field": "educacao, spiritual expansion",
+    "bio": "Male representation of the creator god Ometeotl. God of the near and the distant, of substance and duality, he was mainly revered by the higher classes, especially in poetry.",
+    "spellings": "Ometeotl, Omeyotl, Ometeoltloque, Yohualli. Ometeoltloque, Ometecutli, Tloque Nahuaque, Citlatonac, Ometecuhtl, Ome Tochtli, Acalhuah, Ilhuicacihuatl, Ilhuicahuah, Ilhuicateotl",
+    "source": "Codex Vaticanus",
+    "aspect": "Xiuhtecuhtli, Tonacatecuhtli, Huehueteotl, Mictlantecuhtli, Citlalatonac, Chalmecatecuhtli, Ilamatecuhtli, Cipactonal",
+    "educacao": 1,
+    "life": 1,
+    "death": 0,
+    "spiritual": 1,
+    "material": 0,
+    "life_death": 1,
+    "expansion": 1
+  },
+  {
     "x": 2.3019088560353023,
     "y": -2.768902710790417,
     "id": "ometeotl",

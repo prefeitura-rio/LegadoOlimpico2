@@ -60,8 +60,34 @@
               {@html step.title}
             </div>
           {/if}
-          {#if step.text == "foto1" || step.text == "foto2" || step.text == "foto3" || step.text == "foto4" || step.text == "foto5" || step.text == "foto6" || step.text == "foto7"}
+          {#if step.text == "foto1" }
           <img class="photo_logo" src="assets/img/tuneis.png" alt="Foto" />
+          {:else if step.text == "foto2" }
+          <img class="photo_logo" src="assets/img/centro_norte.jpg" alt="Foto" />
+          {:else if step.text == "foto3" }
+          <img class="photo_logo" src="assets/img/ezpitzal.png" alt="Foto" />
+          {:else if step.text == "foto4" }
+          <img class="photo_logo" src="assets/img/Tlaltecuhtli-explorable.png" alt="Foto" />
+          {:else if step.text == "foto5" }
+          <img class="photo_logo" src="assets/img/tezca-explorable.png" alt="Foto" />
+          {:else if step.text == "foto6" }
+          <img class="photo_logo" src="assets/img/tezca-explorable.png" alt="Foto" />
+          {:else if step.text == "foto7" }
+          <img class="photo_logo" src="assets/img/tezca-explorable.png" alt="Foto" />
+          {:else if step.text == "foto8" }
+          <img class="photo_logo" src="assets/img/tezca-explorable.png" alt="Foto" />
+          {:else if step.text == "foto9" }
+          <img class="photo_logo" src="assets/img/tezca-explorable.png" alt="Foto" />
+          {:else if step.text == "foto10" }
+          <img class="photo_logo" src="assets/img/tezca-explorable.png" alt="Foto" />
+          {:else if step.text == "foto11" }
+          <img class="photo_logo" src="assets/img/tezca-explorable.png" alt="Foto" />
+          {:else if step.text == "foto12" }
+          <img class="photo_logo" src="assets/img/tezca-explorable.png" alt="Foto" />
+          {:else if step.text == "foto13" }
+          <img class="photo_logo" src="assets/img/tezca-explorable.png" alt="Foto" />
+          {:else if step.text == "foto14" }
+          <img class="photo_logo" src="assets/img/tezca-explorable.png" alt="Foto" />
           {:else}
           <div class="step-text">{@html step.text}</div>
           {/if}

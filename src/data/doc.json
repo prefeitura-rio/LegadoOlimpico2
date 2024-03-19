@@ -13,6 +13,12 @@
     "No entanto, os Jogos Olímpicos não apenas trouxeram uma oportunidade de destaque global para o Rio, mas também abriram as portas para uma transformação vital nessas áreas antes esquecidas. A prefeitura, ciente da necessidade premente de atender às demandas dessas regiões, direcionou seus esforços e recursos para onde era mais necessário.",
     "<strong>As obras do legado olímpico</strong> não foram apenas sobre estádios reluzentes e infraestrutura padrão FIFA. <strong>Elas representaram uma promessa de renovação e inclusão para todos os cariocas.</strong> Os investimentos em projetos como o BRT, a Transoeste, a Transcarioca e a Transolímpica foram muito mais do que meras melhorias viárias. <strong>Eles se estendem à alma da cidade e à esperança de um futuro mais justo e inclusivo. E isso, em si, é uma conquista verdadeiramente olímpica.</strong>"
    ],
+  "introductiontwo": [
+    "TEXTO FINAL O Rio de Janeiro sempre foi o símbolo do Brasil para o mundo. <strong>Quando alguém pensa no Brasil, pensa no Rio. Pensa no Cristo Redentor, pensa em samba, futebol e carnaval. Tudo isso você encontra aqui.</strong> O Rio tem a vocação de ser o que o nosso país tem de melhor. Entretanto, para muitos cariocas essa realidade sempre pareceu intangível, longe de suas casas, longe das suas vidas.",
+    "Nesta vasta e complexa cidade, nem todas as suas regiões brilhavam com a mesma intensidade antes dos Jogos Olímpicos de 2016. Enquanto os olhos do mundo se concentravam em algumas regiões privilegiadas, como a Zona Sul, outras partes da cidade, especialmente a Zona Oeste e a Zona Norte, eram frequentemente deixadas à margem, esquecidas pelos olhos dos governantes.",
+    "No entanto, os Jogos Olímpicos não apenas trouxeram uma oportunidade de destaque global para o Rio, mas também abriram as portas para uma transformação vital nessas áreas antes esquecidas. A prefeitura, ciente da necessidade premente de atender às demandas dessas regiões, direcionou seus esforços e recursos para onde era mais necessário.",
+    "<strong>As obras do legado olímpico</strong> não foram apenas sobre estádios reluzentes e infraestrutura padrão FIFA. <strong>Elas representaram uma promessa de renovação e inclusão para todos os cariocas.</strong> Os investimentos em projetos como o BRT, a Transoeste, a Transcarioca e a Transolímpica foram muito mais do que meras melhorias viárias. <strong>Eles se estendem à alma da cidade e à esperança de um futuro mais justo e inclusivo. E isso, em si, é uma conquista verdadeiramente olímpica.</strong>"
+   ],
   "iconography_title": "",
   "iconography_intro": "",
   "iconography_imaginarygods": "",
@@ -33,27 +39,27 @@
     {
       "id": "claws",
       "title": "derrubada da perimetral",
-      "text": "Clawed hands and feet are a symbol of ferocity and blood thirst."
+      "text": "foto1"
     },
     {
       "id": "hair",
       "title": "boulevard olímpico",
-      "text": "Curly hair is a symbol of grass (<em>malinali</em>) and of vegetation generally."
+      "text": "foto2"
     },
     {
       "id": "mouth",
       "title": "museu do amanha",
-      "text": "Its wide open mouth swallows the sun at the end of each day."
+      "text": "foto3"
     },
     {
       "id": "extramouths",
       "title": "museu de arte do rio",
-      "text": "Extra mouths at the joints, and skull ornaments, emphasize the all consuming aspect of death."
+      "text": "foto4"
     },
     {
       "id": "crouch",
       "title": "centro de operações",
-      "text": "The crouching position can be a symbol of the birthing process and fertility."
+      "text": "foto5"
     }
   ],
   "iconography_tezca": "Tezcatlipoca",
@@ -63,55 +69,46 @@
     {
       "id": "colors",
       "title": "sistema brt",
-      "text": "foto1"
+      "text": "foto6"
     },
     {
       "id": "face",
       "title": "sistema vlt",
-      "text": "foto2"
+      "text": "foto7"
     },
     {
       "id": "spear",
       "title": "transoeste",
-      "text": "foto3"
+      "text": "foto8"
     },
     {
       "id": "shield",
       "title": "transcarioca",
-      "text": "foto4"
+      "text": "foto9"
     },
     {
       "id": "headdress",
       "title": "transolímpica",
-      "text": "foto5"
+      "text": "foto10"
     },
     {
       "id": "foot",
       "title": "duplicação do joá",
-      "text": "foto6"
+      "text": "foto11"
     },
     {
       "id": "satchel",
       "title": "terminal gentileza",
-      "text": "foto7"
+      "text": "foto12"
     }
   ],
   "pantheon": [
-    {
+       {
       "id": "allLinks",
       "title": "",
       "type": "explanatory-mode",
       "layout": "allLinks",
-      "selected": "",
-      "keyword": "",
-      "text": "The Gods of this pantheon are organized according to whether they are associated with death or life, and whether their domain is more spiritual or material."
-    },
-    {
-      "id": "allLinks",
-      "title": "",
-      "type": "explanatory-mode",
-      "layout": "allLinks",
-      "selected": "",
+      "selected": "Ometeotl",
       "keyword": "educacao",
       "text": "<em>Death</em> groups all the gods related to destructive forces, whether they come from nature or humankind, like the underworld, war or natural disasters."
     },
