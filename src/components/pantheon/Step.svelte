@@ -41,7 +41,7 @@
     text-transform: uppercase;
     letter-spacing: 0.08em;
     font-size: 1.5rem;
-    border-bottom: 3px solid var(--color-highlight);
+    border-bottom: 3px solid var(--color-highlight); 
     padding: 1rem 0;
   }
   .step-text {

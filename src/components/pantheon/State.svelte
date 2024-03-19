@@ -97,14 +97,15 @@
   $: _nodes = writable(nodes);
 
   // state updates on scroll
-  $: if (activeStep.selected !== "") {
+  $: if (activeStep !== "") {
+    console.log("activeStep", activeStep)
     let god = $_nodes.find((node) => node.name === activeStep.selected);
     selection.highlight(god);
   } else {
     selection.highlight(undefined);
   }
 
-  $: if (activeStep.keyword !== "") {
+  $: if (activeStep.keyword == "") {
     keyword.highlight(activeStep.keyword);
   } else {
     keyword.highlight(undefined);

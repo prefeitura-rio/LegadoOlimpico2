@@ -38,7 +38,7 @@
         <Search />
       {:else}
         <button on:click={() => selection.highlight(undefined)} style="margin-left:auto;"
-          >Hide</button
+          >X</button
         >
       {/if}
     {/if}

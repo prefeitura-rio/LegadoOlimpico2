@@ -8,7 +8,7 @@
 </script>
 
 <ScrollableImage
-  title="Transporte"
+  title=""
   source={doc.source_tezca_label}
   sourceUrl={doc.source_tezca_url}
   name="tezca"

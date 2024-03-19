@@ -3,17 +3,16 @@
   import loadImage from "$utils/loadImage";
 
   const icons = [
-    "tonacacihuatl",
-    "chantico",
-    "tlatlauhqui_tezcatlipoca",
-    "mixcoatl",
-    "xochiquetzal",
-    "toci",
-    "ahuitzotl",
-    "azcatl",
-    "ce_ozomatli",
-    "ahkinshok",
-    "ometeotl"
+    "f01d",
+    "f02b",
+    "f01d",
+    "f02b",
+    "f01d",
+    "f02b",
+    "f01d",
+    "f02b",
+    "f01d",
+    "f02b"
   ];
   // const icons_simpler = ["ahuitzotl", "azcatl", "ce_ozomatli", "ahkinshok", "ometeotl"];
   const dev = process.env.NODE_ENV === "development";
@@ -24,7 +23,7 @@
     <div class="grid">
       {#each icons as icon, i}
         <div style="grid-area: i{i}">
-          {#await loadImage(`${dev ? "/" : "/LegadoOlimpico2/"}assets/gods/svg/${icon}.svg`)}
+          {#await loadImage(`${dev ? "/" : "/LegadoOlimpico2/"}assets/gods/svg/${icon}.png`)}
             <span />
           {:then img}
             <img src={img.src} alt={"icon"} />

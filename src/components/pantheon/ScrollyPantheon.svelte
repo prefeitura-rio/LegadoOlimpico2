@@ -33,7 +33,7 @@
         step: "div .step-pantheon",
         // debug: true,
         offset: 0.5
-      })
+      })  
       .onStepEnter(handleStepEnter);
   });
 
@@ -46,24 +46,25 @@
   <div id="scrolly">
     <figure>
       <State {activeStep}>
-        <GodInfo slot="info" {preventInteraction} />
+        <GodInfo slot="info" />
 
-        <GodMeta slot="meta" {preventInteraction} />
+        <GodMeta slot="meta" />
 
         <Gods slot="chart-html" />
+        
         <g slot="chart-svg-overlay">
-          <Overlay noPointerEvents={preventInteraction} />
+          <Overlay noPointerEvents={false} />
         </g>
       </State>
     </figure>
 
-    <div class="scroll-wrapper">
+    <!-- <div class="scroll-wrapper">
       <div class="scroll-area">
         {#each steps as step, i}
           <Step {step} selected={selected === i} {activeStep} />
         {/each}
       </div>
-    </div>
+    </div> -->
   </div>
 </Section>
 
