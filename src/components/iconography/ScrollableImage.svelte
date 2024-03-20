@@ -60,32 +60,76 @@
               {@html step.title}
             </div>
           {/if}
-          {#if step.text == "foto1" }
-          <img class="photo_logo" src="assets/img/tuneis.png" alt="Foto" />
-          {:else if step.text == "foto2" }
-          <img class="photo_logo" src="assets/img/centro_norte.jpg" alt="Foto" />
-          {:else if step.text == "foto3" }
-          <img class="photo_logo" src="assets/img/ezpitzal.png" alt="Foto" />
-          {:else if step.text == "foto4" }
-          <img class="photo_logo" src="assets/img/Tlaltecuhtli-explorable.png" alt="Foto" />
-          {:else if step.text == "foto5" }
-          <img class="photo_logo" src="assets/img/tezca-explorable.png" alt="Foto" />
-          {:else if step.text == "foto6" }
-          <img class="photo_logo" src="assets/img/tezca-explorable.png" alt="Foto" />
-          {:else if step.text == "foto7" }
-          <img class="photo_logo" src="assets/img/tezca-explorable.png" alt="Foto" />
-          {:else if step.text == "foto8" }
-          <img class="photo_logo" src="assets/img/tezca-explorable.png" alt="Foto" />
-          {:else if step.text == "foto9" }
-          <img class="photo_logo" src="assets/img/tezca-explorable.png" alt="Foto" />
-          {:else if step.text == "foto10" }
-          <img class="photo_logo" src="assets/img/tezca-explorable.png" alt="Foto" />
-          {:else if step.text == "foto11" }
-          <img class="photo_logo" src="assets/img/tezca-explorable.png" alt="Foto" />
-          {:else if step.text == "foto12" }
-          <img class="photo_logo" src="assets/img/tezca-explorable.png" alt="Foto" />
-          {:else if step.text == "foto13" }
-          <img class="photo_logo" src="assets/img/tezca-explorable.png" alt="Foto" />
+          {#if step.text == "avenida_rio_branco" }
+          <img class="photo_logo" src="assets/img/avenida_rio_branco.png" alt="Foto" />
+          {:else if step.text == "boulevard_olimpico" }
+          <img class="photo_logo" src="assets/img/boulevard_olimpico.png" alt="Foto" />
+          {:else if step.text == "terminal_intermodal_gentileza" }
+          <img class="photo_logo" src="assets/img/terminal_intermodal_gentileza.png" alt="Foto" />
+          {:else if step.text == "campo_de_golfe" }
+          <img class="photo_logo" src="assets/img/campo_de_golfe.png" alt="Foto" />
+          {:else if step.text == "cor" }
+          <img class="photo_logo" src="assets/img/cor.png" alt="Foto" />
+          {:else if step.text == "derrubada_da_perimetral" }
+          <img class="photo_logo" src="assets/img/derrubada_da_perimetral.png" alt="Foto" />
+          {:else if step.text == "duplicacao_do_joa" }
+          <img class="photo_logo" src="assets/img/duplicacao_do_joa.png" alt="Foto" />
+          {:else if step.text == "edificio_a_noite" }
+          <img class="photo_logo" src="assets/img/edificio_a_noite.png" alt="Foto" />
+          {:else if step.text == "entorno_do_engenhao" }
+          <img class="photo_logo" src="assets/img/entorno_do_engenhao.png" alt="Foto" />
+          {:else if step.text == "GEO_isabel_salgado" }
+          <img class="photo_logo" src="assets/img/GEO_isabel_salgado.png" alt="Foto" />
+          {:else if step.text == "GET_emiliano_galdino" }
+          <img class="photo_logo" src="assets/img/GET_emiliano_galdino.png" alt="Foto" />
+          {:else if step.text == "GET_jose_mauro_de_vasconcellos" }
+          <img class="photo_logo" src="assets/img/GET_jose_mauro_de_vasconcellos.png" alt="Foto" />
+          {:else if step.text == "largo_da_prainha" }
+          <img class="photo_logo" src="assets/img/largo_da_prainha.png" alt="Foto" />
+          {:else if step.text == "marina_da_gloria" }
+          <img class="photo_logo" src="assets/img/marina_da_gloria.png" alt="Foto" />
+          {:else if step.text == "museu_de_arte_do_rio" }
+          <img class="photo_logo" src="assets/img/museu_de_arte_do_rio.png" alt="Foto" />
+          {:else if step.text == "museu_do_ amanha" }
+          <img class="photo_logo" src="assets/img/museu_do_ amanha.png" alt="Foto" />
+          {:else if step.text == "novas_vias" }
+          <img class="photo_logo" src="assets/img/novas_vias.png" alt="Foto" />
+          {:else if step.text == "novos_tuneis" }
+          <img class="photo_logo" src="assets/img/novos_tuneis.png" alt="Foto" />
+          {:else if step.text == "parque_deodoro" }
+          <img class="photo_logo" src="assets/img/parque_deodoro.png" alt="Foto" />
+          {:else if step.text == "parque_madureira" }
+          <img class="photo_logo" src="assets/img/parque_madureira.png" alt="Foto" />
+          {:else if step.text == "parque_rita_lee" }
+          <img class="photo_logo" src="assets/img/parque_rita_lee.png" alt="Foto" />
+          {:else if step.text == "pequena_africa" }
+          <img class="photo_logo" src="assets/img/pequena_africa.png" alt="Foto" />
+          {:else if step.text == "piscinoes" }
+          <img class="photo_logo" src="assets/img/piscinoes.png" alt="Foto" />
+          {:else if step.text == "praca_maua" }
+          <img class="photo_logo" src="assets/img/praca_maua.png" alt="Foto" />
+          {:else if step.text == "rede_hoteleira" }
+          <img class="photo_logo" src="assets/img/rede_hoteleira.png" alt="Foto" />
+          {:else if step.text == "riocentro" }
+          <img class="photo_logo" src="assets/img/riocentro.png" alt="Foto" />
+          {:else if step.text == "sambodromo" }
+          <img class="photo_logo" src="assets/img/sambodromo.png" alt="Foto" />
+          {:else if step.text == "sistema_brt" }
+          <img class="photo_logo" src="assets/img/sistema_brt.png" alt="Foto" />
+          {:else if step.text == "sistema_vlt" }
+          <img class="photo_logo" src="assets/img/sistema_vlt.png" alt="Foto" />
+          {:else if step.text == "teleferico_providencia" }
+          <img class="photo_logo" src="assets/img/teleferico_providencia.png" alt="Foto" />
+          {:else if step.text == "terminal_deodoro" }
+          <img class="photo_logo" src="assets/img/terminal_deodoro.png" alt="Foto" />
+          {:else if step.text == "transcarioca" }
+          <img class="photo_logo" src="assets/img/transcarioca.png" alt="Foto" />
+          {:else if step.text == "transoeste" }
+          <img class="photo_logo" src="assets/img/transoeste.png" alt="Foto" />
+          {:else if step.text == "transolimpica" }
+          <img class="photo_logo" src="assets/img/transolimpica.png" alt="Foto" />
+          {:else if step.text == "vila_dos_atletas" }
+          <img class="photo_logo" src="assets/img/vila_dos_atletas.png" alt="Foto" />
           {:else if step.text == "foto14" }
           <img class="photo_logo" src="assets/img/tezca-explorable.png" alt="Foto" />
           {:else}

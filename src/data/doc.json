@@ -37,28 +37,88 @@
     },
     {
       "id": "claws",
-      "title": "derrubada da perimetral",
-      "text": "foto1"
+      "title": "Terminal Intermodal Gentileza",
+      "text": "terminal_intermodal_gentileza"
+    },
+    {
+      "id": "claws",
+      "title": "Sistema VLT",
+      "text": "sistema_vlt"
+    },
+    {
+      "id": "claws",
+      "title": "Novos Túneis",
+      "text": "novos_tuneis"
+    },
+    {
+      "id": "claws",
+      "title": "Boulevard Olímpico",
+      "text": "boulevard_olimpico"
+    },
+    {
+      "id": "claws",
+      "title": "Museu do Amanhã",
+      "text": "museu_do_ amanha"
+    },
+    {
+      "id": "claws",
+      "title": "Museu de Arte do Rio",
+      "text": "museu_de_arte_do_rio"
+    },
+    {
+      "id": "claws",
+      "title": "Largo da Prainha",
+      "text": "largo_da_prainha"
+    },
+    {
+      "id": "claws",
+      "title": "Teleférico da Providência",
+      "text": "teleferico_providencia"
     },
     {
       "id": "hair",
-      "title": "boulevard olímpico",
-      "text": "foto2"
+      "title": "Piscinões",
+      "text": "piscinoes"
     },
     {
       "id": "mouth",
-      "title": "museu do amanha",
-      "text": "foto3"
+      "title": "Centro de Operações Rio",
+      "text": "cor"
     },
     {
       "id": "extramouths",
-      "title": "museu de arte do rio",
-      "text": "foto4"
+      "title": "Avenida Rio Branco",
+      "text": "avenida_rio_branco"
+    },
+    {
+      "id": "extramouths",
+      "title": "Edifício A Noite",
+      "text": "edificio_a_noite"
+    },
+    {
+      "id": "extramouths",
+      "title": "Praça Mauá",
+      "text": "praca_maua"
+    },
+    {
+      "id": "extramouths",
+      "title": "Marina da Glória",
+      "text": "marina_da_gloria"
+    },
+    {
+      "id": "extramouths",
+      "title": "Sambódromo",
+      "text": "sambodromo"
+    },
+    {
+      "id": "extramouths",
+      "title": "Entorno do Engenhão",
+      "text": "entorno_do_engenhao"
     },
     {
       "id": "crouch",
-      "title": "centro de operações",
-      "text": "foto5"
+      "title": "Parque Madureira",
+      "text": "parque_madureira"
     }
   ],
   "iconography_tezca": "Tezcatlipoca",
@@ -68,37 +128,32 @@
     {
       "id": "colors",
       "title": "sistema brt",
-      "text": "foto6"
+      "text": "sistema_brt"
     },
     {
       "id": "face",
       "title": "sistema vlt",
-      "text": "foto7"
+      "text": "sistema_vlt"
     },
     {
       "id": "spear",
       "title": "transoeste",
-      "text": "foto8"
+      "text": "transoeste"
     },
     {
       "id": "shield",
       "title": "transcarioca",
-      "text": "foto9"
+      "text": "transcarioca"
     },
     {
       "id": "headdress",
       "title": "transolímpica",
-      "text": "foto10"
+      "text": "transolimpica"
     },
     {
       "id": "foot",
       "title": "duplicação do joá",
-      "text": "foto11"
-    },
-    {
-      "id": "satchel",
-      "title": "terminal gentileza",
-      "text": "foto12"
+      "text": "duplicacao_do_joa"
     }
   ],
   "pantheon": [
