@@ -37,7 +37,7 @@
 
   <h1 class="title">O que seria do Rio sem as Olimpíadas?</h1>
   <div class="center">
-    <a href="https://prefeitura-rio.github.io/LegadoOlimpico2_3D/" target="_blank" class="button">Explorar mapa interativo</a>
+    <a href="https://prefeitura-rio.github.io/LegadoOlimpico2_3D/" target="_blank" class="button">Explore o mapa interativo</a>
   </div>
   <div class="hero-image">
     {#await loadImage(`${dev ? "/" : "/LegadoOlimpico2/"}assets/gods/svg/ometeotl.svg`)}
