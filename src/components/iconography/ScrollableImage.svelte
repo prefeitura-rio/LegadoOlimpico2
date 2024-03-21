@@ -223,16 +223,16 @@
   }
 
   .step-title {
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    font-size: 1.6rem;
-    /* border-bottom: 3px solid var(--color-highlight); */
-    padding-top: 0.4rem;
-  }
+  text-transform: uppercase;
+  /* font-weight: bold; */
+  font-size: 2rem;
+  padding-top: 0.4rem;
+  line-height: 1.2;
+}
   .step-title::after {
     display: block;
     content: "";
-    background: var(--color-highlight);
+    /*background: var(--color-highlight);*/
     height: 3px;
     width: 100%;
     margin: 1rem 0 1rem 0;
