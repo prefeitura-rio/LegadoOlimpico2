@@ -12,7 +12,7 @@
   source={doc.source_tlalte_label}
   sourceUrl={doc.source_tlalte_url}
   name="tlalte"
-  imgPath={"centro_norte.jpg"}
+  imgPath={"teste.jpeg"}
   selected={0}
   {steps}
   positions={tlaltePositions}

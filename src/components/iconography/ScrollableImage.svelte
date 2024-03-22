@@ -101,7 +101,7 @@
   #scrolly {
     position: relative;
     margin: 0 auto;
-    max-width: 100em;
+    max-width: 110em;
 
     display: grid;
     grid-template-columns: 1fr;
@@ -110,10 +110,8 @@
     position: -webkit-sticky;
     position: sticky;
 
-    width: 100%;
-    height: clamp(20em, 90vh, 80em);
-
-    padding: 3rem;
+    width: 50vw;
+    height: 100vh;
 
     display: flex;
     flex-direction: column;

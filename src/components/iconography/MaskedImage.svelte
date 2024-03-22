@@ -15,12 +15,12 @@
 </script>
 
 <svg
-  width="100%"
-  height="100%"
+  width="59vw"
+  height="100vh"
   viewBox="0 0 {imageRange[1]} {imageRange[1]}"
   xmlns="http://www.w3.org/2000/svg"
   xml:space="preserve"
-  style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;overflow:visible"
+  style="margin-left:-90px !important;fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;overflow:visible"
 >
   <g mask={`url(#mask-${name})`}>
     <image
