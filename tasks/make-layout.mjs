@@ -61,7 +61,7 @@ const rectCollide = (padding) => {
 //////////////////////
 
 const calculateForceLayout = async () => {
-  const raw = await aq.loadCSV(`${CWD}/src/data/gods/raw/light-db.csv`, {
+  const raw = await aq.loadCSV(`${CWD}/src/data/gods/raw/light-db2.csv`, {
     autoType: false,
     parse: { Text: String }
   });
@@ -142,7 +142,7 @@ const getLayoutCoordinates = async () => {
 
   const nodes = aspect.god_nodes;
 
-  fs.writeFileSync(`${CWD}/src/data/gods/tidy/nodes.json`, JSON.stringify(nodes));
+  fs.writeFileSync(`${CWD}/src/data/gods/tidy/nodes2.json`, JSON.stringify(nodes));
 };
 
 (async () => {

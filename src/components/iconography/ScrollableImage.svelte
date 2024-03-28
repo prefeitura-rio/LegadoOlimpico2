@@ -55,11 +55,6 @@
     <div class="scroll-area">
       {#each steps as step, i}
         <div class="step step-{title}">
-          {#if step.title}
-            <div class="step-title">
-              {@html step.title}
-            </div>
-          {/if}
           {#if step.text == "avenida_rio_branco" }
           <img class="photo_logo" src="assets/img/avenida_rio_branco.png" alt="Foto" />
           {:else if step.text == "boulevard_olimpico" }
@@ -135,6 +130,23 @@
           {:else}
           <div class="step-text">{@html step.text}</div>
           {/if}
+          {#if step.title}
+            <div class="step-title">
+              {@html step.title}
+            </div>
+          {/if}
+          <div class="step-wrapper">
+          {#if step.background_text}
+            <div class="step-background">
+              {@html step.background_text}
+            </div>
+          {/if}
+          {#if step.description}
+            <div class="step-description">
+              {@html step.description}
+            </div>
+          {/if}
+        </div>
         </div>
       {/each}
     </div>
@@ -200,15 +212,12 @@
   .step {
     width: calc(100% - 100px); /* Subtraindo 100px da largura total */
     margin: 30rem auto 2rem auto;
-    padding: 1rem;
+    padding: 2rem;
 
     opacity: 1;
     transition: opacity 400ms;
 
     pointer-events: all;
-
-    background-color: #ffffff;
-    border: 4px solid #014A7F; /* Adicionando um contorno preto */
 
     position: relative;
     z-index: 10;
@@ -222,10 +231,12 @@
 
   .step-title {
   text-transform: uppercase;
-  /* font-weight: bold; */
-  font-size: 2rem;
+  font-weight:500;
+  font-size:1.8rem;
   padding-top: 0.4rem;
-  line-height: 1.2;
+  line-height: 0.9;
+  text-align: right;
+letter-spacing: -0.1em;
 }
   .step-title::after {
     display: block;
@@ -236,10 +247,33 @@
     margin: 1rem 0 1rem 0;
     border-radius: 2px;
   }
+  .step-description {
+   text-align: justify;
+    padding: 1rem 0;
+}
   .step-text {
     font-size: 1.3rem;
     padding: 1rem 0;
   }
+  .step-wrapper {
+  position: relative;
+}
+
+.step-background, .step-description {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.step-background {
+  z-index: -1;
+  font-size: 5em;
+  color:lightgray;
+  max-width: 60%;
+  line-height: 0.7em;
+  margin-top: -0.5em !important;
+  margin-left: -0.9em !important;
+}
 
   @media only screen and (min-width: 50em) {
     #scrolly {

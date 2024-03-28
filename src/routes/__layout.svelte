@@ -1,5 +1,6 @@
 <script>
   import "$styles/app.css";
+  import "$styles/kidnap.css";
   import Header from "$components/Header.svelte";
   import Footer from "$components/Footer.svelte";
 </script>

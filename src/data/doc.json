@@ -38,7 +38,9 @@
     {
       "id": "claws",
       "title": "Terminal Intermodal Gentileza",
-      "text": "terminal_intermodal_gentileza"
+      "text": "terminal_intermodal_gentileza",
+      "background_text": "transporte",
+      "description": "O VLT trouxe uma nova opção de transporte para o centro do Rio de Janeiro, conectando pontos turísticos e comerciais. Com trens modernos e acessíveis, facilitou os deslocamentos dos moradores, estimulou o turismo e contribuiu para o desenvolvimento econômico da cidade"
     },
     {
       "id": "claws",

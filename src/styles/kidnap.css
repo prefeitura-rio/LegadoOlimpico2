@@ -1,0 +1,12 @@
+.word--kidnap {
+	font-family: 'Days One';
+	font-size: 9vw;
+	font-weight: 400;
+	color: #f3f3f3;
+}
+
+.word--kidnap span {
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 100%;
+}
