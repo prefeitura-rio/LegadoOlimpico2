@@ -4,6 +4,7 @@
   import ScrollyTezca from "$components/iconography/ScrollyTezca.svelte";
   import ScrollyTlalte from "$components/iconography/ScrollyTlalte.svelte";
   import Hero from "$components/introduction/Hero.svelte";
+  import Intro from "$components/introduction/Intro.svelte";
   import Heading from "$components/layout/Heading.svelte";
   import Paragraph from "$components/layout/Paragraph.svelte";
   import IntroParagraph from "$components/layout/IntroParagraph.svelte";
@@ -14,6 +15,7 @@
 </script>
 
 <Hero />
+
 
 <Section id="intro">
   <div class="intro">

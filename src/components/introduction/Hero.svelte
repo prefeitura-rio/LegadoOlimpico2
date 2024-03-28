@@ -1,6 +1,7 @@
 <script context="module">
   import Section from "$components/layout/Section.svelte";
   import loadImage from "$utils/loadImage";
+    import Intro from "./Intro.svelte";
 
   const icons = [
     "f01d",
@@ -19,7 +20,7 @@
 </script>
 
 <Section fullBleed>
-  <div style="padding: 1rem;">
+  <!-- <div style="padding: 1rem;">
     <div class="grid">
       {#each icons as icon, i}
         <div style="grid-area: i{i}">
@@ -33,21 +34,14 @@
         </div>
       {/each}
     </div>
-  </div>
+  </div> -->
 
   <h1 class="title">O que seria do Rio sem as Olimpíadas?</h1>
   <div class="center">
-    <a href="https://prefeitura-rio.github.io/LegadoOlimpico2_3D/" target="_blank" class="button">Explorar mapa interativo</a>
+    <Intro/>
+    <a href="https://prefeitura-rio.github.io/LegadoOlimpico2_3D/" target="_blank" class="button">Explore o mapa interativo</a>
   </div>
-  <div class="hero-image">
-    {#await loadImage(`${dev ? "/" : "/LegadoOlimpico2/"}assets/gods/svg/ometeotl.svg`)}
-      <span />
-    {:then img}
-      <img src={img.src} alt={"icon"} />
-    {:catch}
-      <span />
-    {/await}
-  </div>
+ 
   <div class="credits">
     <div class="credits-line">
       <div>Produzido pelo</div>

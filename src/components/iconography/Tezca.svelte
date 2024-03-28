@@ -12,7 +12,7 @@
   source={doc.source_tezca_label}
   sourceUrl={doc.source_tezca_url}
   name="tezca"
-  imgPath={"tezca-explorable.png"}
+  imgPath={"geral_01.png"}
   selected={0}
   {steps}
   positions={tezcaPositions}

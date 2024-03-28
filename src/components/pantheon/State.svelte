@@ -1,5 +1,5 @@
 <script>
-  import nodes from "$data/gods/tidy/nodes.json";
+  import nodes from "$data/gods/tidy/nodes2.json";
   import doc from "$data/doc.json";
   import viewport from "$stores/viewport";
   import TextButton from "$components/layout/TextButton.svelte";
@@ -89,7 +89,7 @@
 
   // FIXME: radiusScale can be removes everywhere is is used
   $: radiusScale = derived([bounds], ([$bounds]) => {
-    let base = $bounds.chartWidth * 0.06;
+    let base = $bounds.chartWidth * 0.14;
     return scaleOrdinal().domain(TYPE_SCALE).range([base]);
     // .range([base * (GR * 4), base * (GR * 3), base * (GR * 2), base * GR, base]);
   });
@@ -141,7 +141,7 @@
   <div class="chart-wrapper" bind:clientWidth={$width}>
     <div
       class="chart-centered-container"
-      style="width:{$bounds.width}px; height:{$bounds.height}px;"
+      style="width:{$bounds.width}px; height:{$bounds.height}px; margin-top:1.5rem"
     >
       {#if $width > 0}
         <!-- <svg class="chart-svg" width={$bounds.width} height={$bounds.height}>

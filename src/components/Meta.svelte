@@ -35,4 +35,5 @@
   <meta name="robots" content="max-image-preview:large" />
 
   <link rel="canonical" href="{url}/" />
+    
 </svelte:head>

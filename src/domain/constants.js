@@ -1,6 +1,6 @@
 // Layout
 export const PADDING = 5;
-export const GR = 1.62;
+export const GR = 10;
 
 // Domains
 export const TYPE_SCALE = ["primordial", "creation", "elemental", "human", "secondary"];

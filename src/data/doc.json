@@ -14,10 +14,9 @@
     "<strong>As obras do legado olímpico</strong> não foram apenas sobre estádios reluzentes e infraestrutura padrão FIFA. <strong>Elas representaram uma promessa de renovação e inclusão para todos os cariocas.</strong> Os investimentos em projetos como o BRT, a Transoeste, a Transcarioca e a Transolímpica foram muito mais do que meras melhorias viárias. <strong>Eles se estendem à alma da cidade e à esperança de um futuro mais justo e inclusivo. E isso, em si, é uma conquista verdadeiramente olímpica.</strong>"
    ],
   "introductiontwo": [
-    "TEXTO FINAL O Rio de Janeiro sempre foi o símbolo do Brasil para o mundo. <strong>Quando alguém pensa no Brasil, pensa no Rio. Pensa no Cristo Redentor, pensa em samba, futebol e carnaval. Tudo isso você encontra aqui.</strong> O Rio tem a vocação de ser o que o nosso país tem de melhor. Entretanto, para muitos cariocas essa realidade sempre pareceu intangível, longe de suas casas, longe das suas vidas.",
-    "Nesta vasta e complexa cidade, nem todas as suas regiões brilhavam com a mesma intensidade antes dos Jogos Olímpicos de 2016. Enquanto os olhos do mundo se concentravam em algumas regiões privilegiadas, como a Zona Sul, outras partes da cidade, especialmente a Zona Oeste e a Zona Norte, eram frequentemente deixadas à margem, esquecidas pelos olhos dos governantes.",
-    "No entanto, os Jogos Olímpicos não apenas trouxeram uma oportunidade de destaque global para o Rio, mas também abriram as portas para uma transformação vital nessas áreas antes esquecidas. A prefeitura, ciente da necessidade premente de atender às demandas dessas regiões, direcionou seus esforços e recursos para onde era mais necessário.",
-    "<strong>As obras do legado olímpico</strong> não foram apenas sobre estádios reluzentes e infraestrutura padrão FIFA. <strong>Elas representaram uma promessa de renovação e inclusão para todos os cariocas.</strong> Os investimentos em projetos como o BRT, a Transoeste, a Transcarioca e a Transolímpica foram muito mais do que meras melhorias viárias. <strong>Eles se estendem à alma da cidade e à esperança de um futuro mais justo e inclusivo. E isso, em si, é uma conquista verdadeiramente olímpica.</strong>"
+    "Na próxima etapa do compromisso contínuo da prefeitura do Rio de Janeiro em preservar e relembrar o legado olímpico dos Jogos de 2016, uma iniciativa marcante está prestes a tomar forma. <strong>Totens, placas e selos serão instalados em diversos espaços e edifícios da cidade. Essas marcações não são apenas símbolos visuais, mas testemunhos tangíveis do impacto duradouro que os Jogos Olímpicos deixaram em nossa cidade.</strong>",
+    "Ao identificar e celebrar os locais que foram transformados ou beneficiados pelos Jogos, estamos fortalecendo o senso de comunidade e pertencimento, enquanto promovemos o turismo e a conscientização sobre a importância do evento para o nosso presente e futuro.",
+    "<strong>Cada marcação é um tributo ao espírito olímpico que continua ecoando em nossas ruas e corações,</strong> lembrando-nos de que o legado dos Jogos de 2016 transcende o simples evento esportivo. <strong>Ele representa um compromisso duradouro com o progresso e a inclusão.</strong>"
    ],
   "iconography_title": "",
   "iconography_intro": "",
@@ -38,28 +37,90 @@
     },
     {
       "id": "claws",
-      "title": "derrubada da perimetral",
-      "text": "foto1"
+      "title": "Terminal Intermodal Gentileza",
+      "text": "terminal_intermodal_gentileza",
+      "background_text": "transporte",
+      "description": "O VLT trouxe uma nova opção de transporte para o centro do Rio de Janeiro, conectando pontos turísticos e comerciais. Com trens modernos e acessíveis, facilitou os deslocamentos dos moradores, estimulou o turismo e contribuiu para o desenvolvimento econômico da cidade"
+    },
+    {
+      "id": "claws",
+      "title": "Sistema VLT",
+      "text": "sistema_vlt"
+    },
+    {
+      "id": "claws",
+      "title": "Novos Túneis",
+      "text": "novos_tuneis"
+    },
+    {
+      "id": "claws",
+      "title": "Boulevard Olímpico",
+      "text": "boulevard_olimpico"
+    },
+    {
+      "id": "claws",
+      "title": "Museu do Amanhã",
+      "text": "museu_do_ amanha"
+    },
+    {
+      "id": "claws",
+      "title": "Museu de Arte do Rio",
+      "text": "museu_de_arte_do_rio"
+    },
+    {
+      "id": "claws",
+      "title": "Largo da Prainha",
+      "text": "largo_da_prainha"
+    },
+    {
+      "id": "claws",
+      "title": "Teleférico da Providência",
+      "text": "teleferico_providencia"
     },
     {
       "id": "hair",
-      "title": "boulevard olímpico",
-      "text": "foto2"
+      "title": "Piscinões",
+      "text": "piscinoes"
     },
     {
       "id": "mouth",
-      "title": "museu do amanha",
-      "text": "foto3"
+      "title": "Centro de Operações Rio",
+      "text": "cor"
     },
     {
       "id": "extramouths",
-      "title": "museu de arte do rio",
-      "text": "foto4"
+      "title": "Avenida Rio Branco",
+      "text": "avenida_rio_branco"
+    },
+    {
+      "id": "extramouths",
+      "title": "Edifício A Noite",
+      "text": "edificio_a_noite"
+    },
+    {
+      "id": "extramouths",
+      "title": "Praça Mauá",
+      "text": "praca_maua"
+    },
+    {
+      "id": "extramouths",
+      "title": "Marina da Glória",
+      "text": "marina_da_gloria"
+    },
+    {
+      "id": "extramouths",
+      "title": "Sambódromo",
+      "text": "sambodromo"
+    },
+    {
+      "id": "extramouths",
+      "title": "Entorno do Engenhão",
+      "text": "entorno_do_engenhao"
     },
     {
       "id": "crouch",
-      "title": "centro de operações",
-      "text": "foto5"
+      "title": "Parque Madureira",
+      "text": "parque_madureira"
     }
   ],
   "iconography_tezca": "Tezcatlipoca",
@@ -69,37 +130,32 @@
     {
       "id": "colors",
       "title": "sistema brt",
-      "text": "foto6"
+      "text": "sistema_brt"
     },
     {
       "id": "face",
       "title": "sistema vlt",
-      "text": "foto7"
+      "text": "sistema_vlt"
     },
     {
       "id": "spear",
       "title": "transoeste",
-      "text": "foto8"
+      "text": "transoeste"
     },
     {
       "id": "shield",
       "title": "transcarioca",
-      "text": "foto9"
+      "text": "transcarioca"
     },
     {
       "id": "headdress",
       "title": "transolímpica",
-      "text": "foto10"
+      "text": "transolimpica"
     },
     {
       "id": "foot",
       "title": "duplicação do joá",
-      "text": "foto11"
-    },
-    {
-      "id": "satchel",
-      "title": "terminal gentileza",
-      "text": "foto12"
+      "text": "duplicacao_do_joa"
     }
   ],
   "pantheon": [
