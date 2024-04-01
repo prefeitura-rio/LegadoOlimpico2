@@ -47,7 +47,7 @@
   {#if $selection}
     <div class="illu-info-wrapper">
       <div class="illustration">
-        {#await loadImage(`${dev ? "/" : "/LegadoOlimpico2/"}src/data/gods/raw/${$selection.id}.png`)}
+        {#await loadImage(`${dev ? "/" : "/LegadoOlimpico2/"}assets/gods/png/${$selection.id}.png`)}
           <span>Loading...</span>
           {console.log("selection", $selection)}
           {console.log("selection", $selection.id)}
