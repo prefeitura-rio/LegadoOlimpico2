@@ -9,7 +9,7 @@
     { id: 4, src: "assets/img/campo_de_golfe.png", visible: false },
     { id: 5, src: "assets/img/cor.png", visible: false },
     { id: 6, src: "assets/img/derrubada_da_perimetral.png", visible: false },
-    { id: 7, src: "static/assets/img/boulevard_olimpico.png", visible: false }
+    { id: 7, src: "assets/img/boulevard_olimpico.png", visible: false }
   ];
 
   function flashPhotos() {
