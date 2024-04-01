@@ -1,7 +1,7 @@
 [
   {
-    "x": 2.141025641120886,
-    "y": 0.00499277499427369,
+    "x": 2.102084454127434,
+    "y": -1.7125434259577885,
     "id": "sistema_brt",
     "name": "Sistema BRT",
     "importance": "secondary",
@@ -18,8 +18,8 @@
     "expansion": 0
   },
   {
-    "x": -0.8589743588399912,
-    "y": 0.06307002063857449,
+    "x": -0.6517905180839623,
+    "y": 3.5056619118466688,
     "id": "sistema_vlt",
     "name": "Sistema VLT",
     "importance": "secondary",
@@ -36,8 +36,8 @@
     "expansion": 0
   },
   {
-    "x": -1.8589743587764598,
-    "y": 0.6569202868997928,
+    "x": -1.6517905180322414,
+    "y": 2.505661912366745,
     "id": "transoeste",
     "name": "Transoeste",
     "importance": "secondary",
@@ -54,8 +54,8 @@
     "expansion": 0
   },
   {
-    "x": 0.14102564165813603,
-    "y": -2.9996817455272136,
+    "x": 1.3482094818904262,
+    "y": 2.28745657374224,
     "id": "transcarioca",
     "name": "Transcarioca",
     "importance": "secondary",
@@ -72,8 +72,8 @@
     "expansion": 0
   },
   {
-    "x": 1.1410256417118974,
-    "y": -2.999681744947478,
+    "x": 1.1020844541350006,
+    "y": -0.7125434261914522,
     "id": "transolímpica",
     "name": "Transolímpica",
     "importance": "secondary",
@@ -90,8 +90,8 @@
     "expansion": 0
   },
   {
-    "x": 1.1410256408929706,
-    "y": 1.0003182545042328,
+    "x": 2.1020844538829366,
+    "y": -0.7125434261466064,
     "id": "duplicação_do_joá",
     "name": "Duplicação do Joá",
     "importance": "secondary",
@@ -108,8 +108,8 @@
     "expansion": 0
   },
   {
-    "x": 2.1410256415770252,
-    "y": -1.9950072250056903,
+    "x": 2.1020844540780024,
+    "y": 1.2874565736792354,
     "id": "terminal_intermodal_gentileza",
     "name": "Terminal Intermodal Gentileza",
     "importance": "secondary",
@@ -126,8 +126,8 @@
     "expansion": 0
   },
   {
-    "x": -0.8589743597302687,
-    "y": 2.063070020656456,
+    "x": 0.34820948183938705,
+    "y": 2.2874565733672543,
     "id": "terminal_deodoro",
     "name": "Terminal Deodoro",
     "importance": "secondary",
@@ -144,8 +144,8 @@
     "expansion": 0
   },
   {
-    "x": -1.8589743600955653,
-    "y": 2.6569202869279738,
+    "x": -2.8979155455877335,
+    "y": -1.4943380871711403,
     "id": "derrubada_da_perimetral",
     "name": "Derrubada da perimetral",
     "importance": "secondary",
@@ -162,9 +162,9 @@
     "expansion": 0
   },
   {
-    "x": 0.1410256397319496,
-    "y": 3.0003182543109337,
-    "id": "novos_tuneis",
+    "x": -2.8979155455952053,
+    "y": 0.5056619124147678,
+    "id": "novos_túneis",
     "name": "Novos Túneis",
     "importance": "secondary",
     "field": "Reformas Urbanas",
@@ -180,8 +180,8 @@
     "expansion": 0
   },
   {
-    "x": 0.14102564114887506,
-    "y": 0.0003182544908789223,
+    "x": 0.1020844541670014,
+    "y": -0.7125434261217267,
     "id": "novas_vias",
     "name": "Novas Vias",
     "importance": "secondary",
@@ -198,8 +198,8 @@
     "expansion": 0
   },
   {
-    "x": 2.141025640348629,
-    "y": 2.0049927748873873,
+    "x": -1.8979155453839396,
+    "y": -2.494338087207274,
     "id": "boulevard_olímpico",
     "name": "Boulevard Olímpico",
     "importance": "secondary",
@@ -216,8 +216,8 @@
     "expansion": 0
   },
   {
-    "x": -2.8589743583349603,
-    "y": -0.3430797130233692,
+    "x": -0.897915545552318,
+    "y": -3.4943380876488863,
     "id": "museu_do_amanhã",
     "name": "Museu do Amanhã",
     "importance": "secondary",
@@ -234,8 +234,8 @@
     "expansion": 0
   },
   {
-    "x": 2.141025640783716,
-    "y": 1.0049927749001657,
+    "x": 0.10208445438705283,
+    "y": -2.712543426200489,
     "id": "museu_de_arte_do_rio",
     "name": "Museu de Arte do Rio",
     "importance": "secondary",
@@ -252,9 +252,9 @@
     "expansion": 0
   },
   {
-    "x": 1.1410256409445605,
-    "y": 0.00031825506260844543,
-    "id": "pequena_africa",
+    "x": -2.6517905179054804,
+    "y": 2.5056619125638755,
+    "id": "pequena_áfrica",
     "name": "Pequena África",
     "importance": "secondary",
     "field": "Reformas Urbanas",
@@ -270,8 +270,8 @@
     "expansion": 0
   },
   {
-    "x": 0.14102564085692204,
-    "y": 1.0003182539671465,
+    "x": 1.1020844538533383,
+    "y": 0.2874565735663114,
     "id": "largo_da_prainha",
     "name": "Largo da prainha",
     "importance": "secondary",
@@ -288,8 +288,8 @@
     "expansion": 0
   },
   {
-    "x": 2.1410256413424853,
-    "y": -0.9950072250074655,
+    "x": -0.8979155456466712,
+    "y": -1.4943380880179178,
     "id": "teleférico_providência",
     "name": "Teleférico providência",
     "importance": "secondary",
@@ -306,8 +306,8 @@
     "expansion": 0
   },
   {
-    "x": -2.858974359722994,
-    "y": 1.656920287003384,
+    "x": -0.6517905180719331,
+    "y": 2.5056619118150665,
     "id": "piscinões",
     "name": "Piscinões",
     "importance": "secondary",
@@ -324,9 +324,9 @@
     "expansion": 0
   },
   {
-    "x": -3.8589743589254506,
-    "y": 0.6514836292705471,
-    "id": "centro_de_operacoes_rio",
+    "x": 0.10208445425035906,
+    "y": 0.2874565733331912,
+    "id": "centro_de_operações_rio",
     "name": "Centro de Operações Rio",
     "importance": "secondary",
     "field": "Reformas Urbanas",
@@ -342,13 +342,13 @@
     "expansion": 0
   },
   {
-    "x": 0.14102564157607556,
-    "y": -0.9996817454205885,
+    "x": -0.8979155457136982,
+    "y": 1.5056619122460109,
     "id": "avenida_rio_branco",
     "name": "Avenida Rio Branco",
     "importance": "secondary",
     "field": "Reformas Urbanas",
-    "bio": "A Avenida Rio Branco é uma das principais vias do Rio de Janeiro, que desempenha um papel fundamental na mobilidade urbana e no desenvolvimento econômico da cidade. Além de facilitar o deslocamento, a avenida abriga importantes instituições culturais, comerciais e históricas, contribuindo para a vida cultural e social dos cariocas.\n",
+    "bio": "A Avenida Rio Branco é uma das principais vias do Rio de Janeiro, que desempenha um papel fundamental na mobilidade urbana e no desenvolvimento econômico da cidade. Além de facilitar o deslocamento, a avenida abriga importantes instituições culturais, comerciais e históricas, contribuindo para a vida cultural e social dos cariocas.\r\n",
     "spellings": "Chalciuhtlicue, Chalchihuitlicue, Chalchiuhcueyeh, Chalchihcueye, Xalxitlikue, Xoxouhqui Ihuipil, Xoxouhqui Icue, Chalchiuh Tlatonac, ChicomecÃ³atl, Chalchiuhicueye, Chalchiuhtlicue, Atl, Matlalcueye, Xixiquipilihui, Matlolcueitl, Chalchiuhtlatonac ",
     "source": "Codex Borbonicus",
     "aspect": "Matlalcueitl, Itzaccihuatl, Acuecucyoticihuati, Centeotl, Yohualticitl, Xilonen, Huixtocihuatl, Ayauhteotl, Atlacoya, Chicomecoatl, Chalchiuhtlatonac, Coatlicue, Tzapatlan Tenen",
@@ -360,13 +360,13 @@
     "expansion": 0
   },
   {
-    "x": -0.8589743583416468,
-    "y": -0.9369299789125867,
+    "x": -1.8979155457577894,
+    "y": 1.5056619126361253,
     "id": "rio_centro",
     "name": "Riocentro",
     "importance": "secondary",
     "field": "Reformas Urbanas",
-    "bio": "O Riocentro é um importante centro de convenções e eventos que impulsiona o turismo de negócios no Rio de Janeiro. Além de gerar empregos e receitas para a cidade, o Riocentro atrai eventos de grande porte que contribuem para a projeção internacional do Rio como destino de negócios e entretenimento.\n",
+    "bio": "O Riocentro é um importante centro de convenções e eventos que impulsiona o turismo de negócios no Rio de Janeiro. Além de gerar empregos e receitas para a cidade, o Riocentro atrai eventos de grande porte que contribuem para a projeção internacional do Rio como destino de negócios e entretenimento.\r\n",
     "spellings": "Chalchihuihtotolin",
     "source": "Codex Borgia",
     "aspect": "Tezcatlipoca",
@@ -378,8 +378,8 @@
     "expansion": 0
   },
   {
-    "x": 1.1410256415078044,
-    "y": -1.9996817452765152,
+    "x": 1.10208445420241,
+    "y": -1.7125434260036785,
     "id": "vila_dos_atletas",
     "name": "Vila dos Atletas",
     "importance": "secondary",
@@ -396,9 +396,9 @@
     "expansion": 0
   },
   {
-    "x": -1.858974358881963,
-    "y": -0.3430797127928179,
-    "id": "edificio_a_noite",
+    "x": 1.1020844544469928,
+    "y": -2.7125434261427555,
+    "id": "edifício_a_noite",
     "name": "Edifício A Noite",
     "importance": "secondary",
     "field": "Reformas Urbanas",
@@ -414,9 +414,9 @@
     "expansion": 0
   },
   {
-    "x": 0.14102564184528577,
-    "y": -1.9996817458337843,
-    "id": "geo_isabel_salgado",
+    "x": 2.1020844540317523,
+    "y": 0.28745657377519773,
+    "id": "GEO_isabel_salgado",
     "name": "GEO Isabel Salgado",
     "importance": "secondary",
     "field": "Educação ",
@@ -432,9 +432,9 @@
     "expansion": 0
   },
   {
-    "x": -0.8589743595668378,
-    "y": 1.0630700206618795,
-    "id": "get_jose_mauro_de_vasconcellos",
+    "x": -1.8979155458473413,
+    "y": -1.4943380874870622,
+    "id": "GET_josé_mauro_de_vasconcellos",
     "name": "GET José Mauro de Vasconcellos",
     "importance": "secondary",
     "field": "Educação",
@@ -450,9 +450,9 @@
     "expansion": 0
   },
   {
-    "x": -0.8589743602183444,
-    "y": 3.0630700207570736,
-    "id": "get_emiliano_galdino",
+    "x": -0.8979155457635024,
+    "y": -2.4943380878412094,
+    "id": "GET_emiliano_galdino",
     "name": "GET Emiliano Galdino",
     "importance": "secondary",
     "field": "Educação",
@@ -468,49 +468,13 @@
     "expansion": 0
   },
   {
-    "x": 1.1410256413133746,
-    "y": -0.9996817453613026,
-    "id": "get_nelcy_noronha",
-    "name": "GET Nelcy Noronha",
-    "importance": "secondary",
-    "field": "Educação",
-    "bio": "Os GETs são equipamentos de tecnologia assistiva que promovem a inclusão e a acessibilidade para pessoas com deficiência. Além de proporcionar maior autonomia e independência, esses equipamentos contribuem para a igualdade de oportunidades e o respeito à diversidade na cidade.",
-    "spellings": "Chiucnahui Eecatl, Chiconahuiehecatl, Nahui Ehecatl",
-    "source": "Codex Borbonicus",
-    "aspect": "Tezcatlipoca, Quetzalcoatl, Huitzilopochtli, Xipe Totec, Ehecatl",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
-  },
-  {
-    "x": -2.8589743580832363,
-    "y": -2.3430797128341756,
-    "id": "get_mestre_diego_braga",
-    "name": "GET Mestre Diego Braga",
-    "importance": "secondary",
-    "field": "Educação",
-    "bio": "Os GETs são equipamentos de tecnologia assistiva que promovem a inclusão e a acessibilidade para pessoas com deficiência. Além de proporcionar maior autonomia e independência, esses equipamentos contribuem para a igualdade de oportunidades e o respeito à diversidade na cidade.",
-    "spellings": "Tloxipeuhca, Chicoahui Itzcuintli-Chantico, Chiucnahui itzcuintli, Tlappapalo, Papaloxahual",
-    "source": "Codex Telleriano Remensis",
-    "aspect": "Chantico, Yacatecuhtli",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
-  },
-  {
-    "x": -1.8589743599567696,
-    "y": 1.656920287022138,
+    "x": -0.8979155456850656,
+    "y": 0.5056619121036806,
     "id": "campo_de_golfe",
     "name": "Campo de Golfe",
     "importance": "secondary",
     "field": "Turismo, esporte e lazer",
-    "bio": "O Campo de Golfe é uma importante infraestrutura esportiva que promove a prática do golfe e estimula o turismo esportivo no Rio de Janeiro. Além de sediar competições de nível internacional, o campo contribui para a promoção da saúde e do bem-estar dos moradores, proporcionando um espaço de lazer e convivência na cidade.\n",
+    "bio": "O Campo de Golfe é uma importante infraestrutura esportiva que promove a prática do golfe e estimula o turismo esportivo no Rio de Janeiro. Além de sediar competições de nível internacional, o campo contribui para a promoção da saúde e do bem-estar dos moradores, proporcionando um espaço de lazer e convivência na cidade.\r\n",
     "spellings": "Chimalman, Chimamatl",
     "source": "Codex Laud",
     "aspect": "Coatlicue",
@@ -522,9 +486,9 @@
     "expansion": 0
   },
   {
-    "x": -0.8589743582460951,
-    "y": -1.936929979113705,
-    "id": "praca_maua",
+    "x": -0.8979155456990457,
+    "y": -0.4943380880994526,
+    "id": "praça_mauá",
     "name": "Praça Mauá",
     "importance": "secondary",
     "field": "Turismo, esporte e lazer",
@@ -540,9 +504,9 @@
     "expansion": 0
   },
   {
-    "x": -2.8589743582830778,
-    "y": -1.343079712815007,
-    "id": "marina_da_gloria",
+    "x": -2.8979155456560965,
+    "y": -0.49433808753022973,
+    "id": "marina_da_glória",
     "name": "Marina da Glória",
     "importance": "secondary",
     "field": "Turismo, esporte e lazer",
@@ -558,8 +522,8 @@
     "expansion": 0
   },
   {
-    "x": 1.1410256397716918,
-    "y": 3.0003182547372695,
+    "x": -2.8979155459072024,
+    "y": 1.5056619124102888,
     "id": "sambódromo",
     "name": "Sambódromo",
     "importance": "secondary",
@@ -576,9 +540,9 @@
     "expansion": 0
   },
   {
-    "x": -3.8589743585143457,
-    "y": -0.348516370731873,
-    "id": "Entorno_do_engenhao",
+    "x": 0.10208445413677303,
+    "y": -1.7125434264901076,
+    "id": "entorno_do_engenhão",
     "name": "Entorno do Engenhão",
     "importance": "secondary",
     "field": "Turismo, esporte e lazer",
@@ -594,8 +558,8 @@
     "expansion": 0
   },
   {
-    "x": -0.8589743581288227,
-    "y": -2.936929979227245,
+    "x": 0.10208445382799913,
+    "y": 1.2874565735710966,
     "id": "rede_hoteleira",
     "name": "Rede Hoteleira",
     "importance": "secondary",
@@ -612,8 +576,8 @@
     "expansion": 0
   },
   {
-    "x": 0.14102564006427476,
-    "y": 2.000318254087842,
+    "x": 1.1020844539006658,
+    "y": 1.287456573761551,
     "id": "parque_madureira",
     "name": "Parque Madureira",
     "importance": "secondary",
@@ -630,8 +594,8 @@
     "expansion": 0
   },
   {
-    "x": -2.8589743592837107,
-    "y": 0.656920287108234,
+    "x": -2.897915545541862,
+    "y": -2.4943380873381282,
     "id": "parque_deodoro",
     "name": "Parque Deodoro",
     "importance": "secondary",
@@ -648,8 +612,8 @@
     "expansion": 0
   },
   {
-    "x": -1.8589743582589753,
-    "y": -1.3430797127785148,
+    "x": -1.8979155458546433,
+    "y": 0.5056619123531906,
     "id": "parque_rita_lee",
     "name": "Parque Rita Lee",
     "importance": "secondary",
