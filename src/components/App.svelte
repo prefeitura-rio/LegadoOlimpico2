@@ -12,11 +12,17 @@
   import Pantheon from "$components/pantheon/Pantheon.svelte";
   import VisualLibrary from "$components/visual-library/VisualLibrary.svelte";
   import doc from "$data/doc.json";
+    import Footer from "./Footer.svelte";
 </script>
 
-<Hero />
+<div class="center">
+  <Intro/>
+</div>
 
 
+<!-- <Hero /> -->
+
+<div class="container">
 <Section id="intro">
   <div class="intro">
     {#each doc.introduction as p, i}
@@ -69,11 +75,25 @@
 
 <Pantheon />
 
-
-
+<Footer/>
+</div>
 <!-- <Sources /> -->
 
 <style>
+  .container{
+    background-color: #f3f3f3;
+  }
+   .center {
+    z-index: -2;
+    position: sticky;
+    top:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25rem;
+  }
+
   .intro {
     background-color: var(--color-background-2);
     padding: 1rem;
