@@ -89,7 +89,7 @@
 
   // FIXME: radiusScale can be removes everywhere is is used
   $: radiusScale = derived([bounds], ([$bounds]) => {
-    let base = $bounds.chartWidth * 0.14;
+    let base = $bounds.chartWidth * 0.12;
     return scaleOrdinal().domain(TYPE_SCALE).range([base]);
     // .range([base * (GR * 4), base * (GR * 3), base * (GR * 2), base * GR, base]);
   });
@@ -141,7 +141,7 @@
   <div class="chart-wrapper" bind:clientWidth={$width}>
     <div
       class="chart-centered-container"
-      style="width:{$bounds.width}px; height:{$bounds.height}px; margin-top:1.5rem"
+      style="width:{$bounds.width}px; height:{$bounds.height}px; margin-top:2rem"
     >
       {#if $width > 0}
         <!-- <svg class="chart-svg" width={$bounds.width} height={$bounds.height}>
