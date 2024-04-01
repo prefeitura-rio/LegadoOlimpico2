@@ -7,7 +7,8 @@
 
   export let god;
   export let godIndex = 0;
-
+  console.log("godIndex: " + godIndex );
+  
   const {
     bounds,
     xScale,
@@ -62,9 +63,9 @@
    *
    */
 
-  const FULL_SPRITE_WIDTH = 54800;
+  const FULL_SPRITE_WIDTH = 14000;
   const SINGLE_IMAGE_WIDTH = 400;
-  const OFFSET = 3;
+  const OFFSET = 10;
 </script>
 
 <figure
