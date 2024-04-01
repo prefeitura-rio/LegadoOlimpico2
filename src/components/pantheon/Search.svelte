@@ -2,7 +2,7 @@
   import { getContext } from "svelte";
 
   import AutoComplete from "simple-svelte-autocomplete";
-  import nodes from "$data/gods/tidy/nodes2.json";
+  import nodes from "$data/gods/tidy/nodes3.json";
 
   const { selection } = getContext("chart-state");
 

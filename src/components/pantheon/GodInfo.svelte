@@ -52,15 +52,15 @@
         {:then img}
           <img src={img.src} alt="Image of {getName($selection)}." />
         {:catch}
-          <span>Sorry no image for {getName($selection)}</span>
+          <span>Aqui irá aparecer a imagem da realização: {getName($selection)}</span>
         {/await}
       </div>
       <div class="god-info-details">
         {#if visible === "main-info"}
           <div class="scrollable">
-            <div class="type">
+            <!-- <div class="type">
               {getGodImportanceLabel(getImportance($selection))}
-            </div>
+            </div> -->
             <h3 class="name">{@html getName($selection)}</h3>
             <p class="minibio">{@html $selection.bio}</p>
             <!-- {#if content}

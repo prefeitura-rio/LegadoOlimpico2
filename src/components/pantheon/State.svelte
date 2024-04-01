@@ -1,5 +1,5 @@
 <script>
-  import nodes from "$data/gods/tidy/nodes2.json";
+  import nodes from "$data/gods/tidy/nodes3.json";
   import doc from "$data/doc.json";
   import viewport from "$stores/viewport";
   import TextButton from "$components/layout/TextButton.svelte";
