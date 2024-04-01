@@ -11,11 +11,14 @@
 <style>
   .wordmark {
     max-width: 15em;
-    margin: 0 auto;
+    position: absolute;
+    top:0rem;
     padding: 1em 0;
+    transform: translateX(-50%);
   }
   .photo_logo{
 		width: 200px;
+    filter: brightness(0) invert(1);
 	}
   .wordmark a {
     border: none;
