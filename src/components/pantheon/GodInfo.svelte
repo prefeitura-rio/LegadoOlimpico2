@@ -52,7 +52,7 @@
         {:then img}
           <img src={img.src} alt="Image of {getName($selection)}." />
         {:catch}
-          <span>Sorry no image for {getName($selection)}</span>
+          <span>Aqui irá aparecer a imagem da realização: {getName($selection)}</span>
         {/await}
       </div>
       <div class="god-info-details">
