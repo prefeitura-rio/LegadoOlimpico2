@@ -85,12 +85,11 @@
           <img class="photo_logo" src="assets/img/marina_da_gloria.png" alt="Foto" />
           {:else if step.text == "museu_de_arte_do_rio" }
           <img class="photo_logo" src="assets/img/museu_de_arte_do_rio.png" alt="Foto" />
-          {:else if step.text == "museu_do_ amanha" }
-          <img class="photo_logo" src="assets/img/museu_do_ amanha.png" alt="Foto" />
+          {:else if step.text == "museu_do_amanhã" }
+          <img class="photo_logo" src="assets/img/museu_do_amanhã.png" alt="Foto" />
           {:else if step.text == "novas_vias" }
           <img class="photo_logo" src="assets/img/novas_vias.png" alt="Foto" />
-          {:else if step.text == "novos_tuneis" }
-          <img class="photo_logo" src="assets/img/novos_tuneis.png" alt="Foto" />
+         
           {:else if step.text == "parque_deodoro" }
           <img class="photo_logo" src="assets/img/parque_deodoro.png" alt="Foto" />
           {:else if step.text == "parque_madureira" }

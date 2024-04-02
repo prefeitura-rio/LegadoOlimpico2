@@ -2,15 +2,52 @@
   import { onMount } from "svelte";
     import Header from "../Header.svelte";
 
+  let firstPhoto = ["assets/img/terminal_intermodal_gentileza.png","assets/img/sistema_brt.png"];
+  let firstPhotoIndex = 0; 
+
+  let secondPhoto = ["assets/img/sistema_vlt.png","assets/img/transoeste.png"];
+  let secondPhotoIndex = 0; 
+
+  let thirdPhoto = ["assets/img/museu_do_amanhã.png","assets/img/transcarioca.png"];
+  let thirdPhotoIndex = 0; 
+  
+  let fourthPhoto = ["assets/img/museu_de_arte_do_rio.png","assets/img/GEO_isabel_salgado.png"];
+  let fourthPhotoIndex = 0; 
+
+  let fifthPhoto = ["assets/img/cor.png","assets/img/GET_emiliano_galdino.png"];
+  let fifthPhotoIndex = 0; 
+
+  let sixthPhoto = ["assets/img/edifício_a_noite.png","assets/img/derrubada_da_perimetral.png"];
+  let sixthPhotoIndex = 0; 
+
+  let seventhPhoto = ["assets/img/parque_madureira.png","assets/img/parque_rita_lee.png"];
+  let seventhPhotoIndex = 0; 
+
+
   let photos = [
-    { id: 1, src: "assets/img/avenida_rio_branco.png", visible: false },
-    { id: 2, src: "assets/img/boulevard_olimpico.png", visible: false },
-    { id: 3, src: "assets/img/terminal_intermodal_gentileza.png", visible: false },
-    { id: 4, src: "assets/img/campo_de_golfe.png", visible: false },
-    { id: 5, src: "assets/img/cor.png", visible: false },
-    { id: 6, src: "assets/img/derrubada_da_perimetral.png", visible: false },
-    { id: 7, src: "assets/img/boulevard_olimpico.png", visible: false }
+    { id: 1, src: firstPhoto[firstPhotoIndex], visible: false },
+    { id: 2, src: secondPhoto[secondPhotoIndex], visible: false },
+    { id: 3, src: thirdPhoto[thirdPhotoIndex], visible: false },
+    { id: 4, src: fourthPhoto[fourthPhotoIndex], visible: false },
+    { id: 5, src: fifthPhoto[fifthPhotoIndex], visible: false },
+    { id: 6, src: sixthPhoto[sixthPhotoIndex], visible: false },
+    { id: 7, src: seventhPhoto[seventhPhotoIndex], visible: false }
   ];
+  //TERMINAL INTERMODAL GENTILEZA
+  //SISTEMA VLT
+  //MUSEU DO AMANHÃ
+  //MUSEU DE ARTE DO RIO
+  //CENTRO DE OPERAÇÕES RIO
+  //EDIFÍCIO A NOITE
+  //PARQUE MADUREIRA
+  
+  //SISTEMA BRT
+  //TRANSOESTE
+  //TRANSCARIOCA
+  //GEO ISABEL SALGADO
+  //GET EMILIANO GALDINO
+  //DERRUBADA DA PERIMETRAL
+  //PARQUE RITA LEE
 
   function flashPhotos() {
     photos.forEach((photo) => {
@@ -20,8 +57,35 @@
     photos = [...photos];
   }
 
+  function alternateFirstPhoto() { // Add this function
+    firstPhotoIndex = (firstPhotoIndex + 1) % firstPhoto.length;
+    photos[0].src = firstPhoto[firstPhotoIndex];
+
+    secondPhotoIndex = (secondPhotoIndex + 1) % secondPhoto.length;
+    photos[1].src = secondPhoto[secondPhotoIndex];
+
+    thirdPhotoIndex = (thirdPhotoIndex + 1) % thirdPhoto.length;
+    photos[2].src = thirdPhoto[thirdPhotoIndex];
+
+    fourthPhotoIndex = (fourthPhotoIndex + 1) % fourthPhoto.length;
+    photos[3].src = fourthPhoto[fourthPhotoIndex];
+
+    fifthPhotoIndex = (fifthPhotoIndex + 1) % fifthPhoto.length;
+    photos[4].src = fifthPhoto[fifthPhotoIndex];
+
+    sixthPhotoIndex = (sixthPhotoIndex + 1) % sixthPhoto.length;
+    photos[5].src = sixthPhoto[sixthPhotoIndex];
+
+    seventhPhotoIndex = (seventhPhotoIndex + 1) % seventhPhoto.length;
+    photos[6].src = seventhPhoto[seventhPhotoIndex];
+
+
+    photos = [...photos];
+  }
+
   onMount(() => {
     setInterval(flashPhotos, 500); // Flash photos every second
+    setInterval(alternateFirstPhoto, 500); // Flash photos every second
   });
 </script>
 
@@ -31,7 +95,7 @@
 <div class="container">
   <Header/>
   <div class="content">
-  <h1 class="title">O que seria do Rio sem as Olimpíadas?</h1>
+  <h1 class="title">O que seria do Rio <br>sem as Olimpíadas?</h1>
 
   <div class="photo-container">
     {#each photos as photo (photo.id)}
@@ -69,23 +133,22 @@
 
 .title {
  position: fixed;
- top: 40%; /* Centraliza verticalmente */
+ top: 30%; /* Centraliza verticalmente */
  left: 50%; /* Centraliza horizontalmente */
  transform: translate(-50%, -50%); /* Ajusta a posição para o centro exato */
  font-family: var(--serif);
  text-align: center;
- font-size: 3rem;
+ font-size: 2.9rem !important;
  line-height: 1;
  color: white;
  /* Ajuste adicional para garantir que o título esteja centralizado corretamente */
  transform: translate(-50%, -50%) translateY(-50%);
 }
 
-
 .photo-container {
   position: fixed;
   display: flex;
-  max-width: 80vw;
+  max-width: 60vw;
   top: 65%; /* Centraliza verticalmente */
   left: 50%; /* Centraliza horizontalmente */
   width: 100%;

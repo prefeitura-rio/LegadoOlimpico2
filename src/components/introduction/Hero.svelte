@@ -36,7 +36,8 @@
     </div>
   </div> -->
 
-  <h1 class="title">O que seria do Rio sem as Olimpíadas?</h1>
+  <h1 class="title">O que seria do Rio</h1>
+
   <div class="center">
     <a href="https://prefeitura-rio.github.io/LegadoOlimpico2_3D/" target="_blank" class="button">Explore o mapa interativo</a>
   </div>
@@ -77,6 +78,15 @@
     scale: 1.1;
   }
   .title {
+    max-width: 10em;
+    padding: 0 2rem;
+    margin: 2rem auto;
+    font-family: var(--serif);
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1;
+  }
+  #title {
     max-width: 10em;
     padding: 0 2rem;
     margin: 2rem auto;
