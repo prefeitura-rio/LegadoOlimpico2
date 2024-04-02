@@ -12,7 +12,7 @@
 <fieldset class="wrapper" >
   <legend class="hidden">{@html doc.pantheon_control_map}</legend>
   {#each FIELDS as field}
-    <button class:selected={$keyword === field} on:click={() => keyword.highlight(field)}>
+    <button class:totens={field === 'totens'} class:selos={field === 'selos'} class:placas={field === 'placas'} class:selected={$keyword === field} on:click={() => keyword.highlight(field)}>
       {getFieldLabel(field)}
     </button>
   {/each}
@@ -35,6 +35,34 @@
   button {
     margin: 0 0.5rem 0.5rem 0;
   }
+
+  button.totens {
+    background-color: lightblue;
+
+  }
+  button.totens.selected {
+    background-color:  var(--color-highlight);
+    text-decoration-color: currentColor;
+  }
+  
+  button.selos {
+    background-color: lightblue;
+
+  }
+  button.selos.selected {
+    background-color:  var(--color-highlight);
+    text-decoration-color: currentColor;
+  }
+
+  button.placas {
+    background-color: lightblue;
+
+  }
+  button.placas.selected {
+    background-color:  var(--color-highlight);
+    text-decoration-color: currentColor;
+  }
+
   button.text-button {
     display: inline-block;
 

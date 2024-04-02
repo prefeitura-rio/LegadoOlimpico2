@@ -47,8 +47,10 @@
         {/if}
       </div>
     {/each}
-    <div class="arrow">⬇️</div>
     <!-- Added the flashing down arrow -->
+  </div>
+  <div class="arrow">
+    <img src="assets/img/arrow.svg" alt="Down arrow" />
   </div>
 </div>
 </div>
@@ -66,23 +68,31 @@
 }
 
 .title {
-  max-width: 10em;
-  padding: 0 2rem;
-  margin: 2rem auto;
-  font-family: var(--serif);
-  text-align: center;
-  font-size: 3rem;
-  line-height: 1;
-  color:white
+ position: fixed;
+ top: 40%; /* Centraliza verticalmente */
+ left: 50%; /* Centraliza horizontalmente */
+ transform: translate(-50%, -50%); /* Ajusta a posição para o centro exato */
+ font-family: var(--serif);
+ text-align: center;
+ font-size: 3rem;
+ line-height: 1;
+ color: white;
+ /* Ajuste adicional para garantir que o título esteja centralizado corretamente */
+ transform: translate(-50%, -50%) translateY(-50%);
 }
 
+
 .photo-container {
+  position: fixed;
   display: flex;
   max-width: 80vw;
-  bottom: 50px;
+  top: 65%; /* Centraliza verticalmente */
+  left: 50%; /* Centraliza horizontalmente */
   width: 100%;
   margin-top: 10rem;
   justify-content: center;
+  transform: translate(-50%, -50%) translateY(-50%);
+  
 }
 
 .photo {
@@ -95,11 +105,16 @@
 }
 
 .arrow {
-  position: absolute;
-  bottom: -40px;
+  position: fixed;
   left: 50%;
-  transform: translateX(-50%);
+  top: 98%; /* Centraliza verticalmente */
+  transform: translate(-50%, -50%) translateY(-50%);
   animation: arrow-flash 1s infinite;
+}
+
+.arrow img {
+  width: 50px; /* Adjust as needed */
+
 }
 
 @keyframes arrow-flash {

@@ -23,6 +23,22 @@
 <!-- <Hero /> -->
 
 <div class="container">
+
+  <div class="introduction">
+    <a href="https://prefeitura-rio.github.io/LegadoOlimpico2_3D/" target="_blank" class="button">Explore o mapa interativo</a>
+  </div>
+ 
+  <div class="credits">
+    <div class="credits-line">
+      <div>Produzido pelo</div>
+      <div><a href="https://www.dados.rio/">Escritório de Dados</a></div>
+    </div>
+    <div class="credits-line">
+      <div>da</div>
+      <div><a href="https://prefeitura.rio/">Prefeitura da Cidade do Rio de Janeiro</a></div>
+    </div>
+  </div>
+
 <Section id="intro">
   <div class="intro">
     {#each doc.introduction as p, i}
@@ -80,6 +96,55 @@
 <!-- <Sources /> -->
 
 <style>
+  .introduction{
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button {
+    display: inline-block;
+    font-family: var(--serif);
+    padding: 3px 10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 3px solid var(--color-highlight);
+    transition: 0.3s;
+    /* color: black; */
+    text-decoration: none;
+  }
+
+  .button:hover {
+    scale: 1.1;
+  }
+
+  .credits {
+    font-size: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .credits-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 0.2rem;
+  }
+  .credits-line > div {
+    width: 50%;
+  }
+  .credits-line > div:first-of-type {
+    margin-right: 0.25rem;
+    text-align: right;
+  }
+  .credits-line > div:last-of-type {
+    margin-left: 0.25rem;
+    text-align: left;
+  }
+
   .container{
     background-color: #f3f3f3;
   }
@@ -91,7 +156,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 25rem;
+    padding-bottom: 30rem;
   }
 
   .intro {
