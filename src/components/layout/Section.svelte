@@ -6,7 +6,7 @@
   export let background = variables.color.background;
 </script>
 
-<section {id} class:centered={!fullBleed} style="background-color: {background};">
+<section {id} class:centered={!fullBleed} >
   <slot />
 </section>
 

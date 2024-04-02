@@ -110,13 +110,13 @@ const calculateForceLayout = async () => {
       "x",
       forceX()
         .x((d) => d.life_death)
-        .strength(0.7)
+        .strength(1)
     )
     .force(
       "y",
       forceY()
         .y((d) => d.expansion)
-        .strength(0.7)
+        .strength(3.5)
     )
     .force("collide", rectCollide(PADDING));
 

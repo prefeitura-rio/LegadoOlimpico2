@@ -65,7 +65,7 @@
         rx={scale(m.rx)}
         ry={scale(m.ry)}
         fill="none"
-        stroke-width="40"
+        stroke-width="20"
       />
     {/if}
   {/each}

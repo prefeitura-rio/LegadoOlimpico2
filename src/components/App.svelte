@@ -24,10 +24,7 @@
 
 <div class="container">
 
-  <div class="introduction">
-    <a href="https://prefeitura-rio.github.io/LegadoOlimpico2_3D/" target="_blank" class="button">Explore o mapa interativo</a>
-  </div>
- 
+
   <div class="credits">
     <div class="credits-line">
       <div>Produzido pelo</div>
@@ -38,6 +35,11 @@
       <div><a href="https://prefeitura.rio/">Prefeitura da Cidade do Rio de Janeiro</a></div>
     </div>
   </div>
+
+  <div class="introduction">
+    <a href="https://prefeitura-rio.github.io/LegadoOlimpico2_3D/" target="_blank" class="button">Explore o mapa interativo</a>
+  </div>
+  
 
 <Section id="intro">
   <div class="intro">
@@ -97,7 +99,7 @@
 
 <style>
   .introduction{
-    padding-top: 4rem;
+ 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -122,10 +124,13 @@
   }
 
   .credits {
+    
     font-size: 1rem;
     padding: 1rem;
     display: flex;
     flex-direction: column;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
   .credits-line {
     display: flex;
@@ -146,7 +151,7 @@
   }
 
   .container{
-    background-color: #f3f3f3;
+    background-color: white;
   }
    .center {
     z-index: -2;

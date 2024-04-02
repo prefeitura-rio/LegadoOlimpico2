@@ -122,7 +122,7 @@
 
 <style>
   .wrapper {
-    background-color: var(--color-background);
+   
 
     padding: 1rem 1rem;
 
@@ -168,11 +168,11 @@
     content: "";
     margin-top: -50px;
     height: 60px;
-    background: linear-gradient(to top, var(--color-background) 0%, rgba(253, 237, 198, 0) 100%);
     position: relative;
   }
   .minibio {
     padding-top: 0.5rem;
+    max-width: 28rem;
   }
   .type {
     font-size: 0.825rem;
@@ -188,6 +188,7 @@
     text-align: center;
     text-transform: uppercase;
     word-break: break-all;
+    max-width: 28rem;
   }
 
   h4 {
