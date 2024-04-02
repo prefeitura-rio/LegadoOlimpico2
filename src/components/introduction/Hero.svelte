@@ -38,7 +38,6 @@
 
   <h1 class="title">O que seria do Rio sem as Olimpíadas?</h1>
   <div class="center">
-    <Intro/>
     <a href="https://prefeitura-rio.github.io/LegadoOlimpico2_3D/" target="_blank" class="button">Explore o mapa interativo</a>
   </div>
  
