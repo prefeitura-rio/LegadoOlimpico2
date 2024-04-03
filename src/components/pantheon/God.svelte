@@ -65,7 +65,7 @@
 
   const FULL_SPRITE_WIDTH = 14000;
   const SINGLE_IMAGE_WIDTH = 400;
-  const OFFSET = 10;
+  const OFFSET = 11.8;
 </script>
 
 <figure
@@ -78,7 +78,7 @@
   transform: translate(-50%, -50%); z-index: {isHighlighted ? 20 : 10};
   opacity:{opacity}; background-position: 0% {(((SINGLE_IMAGE_WIDTH + OFFSET) * godIndex) /
     FULL_SPRITE_WIDTH) *
-    100}%; background-size: 100% 13700%;"
+    100}%; background-size: 100%"
 />
 
 <style>

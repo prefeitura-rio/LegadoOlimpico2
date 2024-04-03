@@ -156,12 +156,17 @@
     flex-direction: column;
     justify-content: space-between;
     font-size: 1rem;
+    
+
   }
   .scrollable {
-    overflow-y: scroll;
+    overflow-y: hidden;
     position: relative;
     height: 100%;
     padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .scrollable-fade {
@@ -171,8 +176,9 @@
     position: relative;
   }
   .minibio {
-    padding-top: 0.5rem;
-    max-width: 28rem;
+    /* padding-top: 0.5rem; */
+    max-width: 25rem;
+    text-align: justify;
   }
   .type {
     font-size: 0.825rem;
@@ -184,11 +190,13 @@
   .name {
     font-size: 2rem;
     line-height: 1.2;
-    letter-spacing: 0.06em;
-    text-align: center;
+    letter-spacing: -0.06em;
     text-transform: uppercase;
     word-break: break-all;
     max-width: 28rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+
   }
 
   h4 {
