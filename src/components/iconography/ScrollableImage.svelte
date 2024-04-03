@@ -298,7 +298,7 @@
   }
 
   .step {
-    width: calc(100% - 100px); /* Subtraindo 100px da largura total */
+    width: calc(100% - 50px); /* Subtraindo 100px da largura total */
     margin: 30rem auto 2rem auto;
     padding: 5rem;
 
@@ -340,6 +340,7 @@ font-family: "Cera Pro Bold";
    text-align: justify;
     padding: 1rem 0;
     font-family: "Cera Pro Regular";
+    min-width: 17rem;
 }
   .step-text {
     font-size: 1.3rem;
@@ -389,7 +390,7 @@ font-family: "Cera Pro Bold";
     width: 100vw;
     height: 100vh;
 
-    top:1rem;
+    top:0;
   }
   }
 </style>

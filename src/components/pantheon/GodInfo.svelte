@@ -131,6 +131,7 @@
     top: 0;
     z-index: 50;
     width: 100vw;
+    background: white;
   }
   .search-close {
     display: flex;
@@ -151,7 +152,7 @@
     height: 100%;
   }
   .god-info-details {
-    height: 50%;
+    height: 55%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -167,6 +168,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
   }
 
   .scrollable-fade {
@@ -179,6 +181,7 @@
     /* padding-top: 0.5rem; */
     max-width: 25rem;
     text-align: justify;
+    font-family: "Cera Pro Regular" !important;
   }
   .type {
     font-size: 0.825rem;
@@ -189,14 +192,18 @@
   }
   .name {
     font-size: 2rem;
-    line-height: 1.2;
+    /* line-height: 1.2; */
     letter-spacing: -0.06em;
     text-transform: uppercase;
-    word-break: break-all;
-    max-width: 28rem;
+    line-height: 30px;
+    max-width: 25rem;
+    min-width: 25rem;
+    /* padding-left: 10rem ; */
+    text-align: right;
+    /* padding-top: 1rem; */
     padding-top: 1rem;
     padding-bottom: 2rem;
-
+    font-family: "Cera Pro Bold" !important;
   }
 
   h4 {
@@ -205,6 +212,14 @@
     text-transform: uppercase;
     letter-spacing: 0.06em;
     color: var(--color-highlight);
+  }
+  @media only screen and (max-width: 650px) {
+    .name{
+      min-width: 20rem;
+    }
+    .minibio {
+      max-width: 20rem;
+    }
   }
   @media only screen and (min-width: 50em) {
     .wrapper {

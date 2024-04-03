@@ -216,6 +216,7 @@
     z-index: 30;
   }
 
+
   @media only screen and (min-width: 50em) {
     .wrapper {
       grid-template-columns: 2fr 1fr;

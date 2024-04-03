@@ -29,11 +29,12 @@
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
-    flex-wrap: wrap;
+    flex-wrap: wrap;  
   }
 
   button {
     margin: 0 0.5rem 0.5rem 0;
+    font-family: "Cera Pro Regular" !important;
   }
 
   button.totens {
