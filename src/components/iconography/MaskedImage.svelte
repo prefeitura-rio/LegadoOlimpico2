@@ -15,11 +15,12 @@
 </script>
 
 <svg
-
+   width= "100vw"
+    height="100vh"
   viewBox="0 0 {imageRange[1]} {imageRange[1]}"
   xmlns="http://www.w3.org/2000/svg"
   xml:space="preserve"
-  class="mobile-svg"
+  class="svg"
 >
   <g mask={`url(#mask-${name})`}>
     <image
@@ -28,6 +29,7 @@
       y="0"
       height="100%"
       width="100%"
+      
     />
   </g>
 
@@ -71,9 +73,9 @@
 </svg>
 
 <style>
-  .mobile-svg {
-    width: "59vw";
-    height: "100vh";
+  .svg {
+    width:110vw;
+    height:100vh;
     margin-left: -90px !important;
     fill-rule: evenodd;
     clip-rule: evenodd;
@@ -82,8 +84,11 @@
     overflow: visible;
   }
   @media only screen and (max-width: 650px) {
-    .mobile-svg {
+    .svg {
       margin-left: 0px !important;
+      width: 100vw;
+      height: 100vh;
+    
     }
   }
   ellipse {

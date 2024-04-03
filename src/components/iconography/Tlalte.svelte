@@ -5,6 +5,12 @@
 
   const imageRange = [0, 5320];
   const steps = doc["tlalte-steps"];
+
+  let imgPath;
+  if (typeof window !== "undefined") {
+    imgPath = window.matchMedia("(max-width: 600px)").matches ? "mobile_01.png" : "geral_01.png";
+  }
+
 </script>
 
 <ScrollableImage
@@ -12,7 +18,7 @@
   source={doc.source_tlalte_label}
   sourceUrl={doc.source_tlalte_url}
   name="tlalte"
-  imgPath={"geral_01.png"}
+  {imgPath}
   selected={0}
   {steps}
   positions={tlaltePositions}

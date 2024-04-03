@@ -5,6 +5,11 @@
 
   const imageRange = [0, 5320];
   const steps = doc["tezca-steps"];
+  
+  let imgPath;
+  if (typeof window !== "undefined") {
+    imgPath = window.matchMedia("(max-width: 600px)").matches ? "mobile_02.png" : "geral_02.png";
+  }
 </script>
 
 <ScrollableImage
@@ -12,7 +17,7 @@
   source={doc.source_tezca_label}
   sourceUrl={doc.source_tezca_url}
   name="tezca"
-  imgPath={"geral_02.png"}
+  {imgPath}
   selected={0}
   {steps}
   positions={tezcaPositions}
