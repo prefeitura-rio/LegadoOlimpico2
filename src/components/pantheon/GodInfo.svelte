@@ -131,6 +131,7 @@
     top: 0;
     z-index: 50;
     width: 100vw;
+    background: white;
   }
   .search-close {
     display: flex;
@@ -167,6 +168,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
   }
 
   .scrollable-fade {
@@ -210,6 +212,14 @@
     text-transform: uppercase;
     letter-spacing: 0.06em;
     color: var(--color-highlight);
+  }
+  @media only screen and (max-width: 650px) {
+    .name{
+      min-width: 20rem;
+    }
+    .minibio {
+      max-width: 20rem;
+    }
   }
   @media only screen and (min-width: 50em) {
     .wrapper {
