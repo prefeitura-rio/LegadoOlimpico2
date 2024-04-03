@@ -319,12 +319,13 @@
 
   .step-title {
   text-transform: uppercase;
-  font-weight:500;
+  /* font-weight:500; */
   font-size:1.8rem;
   padding-top: 0.4rem;
   line-height: 0.9;
   text-align: right;
 letter-spacing: -0.1em;
+font-family: "Cera Pro Bold";
 }
   .step-title::after {
     display: block;
@@ -338,6 +339,7 @@ letter-spacing: -0.1em;
   .step-description {
    text-align: justify;
     padding: 1rem 0;
+    font-family: "Cera Pro Regular";
 }
   .step-text {
     font-size: 1.3rem;
@@ -357,10 +359,14 @@ letter-spacing: -0.1em;
   z-index: -1;
   font-size: 5em;
   color:lightgray;
-  max-width: 60%;
+  max-width: 85%;
+  opacity:0.35;
   line-height: 0.7em;
   margin-top: -0.5em !important;
   margin-left: -0.9em !important;
+  font-family: "Cera Pro Regular";
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
   @media only screen and (min-width: 50em) {
@@ -373,5 +379,17 @@ letter-spacing: -0.1em;
     .step {
       margin: 50rem auto 2rem auto;
     }
+  }
+
+  @media only screen and (max-width: 650px) {
+    figure {
+    position: -webkit-sticky;
+    position: sticky;
+
+    width: 100vw;
+    height: 100vh;
+
+    top:1rem;
+  }
   }
 </style>

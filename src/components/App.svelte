@@ -59,8 +59,9 @@
 <VisualLibrary /> -->
 
 <!-- PANTHEON -->
+<Heading>{@html doc.pantheon_title}</Heading>
+
 <Section id="pantheon">
-  <Heading>{@html doc.pantheon_title}</Heading>
   <Paragraph hasCap={true}>{@html doc.pantheon_intro}</Paragraph>
 
   <Paragraph>{@html doc.pantheon_duality}</Paragraph>
@@ -70,6 +71,8 @@
 
 <br><br><br><br>
 
+<Heading>{@html doc.pantheon_title}</Heading>
+
 <Section id="intro">
   <div class="intro">
     {#each doc.introductionone as p, i}
@@ -78,16 +81,23 @@
   </div>
 </Section>
 
-<br><br><br><br>
+<Heading>{@html doc.pantheon_title}</Heading>
+
 <ScrollyTezca />
+<br><br><br><br>
+
+<Heading>{@html doc.pantheon_title}</Heading>
 
 <Section id="intro">
+  
   <div class="intro">
     {#each doc.introductiontwo as p, i}
       <IntroParagraph hasCap={i === 0}>{@html p}</IntroParagraph>
     {/each}
   </div>
 </Section>
+
+<Heading>{@html doc.pantheon_title}</Heading>
 
 <br><br><br><br>
 
@@ -104,11 +114,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+    /* padding-bottom: 2rem; */
   }
 
   .button {
     display: inline-block;
-    font-family: var(--serif);
+    font-family: "Cera Pro Black";
     padding: 3px 10px;
     font-size: 20px;
     text-align: center;
@@ -124,7 +136,7 @@
   }
 
   .credits {
-    
+    font-family: "Cera Pro";
     font-size: 1rem;
     padding: 1rem;
     display: flex;
@@ -169,6 +181,11 @@
     padding: 1rem;
     margin: 0;
     border-radius: 6px;
+  }
+  @media only screen and (max-width: 650px) {
+    .introduction{
+      padding-bottom: 4rem;
+    }
   }
   @media only screen and (min-width: 30em) {
     .intro {

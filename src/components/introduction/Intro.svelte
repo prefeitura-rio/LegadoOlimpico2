@@ -192,13 +192,19 @@
   }
 }
 
-@media only screen and (min-width: 30em) {
+@media only screen and (max-width: 650px) {
   .title {
-    font-size: 4rem;
-    margin: 4rem auto;
+    font-size: 2.5rem !important;
+    margin-top: 10rem;
+    min-width: 25rem !important;
   }
-  .title::after {
-    width: 250px;
+
+  .photo-container{
+    top: 55%; /* Centraliza verticalmente */
+    max-width: 80vw;
+  }
+  .photo{
+    margin: -1px;
   }
 }
 
@@ -208,4 +214,5 @@
     margin: 5rem auto;
   }
 }
+
 </style>

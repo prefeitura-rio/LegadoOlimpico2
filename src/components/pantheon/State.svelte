@@ -141,7 +141,7 @@
   <div class="chart-wrapper" bind:clientWidth={$width}>
     <div
       class="chart-centered-container"
-      style="width:{$bounds.width}px; height:{$bounds.height}px; margin-top:2rem"
+      style="width:{$bounds.width}px; height:{$bounds.height}px; "
     >
       {#if $width > 0}
         <!-- <svg class="chart-svg" width={$bounds.width} height={$bounds.height}>
@@ -150,7 +150,7 @@
         <div class="chart-html" style="width:{$bounds.width}px; height:{$bounds.height}px;">
           <slot name="chart-html" />
         </div>
-        <svg class="chart-svg" width={$bounds.width} height={$bounds.height}>
+        <svg class="chart-svg" >
           <slot name="chart-svg-overlay" />
         </svg>
       {/if}
@@ -188,6 +188,19 @@
     margin: auto;
     position: relative;
     /* background-color: aqua; */
+  }
+  @media only screen and (max-width: 650px) {
+    .chart-centered-container{
+      /* margin-left:-1rem !important; */
+    }
+    .chart-html,
+  .chart-svg {
+    position: absolute;
+    top: 0;
+    left: 0px !important;;
+    overflow: hidden;
+
+  }
   }
   .chart-html,
   .chart-svg {
