@@ -10,12 +10,13 @@
     "spellings": "Ahuic, Acuecueyotl, Acuecueyotlcihuatl",
     "source": "Codex Borbonicus",
     "aspect": "Chalchiuhtlicue",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 1,
+    "reformas urbanas": 0,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": 2.414285714391949,
@@ -28,12 +29,13 @@
     "spellings": "Xomocuil",
     "source": "Codex Fejervary-Mayer",
     "aspect": "Tezcatlipoca, Yacatecuhtli",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 1,
+    "reformas urbanas": 0,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": 2.414285714391949,
@@ -46,12 +48,13 @@
     "spellings": "Xmulzencab, Ah-Muzen-Cab",
     "source": "Source unknown",
     "aspect": "Xiuhtecuhtli",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 1,
+    "reformas urbanas": 0,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": 1.414285713611613,
@@ -64,12 +67,13 @@
     "spellings": null,
     "source": "Codex Mendoza",
     "aspect": "Tlaloc",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 1,
+    "reformas urbanas": 0,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": 1.4142857148422594,
@@ -82,12 +86,13 @@
     "spellings": null,
     "source": "Codex Borgia",
     "aspect": "Huitzilopochtli",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 1,
+    "reformas urbanas": 0,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": 0.4142857145996517,
@@ -100,12 +105,13 @@
     "spellings": "Amhimitl, Opochtli",
     "source": "Primeros Memoriales",
     "aspect": "Opochtli, Mixcoatl, Huitzilopochtli, Yacatecuhtli",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 1,
+    "reformas urbanas": 0,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": -1.585714286054061,
@@ -118,12 +124,13 @@
     "spellings": "Atlcahualo",
     "source": "Codex Telleriano Remensis",
     "aspect": "Chalchiuhtlicue",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 1,
+    "reformas urbanas": 0,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": -2.585714285589406,
@@ -136,12 +143,13 @@
     "spellings": "Atlahua, Ahtlahuah",
     "source": "Florentine Codex",
     "aspect": "Quetzalcoatl, Tlaloc, Mixcoatl",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 1,
+    "reformas urbanas": 0,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": 1.4142857140933283,
@@ -154,12 +162,13 @@
     "spellings": null,
     "source": "Source unknown",
     "aspect": null,
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 0,
+    "reformas urbanas": 1,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": 1.4142857143226102,
@@ -172,12 +181,13 @@
     "spellings": "Yemaxtli, Tlaclau-queteztzatlipuca, Camaxtle, Tlatlauhca",
     "source": "Codex Ramirez",
     "aspect": "Mixcoatl, Xipe Totec, Huitzilopochtli",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 0,
+    "reformas urbanas": 1,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": -1.585714285278728,
@@ -190,12 +200,13 @@
     "spellings": null,
     "source": "Codex Aubin",
     "aspect": "Coatlicue, Tlaltecuhtli",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 0,
+    "reformas urbanas": 1,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": 0.41428571461785857,
@@ -208,12 +219,13 @@
     "spellings": null,
     "source": "Codex Aubin",
     "aspect": "Coatlicue, Tlaltecuhtli",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 0,
+    "reformas urbanas": 1,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": 0.41428571404642944,
@@ -226,12 +238,13 @@
     "spellings": null,
     "source": "Codex Aubin",
     "aspect": "Coatlicue, Tlaltecuhtli, Xochiquetzal",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 0,
+    "reformas urbanas": 1,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": -0.58571428570333,
@@ -244,12 +257,13 @@
     "spellings": null,
     "source": "Codex Aubin",
     "aspect": "Coatlicue, Tlaltecuhtli",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 0,
+    "reformas urbanas": 1,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": -3.5857142850649066,
@@ -262,12 +276,13 @@
     "spellings": null,
     "source": "Codex Aubin",
     "aspect": "Coatlicue, Tlaltecuhtli",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 0,
+    "reformas urbanas": 1,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": 2.4142857136019598,
@@ -280,12 +295,13 @@
     "spellings": "Cinteotl, Centeocihuatl, Centeal, Centeotltecutli, Cexochitl, Icnopiltzin, Tlatlauhquicenteotl, Tonacajoha, Tonacayohua, Tzinteotl, Xoxouhquicenteotl, Civeles, Temazcalteci. ToNantzin, Cinteotle, Centeocihuati, Cinteotlcihuatl, CintÃ©otltecuhtli, Cinteohuatl, Cintecutli, Iztaccenteotl",
     "source": "Codex Borgia",
     "aspect": "Tlaloc, Chicomecoatl, Quetzalcoatl, Xipe Totec, Chalchiuhtlicue, Tonatiuh, Xilonen, Xochipilli, Yacatecuhtli",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 0,
+    "reformas urbanas": 1,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": -0.5857142848028856,
@@ -298,12 +314,13 @@
     "spellings": "Centzon Huitznauhtin, Centzonuitznaua, Centzon Huitznahuac, Centzonhuitznahua, Cuahuitlicac, Quauitlicac",
     "source": "Florentine Codex",
     "aspect": null,
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 0,
+    "reformas urbanas": 1,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": -2.585714284803141,
@@ -316,12 +333,13 @@
     "spellings": "Tlacatecolotl, Techlotl ",
     "source": "Codex Laud",
     "aspect": "Tezcatlipoca, Mictlantecuhtli ",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 0,
+    "reformas urbanas": 1,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": -1.5857142852323423,
@@ -334,12 +352,13 @@
     "spellings": null,
     "source": "Codex Vaticanus",
     "aspect": "Xochipilli, Chalchiuhtlicue",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 0,
+    "reformas urbanas": 1,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": -0.5857142857678989,
@@ -352,12 +371,13 @@
     "spellings": "Chalciuhtlicue, Chalchihuitlicue, Chalchiuhcueyeh, Chalchihcueye, Xalxitlikue, Xoxouhqui Ihuipil, Xoxouhqui Icue, Chalchiuh Tlatonac, ChicomecÃ³atl, Chalchiuhicueye, Chalchiuhtlicue, Atl, Matlalcueye, Xixiquipilihui, Matlolcueitl, Chalchiuhtlatonac ",
     "source": "Codex Borbonicus",
     "aspect": "Matlalcueitl, Itzaccihuatl, Acuecucyoticihuati, Centeotl, Yohualticitl, Xilonen, Huixtocihuatl, Ayauhteotl, Atlacoya, Chicomecoatl, Chalchiuhtlatonac, Coatlicue, Tzapatlan Tenen",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 0,
+    "reformas urbanas": 1,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": 0.41428571419762794,
@@ -370,12 +390,13 @@
     "spellings": "Chalchihuihtotolin",
     "source": "Codex Borgia",
     "aspect": "Tezcatlipoca",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 0,
+    "reformas urbanas": 1,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": 2.41428571413748,
@@ -388,12 +409,13 @@
     "spellings": "Chalmecacihuilt, Chalmeccacihuatl, Chalmecatl, Chalmecatecuchtli, Chachalmecacihuatl, Chalmeca ciuatl",
     "source": "Codex Aubin",
     "aspect": "Mictlancihuatl, Tlazolteotl, Omecihuatl",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 0,
+    "reformas urbanas": 1,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": 0.414285713914031,
@@ -406,12 +428,13 @@
     "spellings": null,
     "source": "Codex Aubin",
     "aspect": "Ometecuhtli, Mictlantecuhtli,",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 0,
+    "reformas urbanas": 1,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": -2.5857142857513975,
@@ -424,12 +447,13 @@
     "spellings": "Chicomexochitl, Chalchiuhcihuatl, Xantico",
     "source": "Codex Borgia",
     "aspect": "Coatlicue, Chiconahui Itzcuintli, Cuaxolotl, Quilaztli",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 1,
+    "transporte": 0,
+    "reformas urbanas": 0,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": -1.5857142861345899,
@@ -442,12 +466,13 @@
     "spellings": "Chiutcoatl, Chicomeccatl, Chicomexochitl, or Chalchiuhcihuatl, Xilonen, Chicomolotzin, Chicomecohuati, Chicome Coatl",
     "source": "Codex Fejervary-Mayer",
     "aspect": "Centeotl, Xilonen, Chalchiuhtlicue, Ilamacihuatl, Yohualticitl",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 1,
+    "transporte": 0,
+    "reformas urbanas": 0,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": -3.5857142855541344,
@@ -460,12 +485,13 @@
     "spellings": "chicomexochitl",
     "source": "Codex Fejervary-Mayer",
     "aspect": "Xochipilli",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 1,
+    "transporte": 0,
+    "reformas urbanas": 0,
+    "lazer": 0,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": 1.414285713942032,
@@ -478,12 +504,13 @@
     "spellings": "Chimalman, Chimamatl",
     "source": "Codex Laud",
     "aspect": "Coatlicue",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 0,
+    "reformas urbanas": 0,
+    "lazer": 1,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": -3.585714285650896,
@@ -496,12 +523,13 @@
     "spellings": "Cihuapipiltin, Cihuapilli",
     "source": "Primeros Memoriales",
     "aspect": null,
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 0,
+    "reformas urbanas": 0,
+    "lazer": 1,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": -1.5857142854971789,
@@ -514,12 +542,13 @@
     "spellings": "Cituateteo, Civatateo, Chiuateteto, Cihuapipiltin, Cihuateteoh",
     "source": "Codex Borgia",
     "aspect": "Coatlicue",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 0,
+    "reformas urbanas": 0,
+    "lazer": 1,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": -3.585714285506654,
@@ -532,12 +561,13 @@
     "spellings": "Xochitonal",
     "source": "Codex Borgia",
     "aspect": "Tlaltecuhtli",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 0,
+    "reformas urbanas": 0,
+    "lazer": 1,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": -0.5857142860428833,
@@ -550,12 +580,13 @@
     "spellings": "Icozauqui, Cipactli",
     "source": "Codex Borbonicus",
     "aspect": "Ometecuhtli, Ometeotl",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 0,
+    "reformas urbanas": 0,
+    "lazer": 1,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": -0.5857142859666007,
@@ -568,12 +599,13 @@
     "spellings": null,
     "source": "Codex Fejervary-Mayer",
     "aspect": "Ometecuhtli, Ometeotl",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 0,
+    "reformas urbanas": 0,
+    "lazer": 1,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": -2.5857142860694493,
@@ -586,12 +618,13 @@
     "spellings": "Citlalinicue, Citlalmina",
     "source": "Codex Borbonicus",
     "aspect": "Omecihuatl, Ometeotl ",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 0,
+    "reformas urbanas": 0,
+    "lazer": 1,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": -3.5857142850649066,
@@ -604,12 +637,13 @@
     "spellings": null,
     "source": "Codex Nuttal",
     "aspect": null,
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 0,
+    "reformas urbanas": 0,
+    "lazer": 1,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   },
   {
     "x": -2.585714285288693,
@@ -622,11 +656,12 @@
     "spellings": "Llamateuctli, Coatlantonan, Koatlikueitl, TÄ“teoh Ä«nnÄn, Teteto Inan, Toci, Cihuacoatl, Tonantzin, Yohuatlicue, Chihucoatl, Ciucoatl, Chiuacoatl, Quilaztli, Huitzilincuatec, Tititl, Yaocihuatl, Tonantzin, Toci, Teteto Innan, Coatlicue, Quilaztli, Coacihuatl, Coatlan Tenan, Cuauhcihuatl, Tzitzimicihuatl, Cihuacohuatl, Cuaucihuatl, Teoyaominqui, Teoyaotlatohua, Teoyaomqui, Chicomexochitl ou Chalchiuhcihuatl",
     "source": "Statue displayed in National Anthropology Museum in Mexico City",
     "aspect": "Ilamacihuatl, Itzaccihuatl, Huixtocihuatl, Chalchiuhtlicue, Quilaztli, Ixnextli, Ilancueye, Tlazolteotl, Mayahuel, Xilonen, Chimalma, Itzpapalotl, Xochiquetzal, Omecihuatl, Coyolxauhqui, Teteo Innan, Ce Calli, Ce Cuauhtli, Ce Mazatl, Ce Ozomatli, Chantico, Ilancueye, Ixnextli, Ometeotl",
-    "life": 0,
-    "death": 0,
-    "spiritual": 0,
-    "material": 0,
-    "life_death": 0,
-    "expansion": 0
+    "educacao": 0,
+    "transporte": 0,
+    "reformas urbanas": 0,
+    "lazer": 1,
+    "totens": 0,
+    "selos": 0,
+    "placas": 0
   }
 ]
