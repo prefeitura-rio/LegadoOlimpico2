@@ -27,15 +27,15 @@
 
 @font-face {
   font-family: "CeraProRegular";
-  src: url("./static/assets/fonts/cera/CeraProRegular.otf");
+  src: url("./cera/CeraProRegular.otf");
 }
 @font-face {
   font-family: "CeraProBlack";
-  src: url("./static/assets/fonts/cera/CeraProBlack.otf");
+  src: url("./cera/CeraProBlack.otf");
 }
 @font-face {
   font-family: "CeraProBold";
-  src: url("./static/assets/fonts/cera/CeraProBold.otf");
+  src: url("./cera/CeraProBold.otf");
 }
 
 @font-face {
