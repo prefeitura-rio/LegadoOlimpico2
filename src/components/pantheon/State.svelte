@@ -182,7 +182,7 @@
   .chart-wrapper {
     grid-area: viz-area;
     z-index: 20;
-    /* background-color: aquamarine; */
+   
   }
   .chart-centered-container {
     margin: auto;
@@ -191,7 +191,7 @@
   }
   @media only screen and (max-width: 650px) {
     .chart-centered-container{
-      /* margin-left:-1rem !important; */
+    
     }
     .chart-html,
   .chart-svg {
@@ -199,14 +199,14 @@
     top: 0;
     left: 0px !important;;
     overflow: hidden;
-
+    max-width:90vw !important;
   }
   }
   .chart-html,
   .chart-svg {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 2rem !important;
     overflow: visible;
   }
 
