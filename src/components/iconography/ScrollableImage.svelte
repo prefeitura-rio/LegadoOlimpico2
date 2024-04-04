@@ -325,7 +325,7 @@
   line-height: 0.9;
   text-align: right;
 letter-spacing: -0.1em;
-font-family: "Cera Pro Bold";
+font-family: "CeraProBold";
 }
   .step-title::after {
     display: block;
@@ -339,7 +339,7 @@ font-family: "Cera Pro Bold";
   .step-description {
    text-align: justify;
     padding: 1rem 0;
-    font-family: "Cera Pro Regular";
+    font-family: "CeraProRegular";
     min-width: 17rem;
 }
   .step-text {
@@ -365,7 +365,7 @@ font-family: "Cera Pro Bold";
   line-height: 0.7em;
   margin-top: -0.5em !important;
   margin-left: -0.9em !important;
-  font-family: "Cera Pro Regular";
+  font-family: "CeraProRegular";
   font-weight: bold;
   text-transform: uppercase;
 }

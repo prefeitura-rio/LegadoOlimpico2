@@ -26,16 +26,16 @@
 }
 
 @font-face {
-  font-family: "Cera Pro Regular";
-  src: url("./static/assets/fonts/cera/Cera Pro Regular.otf");
+  font-family: "CeraProRegular";
+  src: url("./static/assets/fonts/cera/CeraProRegular.otf");
 }
 @font-face {
-  font-family: "Cera Pro Black";
-  src: url("./static/assets/fonts/cera/Cera Pro Black.otf");
+  font-family: "CeraProBlack";
+  src: url("./static/assets/fonts/cera/CeraProBlack.otf");
 }
 @font-face {
-  font-family: "Cera Pro Bold";
-  src: url("./static/assets/fonts/cera/Cera Pro Bold.otf");
+  font-family: "CeraProBold";
+  src: url("./static/assets/fonts/cera/CeraProBold.otf");
 }
 
 @font-face {

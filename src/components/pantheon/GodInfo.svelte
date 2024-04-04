@@ -181,7 +181,7 @@
     /* padding-top: 0.5rem; */
     max-width: 25rem;
     text-align: justify;
-    font-family: "Cera Pro Regular" !important;
+    font-family: "CeraProRegular" !important;
   }
   .type {
     font-size: 0.825rem;
@@ -203,7 +203,7 @@
     /* padding-top: 1rem; */
     padding-top: 1rem;
     padding-bottom: 2rem;
-    font-family: "Cera Pro Bold" !important;
+    font-family: "CeraProBold" !important;
   }
 
   h4 {
