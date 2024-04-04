@@ -120,7 +120,7 @@
 
   .button {
     display: inline-block;
-    font-family: "Cera Pro Black";
+    font-family: "CeraProBlack";
     padding: 3px 10px;
     font-size: 20px;
     text-align: center;
@@ -136,7 +136,7 @@
   }
 
   .credits {
-    font-family: "Cera Pro";
+    font-family: "CeraProRegular";
     font-size: 1rem;
     padding: 1rem;
     display: flex;
