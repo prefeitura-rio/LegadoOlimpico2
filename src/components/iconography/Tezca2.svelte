@@ -1,6 +1,6 @@
 <script>
   import ScrollableImage from "$components/iconography/ScrollableImage.svelte";
-  import { tezcaPositions } from "$components/iconography/setup/iconographySetup";
+  import { tezca2Positions } from "$components/iconography/setup/iconographySetup";
   import doc from "$data/doc.json";
 
   const imageRange = [0, 5320];
@@ -20,6 +20,6 @@
   {imgPath}
   selected={0}
   {steps}
-  positions={tezcaPositions}
+  positions={tezca2Positions}
   {imageRange}
 />
