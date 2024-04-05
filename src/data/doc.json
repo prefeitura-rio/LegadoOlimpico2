@@ -35,22 +35,14 @@
   "source_tlalte_label": "Colorized detail from a stone sculpture exhibited at the Templo Mayor museum",
   "source_tlalte_url": "",
   "tlalte-steps": [
-
-    {
-      "id": "terminal_gentileza",
-      "title": "Terminal Intermodal Gentileza",
-      "text": "terminal_intermodal_gentileza",
-      "background_text": "transporte",
-      "description": "O VLT trouxe uma nova opção de transporte para o centro do Rio de Janeiro, conectando pontos turísticos e comerciais. Com trens modernos e acessíveis, facilitou os deslocamentos dos moradores, estimulou o turismo e contribuiu para o desenvolvimento econômico da cidade"
-    },
-    {
-      "id": "sistema_vlt",
-      "title": "Sistema VLT",
-      "text": "sistema_vlt",
-      "background_text": "transporte",
-      "description":"O VLT trouxe uma nova opção de transporte para o centro do Rio de Janeiro, conectando pontos turísticos e comerciais. Com trens modernos e acessíveis, facilitou os deslocamentos dos moradores, estimulou o turismo e contribuiu para o desenvolvimento econômico da cidade."
-    },
     
+    {
+      "id": "mapa_01",
+      "title": "Aqui vai um texto 1",
+      "text": "",
+      "background_text": "",
+      "description":"1 Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
     {
       "id": "museu_do_amanhã",
       "title": "Museu do Amanhã",
@@ -86,32 +78,11 @@
   "source_tezca_url": "http://www.famsi.org/research/loubat/Borgia/page_21.jpg",
   "tezca-steps": [
     {
-      "id": "sistema_brt",
-      "title": "sistema brt",
-      "text": "sistema_brt",
-      "background_text": "transporte",
-      "description":"O Sistema BRT foi um legado dos Jogos Olímpicos que revolucionou o transporte público no Rio de Janeiro. Com corredores exclusivos e ônibus modernos, proporcionou deslocamentos mais rápidos e eficientes para os cariocas, reduzindo congestionamentos e melhorando a qualidade de vida dos usuários."
-    },
-    {
-      "id": "transoeste",
-      "title": "transoeste",
-      "text": "transoeste",
-      "background_text": "transporte",
-      "description":"A Transoeste é uma via expressa que melhorou a conectividade entre a Zona Oeste e outros bairros do Rio de Janeiro. Com pistas exclusivas para ônibus e BRT, proporcionou viagens mais rápidas e confortáveis para os cariocas, promovendo a integração urbana e facilitando o acesso a serviços e empregos."
-    },
-    {
-      "id": "transcarioca",
-      "title": "transcarioca",
-      "text": "transcarioca",
-      "background_text": "transporte",
-      "description":"A Transcarioca é uma importante via expressa que ligou a Barra da Tijuca à Zona Norte da cidade. Com corredores exclusivos para ônibus e BRT, facilitou os deslocamentos dos moradores, reduzindo tempos de viagem e congestionamentos, além de estimular o desenvolvimento econômico e social ao longo do seu trajeto."
-    },
-    {
-      "id": "transolimpica",
-      "title": "transolímpica",
-      "text": "transolimpica",
-      "background_text": "transporte",
-      "description":"A Transolímpica é uma via expressa que conecta a Barra da Tijuca à Zona Oeste do Rio de Janeiro. Além de facilitar o acesso aos locais de competição durante os Jogos Olímpicos, a Transolímpica deixou um legado importante para a cidade, melhorando a mobilidade urbana e estimulando o desenvolvimento econômico da região."
+      "id": "mapa_02",
+      "title": "Aqui vai um texto 2",
+      "text": "",
+      "background_text": "",
+      "description":"2 Lorem ipsum dolor sit amet, consectetur adipiscing elit"
     },
     {
       "id": "parque_rita_lee",
@@ -130,6 +101,13 @@
   ],
   "tezca2-steps": [
     {
+      "id": "mapa_03",
+      "title": "Aqui vai um texto 3",
+      "text": "",
+      "background_text": "",
+      "description":"3 Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
+    {
       "id": "sistema_brt",
       "title": "sistema brt",
       "text": "sistema_brt",
@@ -156,20 +134,6 @@
       "text": "transolimpica",
       "background_text": "transporte",
       "description":"A Transolímpica é uma via expressa que conecta a Barra da Tijuca à Zona Oeste do Rio de Janeiro. Além de facilitar o acesso aos locais de competição durante os Jogos Olímpicos, a Transolímpica deixou um legado importante para a cidade, melhorando a mobilidade urbana e estimulando o desenvolvimento econômico da região."
-    },
-    {
-      "id": "parque_rita_lee",
-      "title": "Parque Rita Lee",
-      "text": "parque_rita_lee",
-      "background_text": "lazer",
-      "description":"O Parque Olímpico é um legado dos Jogos Olímpicos que se tornou um importante centro esportivo e de lazer para os moradores do Rio de Janeiro. Com instalações modernas e variadas, o parque oferece oportunidades de prática esportiva, eventos culturais e entretenimento para os cariocas, contribuindo para a promoção da saúde, do bem-estar e da qualidade de vida na cidade."
-    },
-    {
-      "id": "GET_emiliano_galdino",
-      "title": "GET Emiliano Galdino",
-      "text": "GET_emiliano_galdino",
-      "background_text": "educacao",
-      "description":"Os GETs são equipamentos de tecnologia assistiva que promovem a inclusão e a acessibilidade para pessoas com deficiência. Além de proporcionar maior autonomia e independência, esses equipamentos contribuem para a igualdade de oportunidades e o respeito à diversidade na cidade."
     }
   ],
   "pantheon": [

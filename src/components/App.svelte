@@ -14,18 +14,19 @@
   import VisualLibrary from "$components/visual-library/VisualLibrary.svelte";
   import doc from "$data/doc.json";
     import Footer from "./Footer.svelte";
+    import Header from "./Header.svelte";
 </script>
 
-<div class="center">
-  <Intro/>
-</div>
+
 
 
 <!-- <Hero /> -->
 
 <div class="container">
-
-
+  <div class="logo">
+    <img class="photo_logo" src="assets/logo_preto_horizontal.png" alt="Foto" />
+  </div>
+  <h1 class="title">O que seria do Rio <br>sem as Olimpíadas?</h1>
   <div class="credits">
     <div class="credits-line">
       <div>Produzido pelo</div>
@@ -117,6 +118,15 @@
 <!-- <Sources /> -->
 
 <style>
+
+  .logo{
+    display: flex;
+    justify-content: center;
+    max-width: 200px;
+    margin:0 auto;
+    padding-top: 1.5rem;
+  }
+
   .introduction{
  
     display: flex;
@@ -175,9 +185,9 @@
     background-color: white;
   }
    .center {
-    z-index: -2;
-    position: sticky;
-    top:0;
+    /* z-index: -2; */
+    /* position: sticky; */
+    /* top:0; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -191,10 +201,25 @@
     margin: 0;
     border-radius: 6px;
   }
+
+  .title {
+ font-family: var(--serif);
+ text-align: center;
+ font-size: 2.9rem !important;
+ line-height: 1;
+ color: black;
+ /* Ajuste adicional para garantir que o título esteja centralizado corretamente */
+}
+
   @media only screen and (max-width: 650px) {
     .introduction{
       padding-bottom: 4rem;
     }
+    .title {
+    font-size: 2.5rem !important;
+    margin-top: 10rem;
+    /* min-width: 25rem !important; */
+  }
   }
   @media only screen and (min-width: 30em) {
     .intro {
@@ -207,4 +232,12 @@
       margin: 3rem;
     }
   }
+
+  @media only screen and (min-width: 50em) {
+  .title {
+    font-size: 5rem;
+    margin: 5rem auto;
+  }
+}
+
 </style>

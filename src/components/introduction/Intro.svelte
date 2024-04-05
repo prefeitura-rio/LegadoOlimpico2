@@ -2,37 +2,37 @@
   import { onMount } from "svelte";
     import Header from "../Header.svelte";
 
-  let firstPhoto = ["assets/img/terminal_intermodal_gentileza.png","assets/img/sistema_brt.png"];
-  let firstPhotoIndex = 0; 
+  // let firstPhoto = ["assets/img/terminal_intermodal_gentileza.png","assets/img/sistema_brt.png"];
+  // let firstPhotoIndex = 0; 
 
-  let secondPhoto = ["assets/img/sistema_vlt.png","assets/img/transoeste.png"];
-  let secondPhotoIndex = 0; 
+  // let secondPhoto = ["assets/img/sistema_vlt.png","assets/img/transoeste.png"];
+  // let secondPhotoIndex = 0; 
 
-  let thirdPhoto = ["assets/img/museu_do_amanhã.png","assets/img/transcarioca.png"];
-  let thirdPhotoIndex = 0; 
+  // let thirdPhoto = ["assets/img/museu_do_amanhã.png","assets/img/transcarioca.png"];
+  // let thirdPhotoIndex = 0; 
   
-  let fourthPhoto = ["assets/img/museu_de_arte_do_rio.png","assets/img/GEO_isabel_salgado.png"];
-  let fourthPhotoIndex = 0; 
+  // let fourthPhoto = ["assets/img/museu_de_arte_do_rio.png","assets/img/GEO_isabel_salgado.png"];
+  // let fourthPhotoIndex = 0; 
 
-  let fifthPhoto = ["assets/img/cor.png","assets/img/GET_emiliano_galdino.png"];
-  let fifthPhotoIndex = 0; 
+  // let fifthPhoto = ["assets/img/cor.png","assets/img/GET_emiliano_galdino.png"];
+  // let fifthPhotoIndex = 0; 
 
-  let sixthPhoto = ["assets/img/edifício_a_noite.png","assets/img/derrubada_da_perimetral.png"];
-  let sixthPhotoIndex = 0; 
+  // let sixthPhoto = ["assets/img/edifício_a_noite.png","assets/img/derrubada_da_perimetral.png"];
+  // let sixthPhotoIndex = 0; 
 
-  let seventhPhoto = ["assets/img/parque_madureira.png","assets/img/parque_rita_lee.png"];
-  let seventhPhotoIndex = 0; 
+  // let seventhPhoto = ["assets/img/parque_madureira.png","assets/img/parque_rita_lee.png"];
+  // let seventhPhotoIndex = 0; 
 
 
-  let photos = [
-    { id: 1, src: firstPhoto[firstPhotoIndex], visible: false },
-    { id: 2, src: secondPhoto[secondPhotoIndex], visible: false },
-    { id: 3, src: thirdPhoto[thirdPhotoIndex], visible: false },
-    { id: 4, src: fourthPhoto[fourthPhotoIndex], visible: false },
-    { id: 5, src: fifthPhoto[fifthPhotoIndex], visible: false },
-    { id: 6, src: sixthPhoto[sixthPhotoIndex], visible: false },
-    { id: 7, src: seventhPhoto[seventhPhotoIndex], visible: false }
-  ];
+  // let photos = [
+  //   { id: 1, src: firstPhoto[firstPhotoIndex], visible: false },
+  //   { id: 2, src: secondPhoto[secondPhotoIndex], visible: false },
+  //   { id: 3, src: thirdPhoto[thirdPhotoIndex], visible: false },
+  //   { id: 4, src: fourthPhoto[fourthPhotoIndex], visible: false },
+  //   { id: 5, src: fifthPhoto[fifthPhotoIndex], visible: false },
+  //   { id: 6, src: sixthPhoto[sixthPhotoIndex], visible: false },
+  //   { id: 7, src: seventhPhoto[seventhPhotoIndex], visible: false }
+  // ];
   //TERMINAL INTERMODAL GENTILEZA
   //SISTEMA VLT
   //MUSEU DO AMANHÃ
@@ -49,44 +49,44 @@
   //DERRUBADA DA PERIMETRAL
   //PARQUE RITA LEE
 
-  function flashPhotos() {
-    photos.forEach((photo) => {
-      photo.visible = Math.random() < 0.8; // 50% chance of being visible
-    });
-    // Trigger reactivity by creating a new array
-    photos = [...photos];
-  }
+  // function flashPhotos() {
+  //   photos.forEach((photo) => {
+  //     photo.visible = Math.random() < 0.8; // 50% chance of being visible
+  //   });
+  //   // Trigger reactivity by creating a new array
+  //   photos = [...photos];
+  // }
 
-  function alternateFirstPhoto() { // Add this function
-    firstPhotoIndex = (firstPhotoIndex + 1) % firstPhoto.length;
-    photos[0].src = firstPhoto[firstPhotoIndex];
+  // function alternateFirstPhoto() { // Add this function
+  //   firstPhotoIndex = (firstPhotoIndex + 1) % firstPhoto.length;
+  //   photos[0].src = firstPhoto[firstPhotoIndex];
 
-    secondPhotoIndex = (secondPhotoIndex + 1) % secondPhoto.length;
-    photos[1].src = secondPhoto[secondPhotoIndex];
+  //   secondPhotoIndex = (secondPhotoIndex + 1) % secondPhoto.length;
+  //   photos[1].src = secondPhoto[secondPhotoIndex];
 
-    thirdPhotoIndex = (thirdPhotoIndex + 1) % thirdPhoto.length;
-    photos[2].src = thirdPhoto[thirdPhotoIndex];
+  //   thirdPhotoIndex = (thirdPhotoIndex + 1) % thirdPhoto.length;
+  //   photos[2].src = thirdPhoto[thirdPhotoIndex];
 
-    fourthPhotoIndex = (fourthPhotoIndex + 1) % fourthPhoto.length;
-    photos[3].src = fourthPhoto[fourthPhotoIndex];
+  //   fourthPhotoIndex = (fourthPhotoIndex + 1) % fourthPhoto.length;
+  //   photos[3].src = fourthPhoto[fourthPhotoIndex];
 
-    fifthPhotoIndex = (fifthPhotoIndex + 1) % fifthPhoto.length;
-    photos[4].src = fifthPhoto[fifthPhotoIndex];
+  //   fifthPhotoIndex = (fifthPhotoIndex + 1) % fifthPhoto.length;
+  //   photos[4].src = fifthPhoto[fifthPhotoIndex];
 
-    sixthPhotoIndex = (sixthPhotoIndex + 1) % sixthPhoto.length;
-    photos[5].src = sixthPhoto[sixthPhotoIndex];
+  //   sixthPhotoIndex = (sixthPhotoIndex + 1) % sixthPhoto.length;
+  //   photos[5].src = sixthPhoto[sixthPhotoIndex];
 
-    seventhPhotoIndex = (seventhPhotoIndex + 1) % seventhPhoto.length;
-    photos[6].src = seventhPhoto[seventhPhotoIndex];
+  //   seventhPhotoIndex = (seventhPhotoIndex + 1) % seventhPhoto.length;
+  //   photos[6].src = seventhPhoto[seventhPhotoIndex];
 
 
-    photos = [...photos];
-  }
+  //   photos = [...photos];
+  // }
 
-  onMount(() => {
-    setInterval(flashPhotos, 500); // Flash photos every second
-    setInterval(alternateFirstPhoto, 500); // Flash photos every second
-  });
+  // onMount(() => {
+  //   setInterval(flashPhotos, 500); // Flash photos every second
+  //   setInterval(alternateFirstPhoto, 500); // Flash photos every second
+  // });
 </script>
 
 <div class="background-gif" />
