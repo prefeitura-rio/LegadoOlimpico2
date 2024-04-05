@@ -14,7 +14,12 @@
     "<strong>As obras do legado olímpico</strong> não foram apenas sobre estádios reluzentes e infraestrutura padrão FIFA. <strong>Elas representaram uma promessa de renovação e inclusão para todos os cariocas.</strong> Os investimentos em projetos como o BRT, a Transoeste, a Transcarioca e a Transolímpica foram muito mais do que meras melhorias viárias. <strong>Eles se estendem à alma da cidade e à esperança de um futuro mais justo e inclusivo. E isso, em si, é uma conquista verdadeiramente olímpica.</strong>"
    ],
   "introductiontwo": [
-    "Na próxima etapa do compromisso contínuo da prefeitura do Rio de Janeiro em preservar e relembrar o legado olímpico dos Jogos de 2016, uma iniciativa marcante está prestes a tomar forma. <strong>Totens, placas e selos serão instalados em diversos espaços e edifícios da cidade. Essas marcações não são apenas símbolos visuais, mas testemunhos tangíveis do impacto duradouro que os Jogos Olímpicos deixaram em nossa cidade.</strong>",
+    "<b>Texto sobre BRT</b><br>Na próxima etapa do compromisso contínuo da prefeitura do Rio de Janeiro em preservar e relembrar o legado olímpico dos Jogos de 2016, uma iniciativa marcante está prestes a tomar forma. <strong>Totens, placas e selos serão instalados em diversos espaços e edifícios da cidade. Essas marcações não são apenas símbolos visuais, mas testemunhos tangíveis do impacto duradouro que os Jogos Olímpicos deixaram em nossa cidade.</strong>",
+    "Ao identificar e celebrar os locais que foram transformados ou beneficiados pelos Jogos, estamos fortalecendo o senso de comunidade e pertencimento, enquanto promovemos o turismo e a conscientização sobre a importância do evento para o nosso presente e futuro.",
+    "<strong>Cada marcação é um tributo ao espírito olímpico que continua ecoando em nossas ruas e corações,</strong> lembrando-nos de que o legado dos Jogos de 2016 transcende o simples evento esportivo. <strong>Ele representa um compromisso duradouro com o progresso e a inclusão.</strong>"
+   ],
+  "introductionthree": [
+    "<b>Texto de conclusão</b><br> Na próxima etapa do compromisso contínuo da prefeitura do Rio de Janeiro em preservar e relembrar o legado olímpico dos Jogos de 2016, uma iniciativa marcante está prestes a tomar forma. <strong>Totens, placas e selos serão instalados em diversos espaços e edifícios da cidade. Essas marcações não são apenas símbolos visuais, mas testemunhos tangíveis do impacto duradouro que os Jogos Olímpicos deixaram em nossa cidade.</strong>",
     "Ao identificar e celebrar os locais que foram transformados ou beneficiados pelos Jogos, estamos fortalecendo o senso de comunidade e pertencimento, enquanto promovemos o turismo e a conscientização sobre a importância do evento para o nosso presente e futuro.",
     "<strong>Cada marcação é um tributo ao espírito olímpico que continua ecoando em nossas ruas e corações,</strong> lembrando-nos de que o legado dos Jogos de 2016 transcende o simples evento esportivo. <strong>Ele representa um compromisso duradouro com o progresso e a inclusão.</strong>"
    ],
@@ -80,6 +85,50 @@
   "source_tezca_label": "Codex Borgia",
   "source_tezca_url": "http://www.famsi.org/research/loubat/Borgia/page_21.jpg",
   "tezca-steps": [
+    {
+      "id": "sistema_brt",
+      "title": "sistema brt",
+      "text": "sistema_brt",
+      "background_text": "transporte",
+      "description":"O Sistema BRT foi um legado dos Jogos Olímpicos que revolucionou o transporte público no Rio de Janeiro. Com corredores exclusivos e ônibus modernos, proporcionou deslocamentos mais rápidos e eficientes para os cariocas, reduzindo congestionamentos e melhorando a qualidade de vida dos usuários."
+    },
+    {
+      "id": "transoeste",
+      "title": "transoeste",
+      "text": "transoeste",
+      "background_text": "transporte",
+      "description":"A Transoeste é uma via expressa que melhorou a conectividade entre a Zona Oeste e outros bairros do Rio de Janeiro. Com pistas exclusivas para ônibus e BRT, proporcionou viagens mais rápidas e confortáveis para os cariocas, promovendo a integração urbana e facilitando o acesso a serviços e empregos."
+    },
+    {
+      "id": "transcarioca",
+      "title": "transcarioca",
+      "text": "transcarioca",
+      "background_text": "transporte",
+      "description":"A Transcarioca é uma importante via expressa que ligou a Barra da Tijuca à Zona Norte da cidade. Com corredores exclusivos para ônibus e BRT, facilitou os deslocamentos dos moradores, reduzindo tempos de viagem e congestionamentos, além de estimular o desenvolvimento econômico e social ao longo do seu trajeto."
+    },
+    {
+      "id": "transolimpica",
+      "title": "transolímpica",
+      "text": "transolimpica",
+      "background_text": "transporte",
+      "description":"A Transolímpica é uma via expressa que conecta a Barra da Tijuca à Zona Oeste do Rio de Janeiro. Além de facilitar o acesso aos locais de competição durante os Jogos Olímpicos, a Transolímpica deixou um legado importante para a cidade, melhorando a mobilidade urbana e estimulando o desenvolvimento econômico da região."
+    },
+    {
+      "id": "parque_rita_lee",
+      "title": "Parque Rita Lee",
+      "text": "parque_rita_lee",
+      "background_text": "lazer",
+      "description":"O Parque Olímpico é um legado dos Jogos Olímpicos que se tornou um importante centro esportivo e de lazer para os moradores do Rio de Janeiro. Com instalações modernas e variadas, o parque oferece oportunidades de prática esportiva, eventos culturais e entretenimento para os cariocas, contribuindo para a promoção da saúde, do bem-estar e da qualidade de vida na cidade."
+    },
+    {
+      "id": "GET_emiliano_galdino",
+      "title": "GET Emiliano Galdino",
+      "text": "GET_emiliano_galdino",
+      "background_text": "educacao",
+      "description":"Os GETs são equipamentos de tecnologia assistiva que promovem a inclusão e a acessibilidade para pessoas com deficiência. Além de proporcionar maior autonomia e independência, esses equipamentos contribuem para a igualdade de oportunidades e o respeito à diversidade na cidade."
+    }
+  ],
+  "tezca2-steps": [
     {
       "id": "sistema_brt",
       "title": "sistema brt",

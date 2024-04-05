@@ -41,7 +41,7 @@
 <Section id="gods-iconography-{title}" fullBleed>
   <div id="scrolly">
     <figure>
-      <h3>{@html title == "reformasurbanas" ? "" : title}</h3>
+      <h3>{@html (title == "reformasurbanas" || title == "brt")  ? "" : title}</h3>
       <!-- <div class="illustration-source">
         {#if sourceUrl}
           (<a href={sourceUrl}>{@html source}</a>)
