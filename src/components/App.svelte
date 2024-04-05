@@ -3,6 +3,7 @@
   import Sources from "$components/colophon/Sources.svelte";
   import ScrollyTezca from "$components/iconography/ScrollyTezca.svelte";
   import ScrollyTlalte from "$components/iconography/ScrollyTlalte.svelte";
+  import ScrollyTezca2 from "$components/iconography/ScrollyTezca2.svelte";
   import Hero from "$components/introduction/Hero.svelte";
   import Intro from "$components/introduction/Intro.svelte";
   import Heading from "$components/layout/Heading.svelte";
@@ -41,22 +42,13 @@
   </div>
   
 
-<Section id="intro">
+<Section >
   <div class="intro">
     {#each doc.introduction as p, i}
       <IntroParagraph hasCap={i === 0}>{@html p}</IntroParagraph>
     {/each}
   </div>
 </Section>
-
-<!-- <Section id="iconography">
-  <Heading>{@html doc.iconography_title}</Heading>
-
-  <Paragraph hasCap={true}>{@html doc.iconography_intro}</Paragraph>
-  <Paragraph>{@html doc.iconography_imaginarygods}</Paragraph>
-</Section>
-
-<VisualLibrary /> -->
 
 <!-- PANTHEON -->
 <Heading>{@html doc.pantheon_title}</Heading>
@@ -73,7 +65,7 @@
 
 <Heading>{@html doc.pantheon_title}</Heading>
 
-<Section id="intro">
+<Section >
   <div class="intro">
     {#each doc.introductionone as p, i}
       <IntroParagraph hasCap={i === 0}>{@html p}</IntroParagraph>
@@ -88,10 +80,27 @@
 
 <Heading>{@html doc.pantheon_title}</Heading>
 
-<Section id="intro">
-  
+<Section >
   <div class="intro">
     {#each doc.introductiontwo as p, i}
+      <IntroParagraph hasCap={i === 0}>{@html p}</IntroParagraph>
+    {/each}
+  </div>
+</Section>
+
+<Heading>{@html doc.pantheon_title}</Heading>
+
+<br><br><br><br>
+
+
+<ScrollyTezca2 />
+<br><br><br><br>
+
+<Heading>{@html doc.pantheon_title}</Heading>
+
+<Section >
+  <div class="intro">
+    {#each doc.introductionthree as p, i}
       <IntroParagraph hasCap={i === 0}>{@html p}</IntroParagraph>
     {/each}
   </div>

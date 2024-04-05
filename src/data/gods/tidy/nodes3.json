@@ -15,7 +15,7 @@
     "reformas urbanas": 0,
     "lazer": 0,
     "totens": 0,
-    "selos": 0,
+    "selos": 1,
     "placas": 0
   },
   {
@@ -34,7 +34,7 @@
     "reformas urbanas": 0,
     "lazer": 0,
     "totens": 0,
-    "selos": 0,
+    "selos": 1,
     "placas": 0
   },
   {
@@ -128,7 +128,7 @@
     "transporte": 1,
     "reformas urbanas": 0,
     "lazer": 0,
-    "totens": 0,
+    "totens": 1,
     "selos": 0,
     "placas": 0
   },
@@ -147,7 +147,7 @@
     "transporte": 1,
     "reformas urbanas": 0,
     "lazer": 0,
-    "totens": 0,
+    "totens": 1,
     "selos": 0,
     "placas": 0
   },
@@ -280,7 +280,7 @@
     "transporte": 0,
     "reformas urbanas": 1,
     "lazer": 0,
-    "totens": 0,
+    "totens": 1,
     "selos": 0,
     "placas": 0
   },
@@ -320,7 +320,7 @@
     "lazer": 0,
     "totens": 0,
     "selos": 0,
-    "placas": 0
+    "placas": 1
   },
   {
     "x": -2.585714284803141,
@@ -337,7 +337,7 @@
     "transporte": 0,
     "reformas urbanas": 1,
     "lazer": 0,
-    "totens": 0,
+    "totens": 1,
     "selos": 0,
     "placas": 0
   },
@@ -358,7 +358,7 @@
     "lazer": 0,
     "totens": 0,
     "selos": 0,
-    "placas": 0
+    "placas": 1
   },
   {
     "x": -0.5857142857678989,
@@ -377,7 +377,7 @@
     "lazer": 0,
     "totens": 0,
     "selos": 0,
-    "placas": 0
+    "placas": 1
   },
   {
     "x": 0.41428571419762794,
@@ -396,7 +396,7 @@
     "lazer": 0,
     "totens": 0,
     "selos": 0,
-    "placas": 0
+    "placas": 1
   },
   {
     "x": 2.41428571413748,
@@ -414,8 +414,8 @@
     "reformas urbanas": 1,
     "lazer": 0,
     "totens": 0,
-    "selos": 0,
-    "placas": 0
+    "selos": 1,
+    "placas": 1
   },
   {
     "x": 0.414285713914031,
@@ -434,7 +434,7 @@
     "lazer": 0,
     "totens": 0,
     "selos": 0,
-    "placas": 0
+    "placas": 1
   },
   {
     "x": -2.5857142857513975,
@@ -453,7 +453,7 @@
     "lazer": 0,
     "totens": 0,
     "selos": 0,
-    "placas": 0
+    "placas": 1
   },
   {
     "x": -1.5857142861345899,
@@ -510,7 +510,7 @@
     "lazer": 1,
     "totens": 0,
     "selos": 0,
-    "placas": 0
+    "placas": 1
   },
   {
     "x": -3.585714285650896,
@@ -527,7 +527,7 @@
     "transporte": 0,
     "reformas urbanas": 0,
     "lazer": 1,
-    "totens": 0,
+    "totens": 1,
     "selos": 0,
     "placas": 0
   },
@@ -546,7 +546,7 @@
     "transporte": 0,
     "reformas urbanas": 0,
     "lazer": 1,
-    "totens": 0,
+    "totens": 1,
     "selos": 0,
     "placas": 0
   },
@@ -565,7 +565,7 @@
     "transporte": 0,
     "reformas urbanas": 0,
     "lazer": 1,
-    "totens": 0,
+    "totens": 1,
     "selos": 0,
     "placas": 0
   },
@@ -604,7 +604,7 @@
     "reformas urbanas": 0,
     "lazer": 1,
     "totens": 0,
-    "selos": 0,
+    "selos": 1,
     "placas": 0
   },
   {
@@ -622,7 +622,7 @@
     "transporte": 0,
     "reformas urbanas": 0,
     "lazer": 1,
-    "totens": 0,
+    "totens": 1,
     "selos": 0,
     "placas": 0
   },
@@ -660,7 +660,7 @@
     "transporte": 0,
     "reformas urbanas": 0,
     "lazer": 1,
-    "totens": 0,
+    "totens": 1,
     "selos": 0,
     "placas": 0
   }
