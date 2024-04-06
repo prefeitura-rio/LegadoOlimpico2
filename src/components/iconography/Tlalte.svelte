@@ -7,6 +7,7 @@
   const steps = doc["tlalte-steps"];
 
   let imgPath;
+  let iconPath = "compass.png"
   if (typeof window !== "undefined") {
     imgPath = window.matchMedia("(max-width: 600px)").matches ? "mobile_01.png" : "geral_01.png";
   }
@@ -19,6 +20,7 @@
   sourceUrl={doc.source_tlalte_url}
   name="tlalte"
   {imgPath}
+  {iconPath}
   selected={0}
   {steps}
   positions={tlaltePositions}

@@ -109,7 +109,14 @@
 
 <Heading>{@html doc.pantheon_title}</Heading>
 
-<br><br><br><br>
+
+<Section >
+  <div class="intro">
+    {#each doc.introductionfour as p, i}
+      <IntroParagraph hasCap={i === 0}>{@html p}</IntroParagraph>
+    {/each}
+  </div>
+</Section>
 
 <Pantheon />
 
