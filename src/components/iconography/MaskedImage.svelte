@@ -2,6 +2,7 @@
   export let name = "mask-name";
   export let imgPath = "";
   export let selected = "";
+  export let iconPath = "icon.png"; // Add this line to export the path of the icon
 
   export let positions = [];
   export let imageRange = [0, 1];
@@ -32,7 +33,14 @@
       
     />
   </g>
-
+  <image
+  style="z-index: 1000;"
+   href={`${dev ? "/" : "/LegadoOlimpico2/"}assets/img/compass.png`} 
+   x="200"
+   y="200"
+   height="10%" 
+   width="10%" 
+ />
   <mask transition:fade id={`mask-${name}`}>
     <rect
       x="0"
