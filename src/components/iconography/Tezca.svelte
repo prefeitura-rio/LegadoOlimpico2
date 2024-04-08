@@ -7,6 +7,7 @@
   const steps = doc["tezca-steps"];
   
   let imgPath;
+  let iconPath = "icon2";
   if (typeof window !== "undefined") {
     imgPath = window.matchMedia("(max-width: 600px)").matches ? "mobile_02.png" : "geral_02.png";
   }
@@ -18,6 +19,7 @@
   sourceUrl={doc.source_tezca_url}
   name="tezca"
   {imgPath}
+  {iconPath}
   selected={0}
   {steps}
   positions={tezcaPositions}

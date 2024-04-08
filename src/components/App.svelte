@@ -13,135 +13,152 @@
   import Pantheon from "$components/pantheon/Pantheon.svelte";
   import VisualLibrary from "$components/visual-library/VisualLibrary.svelte";
   import doc from "$data/doc.json";
-    import Footer from "./Footer.svelte";
-    import Header from "./Header.svelte";
+  import Footer from "./Footer.svelte";
+  import Header from "./Header.svelte";
 </script>
-
-
-
 
 <!-- <Hero /> -->
 
 <div class="container">
-  <div class="logo">
-    <img class="photo_logo" src="assets/logo_preto_horizontal.png" alt="Foto" />
-  </div>
-  <h1 class="title">O que seria do Rio <br>sem as Olimpíadas?</h1>
-  <div class="credits">
-    <div class="credits-line">
-      <div>Produzido pelo</div>
-      <div><a href="https://www.dados.rio/">Escritório de Dados</a></div>
+  <div class="background-image">
+    <div class="logo">
+      <img class="photo_logo" src="assets/logo_preto_horizontal.png" alt="Foto" />
     </div>
-    <div class="credits-line">
-      <div>da</div>
-      <div><a href="https://prefeitura.rio/">Prefeitura da Cidade do Rio de Janeiro</a></div>
+    <div class="title-container">
+      <h1 class="title">O que seria do Rio <br />sem as Olimpíadas?</h1>
+      
+      <div class="credits">
+        <div class="credits-line">
+          <div>Produzido pelo</div>
+          <div><a href="https://www.dados.rio/">Escritório de Dados</a></div>
+        </div>
+        <div class="credits-line">
+          <div>da</div>
+          <div><a href="https://prefeitura.rio/">Prefeitura da Cidade do Rio de Janeiro</a></div>
+        </div>
+      </div>
     </div>
+   
   </div>
-
   <div class="introduction">
-    <a href="https://prefeitura-rio.github.io/LegadoOlimpico2_3D/" target="_blank" class="button">Explore o mapa interativo</a>
+    <a href="https://prefeitura-rio.github.io/LegadoOlimpico2_3D/" target="_blank" class="button"
+      >Explore o mapa interativo</a
+    >
   </div>
-  
 
-<Section >
-  <div class="intro">
-    {#each doc.introduction as p, i}
-      <IntroParagraph hasCap={i === 0}>{@html p}</IntroParagraph>
-    {/each}
-  </div>
-</Section>
+  <Section>
+    <div class="intro">
+      {#each doc.introduction as p, i}
+        <IntroParagraph hasCap={i === 0}>{@html p}</IntroParagraph>
+      {/each}
+    </div>
+  </Section>
 
-<!-- PANTHEON -->
-<Heading>{@html doc.pantheon_title}</Heading>
+  <!-- PANTHEON -->
+  <Heading>{@html doc.pantheon_title}</Heading>
 
-<Section id="pantheon">
-  <Paragraph hasCap={true}>{@html doc.pantheon_intro}</Paragraph>
+  <Section id="pantheon">
+    <Paragraph hasCap={true}>{@html doc.pantheon_intro}</Paragraph>
 
-  <Paragraph>{@html doc.pantheon_duality}</Paragraph>
-</Section>
+    <Paragraph>{@html doc.pantheon_duality}</Paragraph>
+  </Section>
 
-<ScrollyTlalte />
+  <ScrollyTlalte />
 
-<br><br><br><br>
+  <br /><br /><br /><br />
 
-<Heading>{@html doc.pantheon_title}</Heading>
+  <Heading>{@html doc.pantheon_title}</Heading>
 
-<Section >
-  <div class="intro">
-    {#each doc.introductionone as p, i}
-      <IntroParagraph hasCap={i === 0}>{@html p}</IntroParagraph>
-    {/each}
-  </div>
-</Section>
+  <Section>
+    <div class="intro">
+      {#each doc.introductionone as p, i}
+        <IntroParagraph hasCap={i === 0}>{@html p}</IntroParagraph>
+      {/each}
+    </div>
+  </Section>
 
-<Heading>{@html doc.pantheon_title}</Heading>
+  <Heading>{@html doc.pantheon_title}</Heading>
 
-<ScrollyTezca />
-<br><br><br><br>
+  <ScrollyTezca />
+  <br /><br /><br /><br />
 
-<Heading>{@html doc.pantheon_title}</Heading>
+  <Heading>{@html doc.pantheon_title}</Heading>
 
-<Section >
-  <div class="intro">
-    {#each doc.introductiontwo as p, i}
-      <IntroParagraph hasCap={i === 0}>{@html p}</IntroParagraph>
-    {/each}
-  </div>
-</Section>
+  <Section>
+    <div class="intro">
+      {#each doc.introductiontwo as p, i}
+        <IntroParagraph hasCap={i === 0}>{@html p}</IntroParagraph>
+      {/each}
+    </div>
+  </Section>
 
-<Heading>{@html doc.pantheon_title}</Heading>
+  <Heading>{@html doc.pantheon_title}</Heading>
 
-<br><br><br><br>
+  <br /><br /><br /><br />
 
+  <ScrollyTezca2 />
+  <br /><br /><br /><br />
 
-<ScrollyTezca2 />
-<br><br><br><br>
+  <Heading>{@html doc.pantheon_title}</Heading>
 
-<Heading>{@html doc.pantheon_title}</Heading>
+  <Section>
+    <div class="intro">
+      {#each doc.introductionthree as p, i}
+        <IntroParagraph hasCap={i === 0}>{@html p}</IntroParagraph>
+      {/each}
+    </div>
+  </Section>
 
-<Section >
-  <div class="intro">
-    {#each doc.introductionthree as p, i}
-      <IntroParagraph hasCap={i === 0}>{@html p}</IntroParagraph>
-    {/each}
-  </div>
-</Section>
+  <Heading>{@html doc.pantheon_title}</Heading>
 
-<Heading>{@html doc.pantheon_title}</Heading>
+  <Section>
+    <div class="intro">
+      {#each doc.introductionfour as p, i}
+        <IntroParagraph hasCap={i === 0}>{@html p}</IntroParagraph>
+      {/each}
+    </div>
+  </Section>
 
+  <Pantheon />
 
-<Section >
-  <div class="intro">
-    {#each doc.introductionfour as p, i}
-      <IntroParagraph hasCap={i === 0}>{@html p}</IntroParagraph>
-    {/each}
-  </div>
-</Section>
-
-<Pantheon />
-
-<Footer/>
+  <Footer />
 </div>
+
 <!-- <Sources /> -->
-
 <style>
-
-  .logo{
+  .background-image {
+    background-image: url("./assets/img/geral_01.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .logo {
     display: flex;
     justify-content: center;
     max-width: 200px;
-    margin:0 auto;
+    margin: 0 auto;
     padding-top: 1.5rem;
   }
+  .title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+}
 
-  .introduction{
- 
+  .introduction {
+    padding-top: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    /* padding-bottom: 2rem; */
   }
 
   .button {
@@ -167,8 +184,10 @@
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+
+    
+    /* padding-top: 4rem; */
+    /* padding-bottom: 4rem; */
   }
   .credits-line {
     display: flex;
@@ -188,10 +207,10 @@
     text-align: left;
   }
 
-  .container{
+  .container {
     background-color: white;
   }
-   .center {
+  .center {
     /* z-index: -2; */
     /* position: sticky; */
     /* top:0; */
@@ -210,23 +229,23 @@
   }
 
   .title {
- font-family: var(--serif);
- text-align: center;
- font-size: 2.9rem !important;
- line-height: 1;
- color: black;
- /* Ajuste adicional para garantir que o título esteja centralizado corretamente */
-}
+    font-family: var(--serif);
+    text-align: center;
+    font-size: 2.9rem !important;
+    line-height: 1;
+    color: black;
+    /* Ajuste adicional para garantir que o título esteja centralizado corretamente */
+  }
 
   @media only screen and (max-width: 650px) {
-    .introduction{
+    .introduction {
       padding-bottom: 4rem;
     }
     .title {
-    font-size: 2.5rem !important;
-    margin-top: 10rem;
-    /* min-width: 25rem !important; */
-  }
+      font-size: 2.5rem !important;
+      margin-top: 0rem;
+      /* min-width: 25rem !important; */
+    }
   }
   @media only screen and (min-width: 30em) {
     .intro {
@@ -241,10 +260,13 @@
   }
 
   @media only screen and (min-width: 50em) {
-  .title {
-    font-size: 5rem;
-    margin: 5rem auto;
+    .title {
+      font-size: 5rem;
+      margin: 10rem auto;
+    }
+    .credits{
+      white-space: nowrap;
+    }
+    
   }
-}
-
 </style>

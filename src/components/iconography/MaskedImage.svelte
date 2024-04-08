@@ -2,7 +2,7 @@
   export let name = "mask-name";
   export let imgPath = "";
   export let selected = "";
-  export let iconPath = "icon.png"; // Add this line to export the path of the icon
+  export let iconPath = ""; 
 
   export let positions = [];
   export let imageRange = [0, 1];
@@ -16,8 +16,6 @@
 </script>
 
 <svg
-   width= "100vw"
-    height="100vh"
   viewBox="0 0 {imageRange[1]} {imageRange[1]}"
   xmlns="http://www.w3.org/2000/svg"
   xml:space="preserve"
@@ -35,7 +33,7 @@
   </g>
   <image
   style="z-index: 1000;"
-   href={`${dev ? "/" : "/LegadoOlimpico2/"}assets/img/compass.png`} 
+   href={`${dev ? "/" : "/LegadoOlimpico2/"}assets/img/${imgPath=="geral_01.png"?"north_01.png":(imgPath=="geral_02.png"?"north_02.png":"north_03.png")}`} 
    x="200"
    y="200"
    height="10%" 
@@ -84,7 +82,6 @@
   .svg {
     width:110vw;
     height:100vh;
-    margin-left: -90px !important;
     fill-rule: evenodd;
     clip-rule: evenodd;
     stroke-linecap: round;
