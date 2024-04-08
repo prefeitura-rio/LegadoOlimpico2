@@ -3,7 +3,14 @@
 // as percentage of height for cy and ry
 
 export const tezcaPositions = {
-
+  mapa_02: [
+    {
+      cx: 0.5,
+      cy: 0.5,
+      rx: 0.5,
+      ry: 0.5
+    }
+  ],
   parque_rita_lee: [
     {
       cx: 0.5,
@@ -40,52 +47,60 @@ export const tezcaPositions = {
   ]
 };
 export const tezca2Positions = {
+  mapa_03: [
+    {
+      cx: 0.5,
+      cy: 0.5,
+      rx: 0.5,
+      ry: 0.5
+    }
+  ],
   terminal_gentileza: [
     {
-      cx: 0.71,
-      cy: 0.55,
-      rx: 0.10,
-      ry: 0.10
+      cx: 0.625,
+      cy: 0.139,
+      rx: 0.07,
+      ry: 0.07
     }
   ],
   sistema_brt: [
-    {
+     {
       cx: 0.5,
-      cy: 0.35,
+      cy: 0.5,
       rx: 0.5,
-      ry: 0.3
+      ry: 0.5
     }
   ],
   sistema_vlt: [
     {
-      cx: 0.78,
-      cy: 0.7,
+      cx: 0.71,
+      cy: 0.11,
       rx: 0.11,
-      ry: 0.2
+      ry: 0.06
     }
   ],
   transoeste: [
     {
-      cx: 0.1,
-      cy: 0.35,
-      rx: 0.25,
-      ry: 0.35
+      cx: 0.5,
+      cy: 0.6,
+      rx: 0.5,
+      ry: 0.4
     }
   ],
   transcarioca: [
     {
-      cx: 0.51,
-      cy: 0.42,
-      rx: 0.48,
-      ry: 0.15
+      cx: 0.55,
+      cy: 0.3,
+      rx: 0.3,
+      ry: 0.3
     }
   ],
   transolimpica: [
     {
-      cx: 0.31,
-      cy: 0.28,
+      cx: 0.45,
+      cy: 0.5,
       rx: 0.3,
-      ry: 0.10
+      ry: 0.3
     }
   ]
 };
@@ -96,8 +111,8 @@ export const tlaltePositions = {
     {
       cx: 0.5,
       cy: 0.5,
-      rx: 100,
-      ry: 100
+      rx: 0.5,
+      ry: 0.5
     }
   ],
   museu_do_amanhã: [

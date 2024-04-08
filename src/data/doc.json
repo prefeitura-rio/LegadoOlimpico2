@@ -14,12 +14,12 @@
     "Além de planejar e construir equipamentos que garantissem a melhoria da qualidade de vida dos cariocas, o Plano do Legado adotou a <a href='https://prefeitura-rio.github.io/LegadoOlimpico/' target='_black'>arquitetura nômade</a> em grande parte de seu projeto olímpico.",
     "Este conceito de construção prevê o reaproveitamento das instalações esportivas para transformá-las em outros equipamentos públicos. A <b>Arena do Futuro</b>, por exemplo, faz parte deste tipo de arquitetura. Após o término das competições, sua estrutura foi utilizada para a construção de quatro escolas, que vão atender um total de cerca de 1.700 alunos.",
     "Três já foram inaugurados e mais uma unidade será inaugurada até o fim de abril em Rio das Pedras. Além disso, as estruturas das arquibancadas e da cobertura da Arena do Futuro foram doadas para o Estádio Luso-Brasileiro, de propriedade da Portuguesa, na Ilha do Governador. A doação vai permitir aumentar a capacidade de público do local de 5.044 para 16 mil espectadores.",
-    "Outro exemplo é o <b>Centro Internacional de Transmissão</b> (International Broadcasting Center - IBC), local utilizado pela imprensa para transmissão dos Jogos. Sua estrutura de aço foi utilizada para a construção do Terminal Gentileza."
+    "Outro exemplo é o <b>Centro Internacional de Transmissão</b> (International Broadcasting Center - IBC), local utilizado pela imprensa para transmissão dos Jogos. Sua estrutura de aço foi utilizada para a construção do <b>Terminal Gentileza</b>."
    ],
   "introductiontwo": [
-    "<b>Texto sobre BRT</b><br>Na próxima etapa do compromisso contínuo da prefeitura do Rio de Janeiro em preservar e relembrar o legado olímpico dos Jogos de 2016, uma iniciativa marcante está prestes a tomar forma. <strong>Totens, placas e selos serão instalados em diversos espaços e edifícios da cidade. Essas marcações não são apenas símbolos visuais, mas testemunhos tangíveis do impacto duradouro que os Jogos Olímpicos deixaram em nossa cidade.</strong>",
-    "Ao identificar e celebrar os locais que foram transformados ou beneficiados pelos Jogos, estamos fortalecendo o senso de comunidade e pertencimento, enquanto promovemos o turismo e a conscientização sobre a importância do evento para o nosso presente e futuro.",
-    "<strong>Cada marcação é um tributo ao espírito olímpico que continua ecoando em nossas ruas e corações,</strong> lembrando-nos de que o legado dos Jogos de 2016 transcende o simples evento esportivo. <strong>Ele representa um compromisso duradouro com o progresso e a inclusão.</strong>"
+    "Muitos dos projetos realizados não tinham relação direta com os Jogos Olímpicos.  Eram obras de infraestrutura, fruto de políticas públicas, principalmente de mobilidade e urbanização, que foram viabilizadas ou que já estavam sendo feitas, tendo sido aceleradas em razão de o Rio ter se tornado cidade-sede dos Jogos.",
+    "Uma das transformações mais profundas decorrentes dessas obras de infraestrutura é a da mobilidade. Os esforços que a Prefeitura do Rio executou tiveram como objetivo criar um novo modelo de malha viária no qual a cidade seja completamente interligada, facilitando e agilizando os deslocamentos e quebrando antigas fronteiras geográficas e sociais.",
+    "Os investimentos em projetos como o Terminal Gentileza, VLT, BRT, Transoeste, Transcarioca e a Transolímpica melhoraram o transporte da cidade, abrindo novas oportunidades de lazer, cultura e educação para milhares de cariocas."
    ],
   "introductionthree": [
     "<b>Texto de conclusão</b><br> Na próxima etapa do compromisso contínuo da prefeitura do Rio de Janeiro em preservar e relembrar o legado olímpico dos Jogos de 2016, uma iniciativa marcante está prestes a tomar forma. <strong>Totens, placas e selos serão instalados em diversos espaços e edifícios da cidade. Essas marcações não são apenas símbolos visuais, mas testemunhos tangíveis do impacto duradouro que os Jogos Olímpicos deixaram em nossa cidade.</strong>",
@@ -42,13 +42,12 @@
   "source_tlalte_label": "Colorized detail from a stone sculpture exhibited at the Templo Mayor museum",
   "source_tlalte_url": "",
   "tlalte-steps": [
-    
     {
       "id": "mapa_01",
-      "title": "Aqui vai um texto 1",
+      "title": "Texto mapa",
       "text": "",
       "background_text": "",
-      "description":"1 Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      "description":"Este é o mapa do Legado Olímpico na cidade do Rio de Janeiro. Começaremos nosso passeio pela região central da cidade, onde o foco foi à conservação aliado a uma renovação do Centro do Rio."
     },
     {
       "id": "centro_de_operacoes_rio",
@@ -84,6 +83,13 @@
   "source_tezca_url": "http://www.famsi.org/research/loubat/Borgia/page_21.jpg",
   "tezca-steps": [
     {
+      "id": "mapa_02",
+      "title": "Texto antes das obras",
+      "text": "",
+      "background_text": "",
+      "description":"Agora vamos para a Zona Oeste da cidade, onde diversas obras do Legado Olímpico vem mudando a vida dos moradores da região."
+    },
+    {
       "id": "parque_rita_lee",
       "title": "Parque Rita Lee",
       "text": "parque_rita_lee",
@@ -92,13 +98,20 @@
     },
     {
       "id": "GET_emiliano_galdino",
-      "title": "GET Emiliano Galdino",
+      "title": "GETs",
       "text": "GET_emiliano_galdino",
-      "background_text": "educacao",
+      "background_text": "educação",
       "description":"O GET é o modelo de escola mais inovador do país, baseada no método STEAM (sigla em inglês pra Ciências, Tecnologia, Engenharia, Artes e Matemática), que integra diferentes áreas do conhecimento, estimulando a criatividade, o pensamento crítico e a sensibilidade humana. Tudo isso em tempo integral. Um dos itens do Plano de Legado feito para os Jogos Rio 2016 previu que a Arena do Futuro, ao término das competições, fosse desmontada e transformada em quatro escolas, que vão atender um total de cerca de 1.700 alunos.<br><br>Os GETs Emiliano Galdino e José Mauro de Vasconcelos, construídos pela Rio-Urbe em parceria com a Secretaria Municipal de Educação, foram inaugurados em 6 de fevereiro, em Santa Cruz e Bangu, respectivamente. O GET Nelcy Noronha foi inaugurado dia 26 de março e o GET Mestre Diego Braga, no Rio das Pedras, tem previsão de inauguração em abril."
     }
   ],
   "tezca2-steps": [
+    {
+      "id": "mapa_03",
+      "title": "Aqui vai um texto 3",
+      "text": "",
+      "background_text": "",
+      "description":"3 Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    },
     {
       "id": "terminal_gentileza",
       "title": "Terminal Intermodal Gentileza",
@@ -121,18 +134,18 @@
       "description":"Projeto importante na mobilidade da cidade, o Sistema BRT foi construído para os Jogos Rio 2016. Com corredores exclusivos e ônibus modernos, proporcionou deslocamentos mais rápidos e eficientes para os cariocas, reduzindo congestionamentos e melhorando a qualidade de vida dos usuários. Atualmente, são três corredores exclusivos para ônibus funcionando com capacidade total e frota totalmente renovada: Transoeste, Transolímpica, Transcarioca e Transbrasil."
     },
     {
-      "id": "transoeste",
-      "title": "transoeste",
-      "text": "transoeste",
-      "background_text": "transporte",
-      "description":"O Transoeste é uma via expressa que melhorou a conectividade entre a Zona Oeste e outros bairros do Rio de Janeiro. Com pistas exclusivas para ônibus e BRT, proporcionou viagens mais rápidas e confortáveis para os cariocas, promovendo a integração urbana e facilitando o acesso a serviços e empregos."
-    },
-    {
       "id": "transcarioca",
       "title": "transcarioca",
       "text": "transcarioca",
       "background_text": "transporte",
       "description":"A Transcarioca é uma importante via expressa que ligou a Barra da Tijuca à Zona Norte da cidade. Com corredores exclusivos para ônibus e BRT, facilitou os deslocamentos dos moradores, reduzindo tempos de viagem e congestionamentos, além de estimular o desenvolvimento econômico e social ao longo do seu trajeto."
+    },
+    {
+      "id": "transoeste",
+      "title": "transoeste",
+      "text": "transoeste",
+      "background_text": "transporte",
+      "description":"O Transoeste é uma via expressa que melhorou a conectividade entre a Zona Oeste e outros bairros do Rio de Janeiro. Com pistas exclusivas para ônibus e BRT, proporcionou viagens mais rápidas e confortáveis para os cariocas, promovendo a integração urbana e facilitando o acesso a serviços e empregos."
     },
     {
       "id": "transolimpica",

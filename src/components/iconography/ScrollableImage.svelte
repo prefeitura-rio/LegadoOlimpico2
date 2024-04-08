@@ -41,7 +41,7 @@
 <Section id="gods-iconography-{title}" fullBleed>
   <div id="scrolly">
     <figure>
-      <h3>{@html (title == "reformasurbanas" || title == "brt")  ? "" : title}</h3>
+      <h3>{@html title == "reformasurbanas" || title == "brt" ? "" : title}</h3>
       <!-- <div class="illustration-source">
         {#if sourceUrl}
           (<a href={sourceUrl}>{@html source}</a>)
@@ -55,149 +55,156 @@
     <div class="scroll-area">
       {#each steps as step, i}
         <div class="step step-{title}">
-          {#if step.text == "avenida_rio_branco" }
-          <div class="image-container">
-          <img class="photo_logo" src="assets/img/avenida_rio_branco.png" alt="Foto" />
-        </div>
-          {:else if step.text == "boulevard_olimpico" }
-          <div class="image-container">
-          <img class="photo_logo" src="assets/img/boulevard_olimpico.png" alt="Foto" />
-        </div>
-          {:else if step.text == "terminal_intermodal_gentileza" }
-          <div class="image-container">
-          <img class="photo_logo" src="assets/img/terminal_intermodal_gentileza.png" alt="Foto" />
-        </div>
-          {:else if step.text == "campo_de_golfe" }
-          <div class="image-container">
-          <img class="photo_logo" src="assets/img/campo_de_golfe.png" alt="Foto" />
-        </div>
-          {:else if step.text == "cor" }
-          <div class="image-container">
-          <img class="photo_logo" src="assets/img/cor.png" alt="Foto" />
-        </div>
-          {:else if step.text == "derrubada_da_perimetral" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/derrubada_da_perimetral.png" alt="Foto" />
+          {#if step.text == "avenida_rio_branco"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/avenida_rio_branco.png" alt="Foto" />
             </div>
-          {:else if step.text == "duplicacao_do_joa" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/duplicacao_do_joa.png" alt="Foto" />
+          {:else if step.text == "boulevard_olimpico"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/boulevard_olimpico.png" alt="Foto" />
             </div>
-          {:else if step.text == "edificio_a_noite" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/edificio_a_noite.png" alt="Foto" />
+          {:else if step.text == "terminal_intermodal_gentileza"}
+            <div class="image-container">
+              <img
+                class="photo_logo"
+                src="assets/img/terminal_intermodal_gentileza.png"
+                alt="Foto"
+              />
             </div>
-          {:else if step.text == "entorno_do_engenhao" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/entorno_do_engenhao.png" alt="Foto" />
+          {:else if step.text == "campo_de_golfe"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/campo_de_golfe.png" alt="Foto" />
             </div>
-          {:else if step.text == "GEO_isabel_salgado" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/GEO_isabel_salgado.png" alt="Foto" />
+          {:else if step.text == "cor"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/cor.png" alt="Foto" />
             </div>
-          {:else if step.text == "GET_emiliano_galdino" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/GET_emiliano_galdino.png" alt="Foto" />
+          {:else if step.text == "derrubada_da_perimetral"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/derrubada_da_perimetral.png" alt="Foto" />
             </div>
-          {:else if step.text == "GET_jose_mauro_de_vasconcellos" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/GET_jose_mauro_de_vasconcellos.png" alt="Foto" />
+          {:else if step.text == "duplicacao_do_joa"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/duplicacao_do_joa.png" alt="Foto" />
             </div>
-          {:else if step.text == "largo_da_prainha" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/largo_da_prainha.png" alt="Foto" />
+          {:else if step.text == "edificio_a_noite"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/edificio_a_noite.png" alt="Foto" />
             </div>
-          {:else if step.text == "marina_da_gloria" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/marina_da_gloria.png" alt="Foto" />
+          {:else if step.text == "entorno_do_engenhao"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/entorno_do_engenhao.png" alt="Foto" />
             </div>
-          {:else if step.text == "museu_de_arte_do_rio" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/museu_de_arte_do_rio.png" alt="Foto" />
+          {:else if step.text == "GEO_isabel_salgado"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/GEO_isabel_salgado.png" alt="Foto" />
             </div>
-          {:else if step.text == "museu_do_amanhã" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/museu_do_amanhã.png" alt="Foto" />
+          {:else if step.text == "GET_emiliano_galdino"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/GET_emiliano_galdino.png" alt="Foto" />
             </div>
-          {:else if step.text == "novas_vias" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/novas_vias.png" alt="Foto" />
+          {:else if step.text == "GET_jose_mauro_de_vasconcellos"}
+            <div class="image-container">
+              <img
+                class="photo_logo"
+                src="assets/img/GET_jose_mauro_de_vasconcellos.png"
+                alt="Foto"
+              />
             </div>
-         
-          {:else if step.text == "parque_deodoro" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/parque_deodoro.png" alt="Foto" />
+          {:else if step.text == "largo_da_prainha"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/largo_da_prainha.png" alt="Foto" />
             </div>
-          {:else if step.text == "parque_madureira" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/parque_madureira.png" alt="Foto" />
+          {:else if step.text == "marina_da_gloria"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/marina_da_gloria.png" alt="Foto" />
             </div>
-          {:else if step.text == "parque_rita_lee" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/parque_rita_lee.png" alt="Foto" />
+          {:else if step.text == "museu_de_arte_do_rio"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/museu_de_arte_do_rio.png" alt="Foto" />
             </div>
-          {:else if step.text == "pequena_africa" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/pequena_africa.png" alt="Foto" />
+          {:else if step.text == "museu_do_amanhã"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/museu_do_amanhã.png" alt="Foto" />
             </div>
-          {:else if step.text == "piscinoes" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/piscinoes.png" alt="Foto" />
+          {:else if step.text == "novas_vias"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/novas_vias.png" alt="Foto" />
             </div>
-          {:else if step.text == "praca_maua" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/praca_maua.png" alt="Foto" />
+          {:else if step.text == "parque_deodoro"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/parque_deodoro.png" alt="Foto" />
             </div>
-          {:else if step.text == "rede_hoteleira" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/rede_hoteleira.png" alt="Foto" />
+          {:else if step.text == "parque_madureira"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/parque_madureira.png" alt="Foto" />
             </div>
-          {:else if step.text == "riocentro" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/riocentro.png" alt="Foto" />
+          {:else if step.text == "parque_rita_lee"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/parque_rita_lee.png" alt="Foto" />
             </div>
-          {:else if step.text == "sambodromo" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/sambodromo.png" alt="Foto" />
+          {:else if step.text == "pequena_africa"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/pequena_africa.png" alt="Foto" />
             </div>
-          {:else if step.text == "sistema_brt" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/sistema_brt.png" alt="Foto" />
+          {:else if step.text == "piscinoes"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/piscinoes.png" alt="Foto" />
             </div>
-          {:else if step.text == "sistema_vlt" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/sistema_vlt.png" alt="Foto" />
+          {:else if step.text == "praca_maua"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/praca_maua.png" alt="Foto" />
             </div>
-          {:else if step.text == "teleferico_providencia" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/teleferico_providencia.png" alt="Foto" />
+          {:else if step.text == "rede_hoteleira"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/rede_hoteleira.png" alt="Foto" />
             </div>
-          {:else if step.text == "terminal_deodoro" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/terminal_deodoro.png" alt="Foto" />
+          {:else if step.text == "riocentro"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/riocentro.png" alt="Foto" />
             </div>
-          {:else if step.text == "transcarioca" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/transcarioca.png" alt="Foto" />
+          {:else if step.text == "sambodromo"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/sambodromo.png" alt="Foto" />
             </div>
-          {:else if step.text == "transoeste" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/transoeste.png" alt="Foto" />
+          {:else if step.text == "sistema_brt"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/sistema_brt.png" alt="Foto" />
             </div>
-          {:else if step.text == "transolimpica" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/transolimpica.png" alt="Foto" />
+          {:else if step.text == "sistema_vlt"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/sistema_vlt.png" alt="Foto" />
             </div>
-          {:else if step.text == "vila_dos_atletas" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/vila_dos_atletas.png" alt="Foto" />
+          {:else if step.text == "teleferico_providencia"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/teleferico_providencia.png" alt="Foto" />
             </div>
-          {:else if step.text == "foto14" }
-          <div class="image-container">
-            <img class="photo_logo" src="assets/img/tezca-explorable.png" alt="Foto" />
+          {:else if step.text == "terminal_deodoro"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/terminal_deodoro.png" alt="Foto" />
+            </div>
+          {:else if step.text == "transcarioca"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/transcarioca.png" alt="Foto" />
+            </div>
+          {:else if step.text == "transoeste"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/transoeste.png" alt="Foto" />
+            </div>
+          {:else if step.text == "transolimpica"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/transolimpica.png" alt="Foto" />
+            </div>
+          {:else if step.text == "vila_dos_atletas"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/vila_dos_atletas.png" alt="Foto" />
+            </div>
+          {:else if step.text == "foto14"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/tezca-explorable.png" alt="Foto" />
             </div>
           {:else}
-          <div class="step-text">{@html step.text}</div>
+            <div class="step-text">{@html step.text}</div>
           {/if}
           {#if step.title}
             <div class="step-title">
@@ -205,17 +212,33 @@
             </div>
           {/if}
           <div class="step-wrapper">
-          {#if step.background_text}
-            <div class="step-background">
-              {@html step.background_text}
-            </div>
-          {/if}
-          {#if step.description}
-            <div class="step-description">
-              {@html step.description}
-            </div>
-          {/if}
-        </div>
+            {#if step.background_text}
+              {#if step.background_text === "transporte"}
+                <div class="step-background transporte">
+                  <span class="part1">TRANS</span>
+                  <span class="part2">PORTE</span>
+                </div>
+              {:else if step.background_text === "educação"}
+                <div class="step-background educacao">
+                  <span class="part1">EDUCA</span>
+                  <span class="part2">ÇÃO</span>
+                </div>
+              {:else}
+                <div
+                  class="step-background"
+                  class:transporte={step.background_text === "transporte"}
+                  class:reformasurbanas={step.background_text === "reformas urbanas"}
+                >
+                  {@html step.background_text}
+                </div>
+              {/if}
+            {/if}
+            {#if step.description}
+              <div class="step-description">
+                {@html step.description}
+              </div>
+            {/if}
+          </div>
         </div>
       {/each}
     </div>
@@ -224,23 +247,23 @@
 
 <style>
   .image-container {
- position: relative;
- display: inline-block; /* Adjust as needed */
-}
+    position: relative;
+    display: inline-block; /* Adjust as needed */
+  }
 
-.photo_logo {
- display: block; /* Ensures the image is block-level for proper positioning */
-}
+  .photo_logo {
+    display: block; /* Ensures the image is block-level for proper positioning */
+  }
 
-.image-container::before {
- content: '';
- position: absolute;
- left: -7px;
- top: 40%; /* Adjust this value to change the starting point of the border */
- height: 60%; /* Cover half the height of the image */
- width: 8px; /* Width of the border */
- background-color: #014A7F; /* Border color */
-}
+  .image-container::before {
+    content: "";
+    position: absolute;
+    left: -7px;
+    top: 40%; /* Adjust this value to change the starting point of the border */
+    height: 60%; /* Cover half the height of the image */
+    width: 8px; /* Width of the border */
+    background-color: #014a7f; /* Border color */
+  }
 
   #scrolly {
     position: relative;
@@ -249,20 +272,20 @@
     display: grid;
     grid-template-columns: 1fr;
   }
-  
+
   figure {
     position: -webkit-sticky;
     position: sticky;
 
-    width: 50vw;
+    width: 45vw;
     height: 100vh;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 
-    left: 0;
+    left: 0 ;
     top: 0;
 
     -webkit-transform: translate3d(0, 0, 0);
@@ -318,15 +341,15 @@
   }
 
   .step-title {
-  text-transform: uppercase;
-  /* font-weight:500; */
-  font-size:1.8rem;
-  padding-top: 0.4rem;
-  line-height: 0.9;
-  text-align: right;
-letter-spacing: -0.1em;
-font-family: "CeraProBold";
-}
+    text-transform: uppercase;
+    /* font-weight:500; */
+    font-size: 1.8rem;
+    padding-top: 0.4rem;
+    line-height: 0.9;
+    text-align: right;
+    letter-spacing: -0.1em;
+    font-family: "CeraProBold";
+  }
   .step-title::after {
     display: block;
     content: "";
@@ -337,37 +360,47 @@ font-family: "CeraProBold";
     border-radius: 2px;
   }
   .step-description {
-   text-align: justify;
+    text-align: justify;
     padding: 1rem 0;
     font-family: "CeraProRegular";
     min-width: 17rem;
-}
+  }
   .step-text {
     font-size: 1.3rem;
     padding: 1rem 0;
   }
   .step-wrapper {
-  position: relative;
-}
+    position: relative;
+  }
 
-.step-background, .step-description {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
+  .step-background,
+  .step-description {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 
-.step-background {
-  z-index: -1;
-  font-size: 5em;
-  color:lightgray;
-  max-width: 85%;
-  opacity:0.35;
-  line-height: 0.7em;
-  margin-top: -0.5em !important;
-  margin-left: -0.9em !important;
-  font-family: "CeraProRegular";
-  font-weight: bold;
-  text-transform: uppercase;
+  .step-background {
+    z-index: -1;
+    font-size: 4.1em;
+    color: lightgray;
+    max-width: 85%;
+    opacity: 0.35;
+    line-height: 0.8em;
+    margin-top: -0.5em !important;
+    margin-left: -0.9em !important;
+    font-family: "CeraProRegular";
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+ 
+  .transporte .part1,
+.transporte .part2,
+.educacao .part1,
+.educacao .part2 {
+ display: block;
+ width: 100%;
+ text-align: left;
 }
 
   @media only screen and (min-width: 50em) {
@@ -384,13 +417,13 @@ font-family: "CeraProBold";
 
   @media only screen and (max-width: 650px) {
     figure {
-    position: -webkit-sticky;
-    position: sticky;
+      position: -webkit-sticky;
+      position: sticky;
 
-    width: 100vw;
-    height: 100vh;
+      width: 100vw;
+      height: 100vh;
 
-    top:0;
-  }
+      top: 0;
+    }
   }
 </style>
