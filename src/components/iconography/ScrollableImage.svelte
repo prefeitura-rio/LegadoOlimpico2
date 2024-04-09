@@ -421,7 +421,7 @@
 
   @media only screen and (max-width: 650px) {
     .step{
-     
+      margin-bottom: 1000px;
     }
     figure {
       position: -webkit-sticky;
