@@ -14,7 +14,7 @@
 </script>
 
 <ScrollableImage
-  title="brt"
+  title="tezca2"
   source={doc.source_tezca_label}
   sourceUrl={doc.source_tezca_url}
   name="tezca2"

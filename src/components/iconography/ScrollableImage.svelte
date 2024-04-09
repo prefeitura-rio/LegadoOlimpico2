@@ -41,7 +41,7 @@
 <Section id="gods-iconography-{title}" fullBleed>
   <div id="scrolly">
     <figure>
-      <h3>{@html title == "reformasurbanas" || title == "brt" ? "" : title}</h3>
+     
       <!-- <div class="illustration-source">
         {#if sourceUrl}
           (<a href={sourceUrl}>{@html source}</a>)
@@ -54,7 +54,7 @@
     </figure>
     <div class="scroll-area">
       {#each steps as step, i}
-        <div class="step step-{title}">
+        <div class="step step-{title}" id="id-{i}">
           {#if step.text == "avenida_rio_branco"}
             <div class="image-container">
               <img class="photo_logo" src="assets/img/avenida_rio_branco.png" alt="Foto" />
@@ -325,15 +325,12 @@
   }
 
   .step {
-    width: calc(100% - 50px); /* Subtraindo 100px da largura total */
+    width: calc(100% - 40px); /* Subtraindo 100px da largura total */
     margin: 30rem auto 2rem auto;
     padding: 5rem;
-
     opacity: 1;
     transition: opacity 400ms;
-
     pointer-events: all;
-
     position: relative;
     z-index: 10;
   }
@@ -420,8 +417,59 @@
   }
 
   @media only screen and (max-width: 650px) {
-    .step{
+    #id-0.step-reformasurbanas, #id-0.step-tezca , #id-0.step-tezca2  {
       margin-bottom: 1000px;
+      padding-bottom: 20rem;
+    padding-top: 6.5rem;
+    background-color: white;
+    border-radius: 8px;
+    border: solid 3px grey;
+    }
+    #id-0.step-tezca2{
+       margin-bottom: 1000px;
+      padding-bottom: 36rem;
+    padding-top: 6.5rem;
+    background-color: white;
+    border-radius: 8px;
+    border: solid 3px grey;
+    }
+
+    #id-1.step-reformasurbanas,  #id-2.step-reformasurbanas,  #id-3.step-reformasurbanas, #id-4.step-reformasurbanas {
+      margin-bottom: 1000px;
+      padding-bottom: 20rem;
+    padding-top: 6.5rem;
+    background-color: white;
+    border-radius: 8px;
+    border: solid 3px grey;
+    }
+    #id-1.step-tezca, #id-3.step-tezca, #id-4.step-tezca, #id-1.step-tezca2, #id-3.step-tezca2, #id-4.step-tezca2, #id-5.step-tezca2 {
+      margin-bottom: 1000px;
+      padding-bottom: 20rem;
+    padding-top: 6.5rem;
+    background-color: white;
+    border-radius: 8px;
+    border: solid 3px grey;
+    }
+    #id-2.step-tezca {
+      margin-bottom: 1000px;
+      padding-bottom: 44rem;
+    padding-top: 6.5rem;
+    background-color: white;
+    border-radius: 8px;
+    border: solid 3px grey;
+    }
+    #id-2.step-tezca2 {
+      margin-bottom: 1000px;
+      padding-bottom: 25rem;
+    padding-top: 6.5rem;
+    background-color: white;
+    border-radius: 8px;
+    border: solid 3px grey;
+    }
+
+    .step:first-child {
+      
+      padding-bottom: 5rem;
     }
     figure {
       position: -webkit-sticky;
@@ -434,7 +482,7 @@
       background-color: rgb(187,198,193);
     }
     .image-container img {
-    transform: scale(2);
+    transform: scale(1.7);
     padding-bottom: 4rem;
 
   }
@@ -442,7 +490,7 @@
   .image-container::before {
     content: "";
     position: absolute;
-    left: -5.1rem;
+    left: -4.4rem;
     top: 20.5%; /* Adjust this value to change the starting point of the border */
     height: 70%; /* Cover half the height of the image */
     width: 8px; /* Width of the border */
@@ -455,6 +503,7 @@
 
   .step-title{
     min-width: 200px !important;
+    margin-top: -1rem;
     padding-bottom: 1.5rem;
   }
   .step-background{
