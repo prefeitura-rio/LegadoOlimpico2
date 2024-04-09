@@ -127,7 +127,7 @@
 <!-- <Sources /> -->
 <style>
   .background-image {
-    background-image: url("assets/geral_01.png");
+    background-image: url("geral_01.png");
     background-size: cover;
     background-position: center;
     height: 100vh;
