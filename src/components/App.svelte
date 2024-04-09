@@ -27,20 +27,21 @@
     <div class="title-container">
       <h1 class="title">O que seria do Rio <br />sem as Olimpíadas?</h1>
       
-      <div class="credits">
-        <div class="credits-line">
-          <div>Produzido pelo</div>
-          <div><a href="https://www.dados.rio/">Escritório de Dados</a></div>
-        </div>
-        <div class="credits-line">
-          <div>da</div>
-          <div><a href="https://prefeitura.rio/">Prefeitura da Cidade do Rio de Janeiro</a></div>
-        </div>
-      </div>
     </div>
    
   </div>
 <br><br>
+<div class="credits">
+  <div class="credits-line">
+    <div>Produzido pelo</div>
+    <div><a href="https://www.dados.rio/">Escritório de Dados</a></div>
+  </div>
+  <div class="credits-line">
+    <div>da</div>
+    <div><a href="https://prefeitura.rio/">Prefeitura da Cidade do Rio de Janeiro</a></div>
+  </div>
+</div>
+
   <Section>
     <div class="intro">
       {#each doc.introduction as p, i}
@@ -127,7 +128,7 @@
 <!-- <Sources /> -->
 <style>
   .background-image {
-    background-image: url("geral_01.png");
+    background-image: url("capa_final3.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -151,6 +152,7 @@
   flex-direction: column;
   text-align: center;
   height: 100%;
+  text-shadow: 2px 2px 4px white;
 }
 
   .introduction {
@@ -183,6 +185,7 @@
     font-family: "CeraProRegular";
     font-size: 1rem;
     padding: 1rem;
+    padding-top: 2.5rem;
     display: flex;
     flex-direction: column;
 
@@ -235,17 +238,25 @@
     font-size: 2.9rem !important;
     line-height: 1;
     color: black;
+    padding-bottom: 5rem;
     /* Ajuste adicional para garantir que o título esteja centralizado corretamente */
   }
 
   @media only screen and (max-width: 650px) {
+    .credits{
+      padding-bottom: 2.2rem;
+    }
     .introduction {
       padding-top: 5rem;
     }
     .title {
-      font-size: 2.5rem !important;
+      font-size: 2.3rem !important;
       margin-top: 0rem;
+      line-height: 2.6rem;
       /* min-width: 25rem !important; */
+    }
+    .title-container{
+
     }
   }
   @media only screen and (min-width: 30em) {
