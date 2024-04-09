@@ -22,13 +22,11 @@
     "Os investimentos em projetos como o Terminal Gentileza, VLT, BRT, Transoeste, Transcarioca e a Transolímpica melhoraram o transporte da cidade, abrindo novas oportunidades de lazer, cultura e educação para milhares de cariocas."
    ],
   "introductionthree": [
-    "<b>Texto de conclusão</b><br> Na próxima etapa do compromisso contínuo da prefeitura do Rio de Janeiro em preservar e relembrar o legado olímpico dos Jogos de 2016, uma iniciativa marcante está prestes a tomar forma. <strong>Totens, placas e selos serão instalados em diversos espaços e edifícios da cidade. Essas marcações não são apenas símbolos visuais, mas testemunhos tangíveis do impacto duradouro que os Jogos Olímpicos deixaram em nossa cidade.</strong>",
-    "Ao identificar e celebrar os locais que foram transformados ou beneficiados pelos Jogos, estamos fortalecendo o senso de comunidade e pertencimento, enquanto promovemos o turismo e a conscientização sobre a importância do evento para o nosso presente e futuro.",
-    "<strong>Cada marcação é um tributo ao espírito olímpico que continua ecoando em nossas ruas e corações,</strong> lembrando-nos de que o legado dos Jogos de 2016 transcende o simples evento esportivo. <strong>Ele representa um compromisso duradouro com o progresso e a inclusão.</strong>"
+    "Na próxima etapa do compromisso contínuo da Prefeitura do Rio de Janeiro em preservar e relembrar o legado olímpico, serão instalados totens, placas e selos em diversos espaços e edifícios da cidade.",
+    "Ao identificar e celebrar os locais que foram transformados ou beneficiados pelos Jogos, estamos fortalecendo o senso de comunidade e pertencimento, enquanto promovemos o turismo e a conscientização sobre <b>a importância do evento para o nosso presente e futuro</b>."
    ],
   "introductionfour": [
-    "<b>Texto com gancho para o exploratório abaixo.</b>",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    "Explore todos os equipamentos e obras feitas em razão dos Jogos Olímpicos e Paralímpicos na cidade do Rio na ferramenta abaixo:"
    ],
   "iconography_title": "",
   "iconography_intro": "",
@@ -44,7 +42,7 @@
   "tlalte-steps": [
     {
       "id": "mapa_01",
-      "title": "Texto mapa",
+      "title": "",
       "text": "",
       "background_text": "",
       "description":"Este é o mapa do Legado Olímpico na cidade do Rio de Janeiro. Começaremos nosso passeio pela região central da cidade, onde o foco foi à conservação aliado a uma renovação do Centro do Rio."
@@ -84,7 +82,7 @@
   "tezca-steps": [
     {
       "id": "mapa_02",
-      "title": "Texto antes das obras",
+      "title": "",
       "text": "",
       "background_text": "",
       "description":"Agora vamos para a Zona Oeste da cidade, onde diversas obras do Legado Olímpico vem mudando a vida dos moradores da região."
@@ -102,16 +100,17 @@
       "text": "GET_emiliano_galdino",
       "background_text": "educação",
       "description":"O GET é o modelo de escola mais inovador do país, baseada no método STEAM (sigla em inglês pra Ciências, Tecnologia, Engenharia, Artes e Matemática), que integra diferentes áreas do conhecimento, estimulando a criatividade, o pensamento crítico e a sensibilidade humana. Tudo isso em tempo integral. Um dos itens do Plano de Legado feito para os Jogos Rio 2016 previu que a Arena do Futuro, ao término das competições, fosse desmontada e transformada em quatro escolas, que vão atender um total de cerca de 1.700 alunos.<br><br>Os GETs Emiliano Galdino e José Mauro de Vasconcelos, construídos pela Rio-Urbe em parceria com a Secretaria Municipal de Educação, foram inaugurados em 6 de fevereiro, em Santa Cruz e Bangu, respectivamente. O GET Nelcy Noronha foi inaugurado dia 26 de março e o GET Mestre Diego Braga, no Rio das Pedras, tem previsão de inauguração em abril."
+    },
+    {
+      "id": "parque",
+      "title": "Parque",
+      "text": "parque",
+      "background_text": "lazer",
+      "description":"Texto parque"
     }
   ],
   "tezca2-steps": [
-    {
-      "id": "mapa_03",
-      "title": "Aqui vai um texto 3",
-      "text": "",
-      "background_text": "",
-      "description":"3 Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-    },
+
     {
       "id": "terminal_gentileza",
       "title": "Terminal Intermodal Gentileza",

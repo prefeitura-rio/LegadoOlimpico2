@@ -103,6 +103,10 @@
             <div class="image-container">
               <img class="photo_logo" src="assets/img/GET_emiliano_galdino.png" alt="Foto" />
             </div>
+          {:else if step.text == "parque"}
+            <div class="image-container">
+              <img class="photo_logo" src="assets/img/parque.png" alt="Foto" />
+            </div>
           {:else if step.text == "GET_jose_mauro_de_vasconcellos"}
             <div class="image-container">
               <img
@@ -416,6 +420,9 @@
   }
 
   @media only screen and (max-width: 650px) {
+    .step{
+     
+    }
     figure {
       position: -webkit-sticky;
       position: sticky;
@@ -424,6 +431,44 @@
       height: 100vh;
 
       top: 0;
+      background-color: rgb(187,198,193);
     }
+    .image-container img {
+    transform: scale(2);
+    padding-bottom: 4rem;
+
+  }
+
+  .image-container::before {
+    content: "";
+    position: absolute;
+    left: -5.1rem;
+    top: 20.5%; /* Adjust this value to change the starting point of the border */
+    height: 70%; /* Cover half the height of the image */
+    width: 8px; /* Width of the border */
+    background-color: #014a7f; /* Border color */
+  }
+
+  .step-description{
+    margin-left: -50px;
+  }
+
+  .step-title{
+    min-width: 200px !important;
+    padding-bottom: 1.5rem;
+  }
+  .step-background{
+    min-width: 200px !important;
+  }
+  .reformasurbanas{
+    font-size: 4rem;
+  }
+  .transporte{
+    font-size: 3.5rem;
+  }
+  .educacao .part1,
+.educacao .part2 {
+  font-size: 5rem;
+}
   }
 </style>

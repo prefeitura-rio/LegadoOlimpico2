@@ -9,7 +9,7 @@
   let imgPath;
   let iconPath = "icon3";
   if (typeof window !== "undefined") {
-    imgPath = window.matchMedia("(max-width: 600px)").matches ? "mobile_02.png" : "geral_03.png";
+    imgPath = window.matchMedia("(max-width: 600px)").matches ? "geral_03.png" : "geral_03.png";
   }
 </script>
 
