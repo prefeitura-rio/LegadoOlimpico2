@@ -8,7 +8,7 @@
 </script>
 
 {#await loadImage(`${dev ? "/" : "/aztec-gods/"}assets/${localUrl}`)}
-  <div>Loading {alt}</div>
+  <div>Carregando... {alt}</div>
 {:then img}
   <img src={img.src} {alt} />
 {:catch error}

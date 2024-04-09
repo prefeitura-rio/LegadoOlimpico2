@@ -48,9 +48,8 @@
     <div class="illu-info-wrapper">
       <div class="illustration">
         {#await loadImage(`${dev ? "/" : "/LegadoOlimpico2/"}assets/gods/png/${$selection.id}.png`)}
-          <span>Loading...</span>
-          {console.log("selection", $selection)}
-          {console.log("selection", $selection.id)}
+          <span>Carregando...</span>
+         
         {:then img}
           <img src={img.src} alt="Image of {getName($selection)}." />
         {:catch}
