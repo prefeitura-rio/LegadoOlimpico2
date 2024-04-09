@@ -79,6 +79,9 @@
 </svg>
 
 <style>
+  .imagem{
+    background-color: red;
+  }
   .svg {
     width:110vw;
     height:100vh;

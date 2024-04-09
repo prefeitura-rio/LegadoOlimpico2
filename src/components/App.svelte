@@ -40,12 +40,7 @@
     </div>
    
   </div>
-  <div class="introduction">
-    <a href="https://prefeitura-rio.github.io/LegadoOlimpico2_3D/" target="_blank" class="button"
-      >Explore o mapa interativo</a
-    >
-  </div>
-
+<br><br>
   <Section>
     <div class="intro">
       {#each doc.introduction as p, i}
@@ -54,8 +49,13 @@
     </div>
   </Section>
 
+  <div class="introduction">
+    <a href="https://prefeitura-rio.github.io/LegadoOlimpico2_3D/" target="_blank" class="button"
+      >Explore o mapa interativo</a
+    >
+  </div>
   <!-- PANTHEON -->
-  <Heading>{@html doc.pantheon_title}</Heading>
+
 
   <Section id="pantheon">
     <Paragraph hasCap={true}>{@html doc.pantheon_intro}</Paragraph>
@@ -154,7 +154,8 @@
 }
 
   .introduction {
-    padding-top: 5rem;
+
+    padding-bottom: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -239,7 +240,7 @@
 
   @media only screen and (max-width: 650px) {
     .introduction {
-      padding-bottom: 4rem;
+      padding-top: 5rem;
     }
     .title {
       font-size: 2.5rem !important;
