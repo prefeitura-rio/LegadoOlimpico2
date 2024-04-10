@@ -41,7 +41,6 @@
 <Section id="gods-iconography-{title}" fullBleed>
   <div id="scrolly">
     <figure>
-     
       <!-- <div class="illustration-source">
         {#if sourceUrl}
           (<a href={sourceUrl}>{@html source}</a>)
@@ -64,7 +63,7 @@
               <img class="photo_logo" src="assets/img/boulevard_olimpico.png" alt="Foto" />
             </div>
           {:else if step.text == "terminal_intermodal_gentileza"}
-            <div class="image-container">
+            <div class="image-container" id="terminal_intermodal_gentileza" >
               <img
                 class="photo_logo"
                 src="assets/img/terminal_intermodal_gentileza.png"
@@ -289,7 +288,7 @@
     justify-content: flex-start;
     align-items: center;
 
-    left: 0 ;
+    left: 0;
     top: 0;
 
     -webkit-transform: translate3d(0, 0, 0);
@@ -374,8 +373,7 @@
     position: relative;
   }
 
-  .step-background,
-  .step-description {
+  .step-background {
     position: absolute;
     top: 0;
     left: 0;
@@ -394,15 +392,15 @@
     font-weight: bold;
     text-transform: uppercase;
   }
- 
+
   .transporte .part1,
-.transporte .part2,
-.educacao .part1,
-.educacao .part2 {
- display: block;
- width: 100%;
- text-align: left;
-}
+  .transporte .part2,
+  .educacao .part1,
+  .educacao .part2 {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
 
   @media only screen and (min-width: 50em) {
     #scrolly {
@@ -417,59 +415,19 @@
   }
 
   @media only screen and (max-width: 650px) {
-    #id-0.step-reformasurbanas, #id-0.step-tezca , #id-0.step-tezca2  {
+    
+    .step {
       margin-bottom: 1000px;
-      padding-bottom: 20rem;
-    padding-top: 6.5rem;
-    background-color: white;
-    border-radius: 8px;
-    border: solid 3px grey;
-    }
-    #id-0.step-tezca2{
-       margin-bottom: 1000px;
-      padding-bottom: 36rem;
-    padding-top: 6.5rem;
-    background-color: white;
-    border-radius: 8px;
-    border: solid 3px grey;
-    }
 
-    #id-1.step-reformasurbanas,  #id-2.step-reformasurbanas,  #id-3.step-reformasurbanas, #id-4.step-reformasurbanas {
-      margin-bottom: 1000px;
-      padding-bottom: 20rem;
-    padding-top: 6.5rem;
-    background-color: white;
-    border-radius: 8px;
-    border: solid 3px grey;
-    }
-    #id-1.step-tezca, #id-3.step-tezca, #id-4.step-tezca, #id-1.step-tezca2, #id-3.step-tezca2, #id-4.step-tezca2, #id-5.step-tezca2 {
-      margin-bottom: 1000px;
-      padding-bottom: 20rem;
-    padding-top: 6.5rem;
-    background-color: white;
-    border-radius: 8px;
-    border: solid 3px grey;
-    }
-    #id-2.step-tezca {
-      margin-bottom: 1000px;
-      padding-bottom: 44rem;
-    padding-top: 6.5rem;
-    background-color: white;
-    border-radius: 8px;
-    border: solid 3px grey;
-    }
-    #id-2.step-tezca2 {
-      margin-bottom: 1000px;
-      padding-bottom: 25rem;
-    padding-top: 6.5rem;
-    background-color: white;
-    border-radius: 8px;
-    border: solid 3px grey;
+      padding-top: 6.5rem;
+      background-color: white;
+      border-radius: 8px;
+      border: solid 3px grey;
     }
 
     .step:first-child {
-      
-      padding-bottom: 5rem;
+      padding-top: 0rem;
+      padding-bottom: 2rem;
     }
     figure {
       position: -webkit-sticky;
@@ -479,45 +437,44 @@
       height: 100vh;
 
       top: 0;
-      background-color: rgb(187,198,193);
+      background-color: rgb(187, 198, 193);
     }
     .image-container img {
-    transform: scale(1.7);
-    padding-bottom: 4rem;
+      transform: scale(1.5);
+      padding-bottom: 4rem;
+    }
+    #terminal_intermodal_gentileza{
+        padding-top: 6.5rem;
+    }
+    .image-container::before {
+    display: none;
+    }
 
-  }
+    .step-description {
+      margin-left: -13vw;
+      min-width: 15rem;
+    }
 
-  .image-container::before {
-    content: "";
-    position: absolute;
-    left: -4.4rem;
-    top: 20.5%; /* Adjust this value to change the starting point of the border */
-    height: 70%; /* Cover half the height of the image */
-    width: 8px; /* Width of the border */
-    background-color: #014a7f; /* Border color */
-  }
-
-  .step-description{
-    margin-left: -50px;
-  }
-
-  .step-title{
-    min-width: 200px !important;
-    margin-top: -1rem;
-    padding-bottom: 1.5rem;
-  }
-  .step-background{
-    min-width: 200px !important;
-  }
-  .reformasurbanas{
-    font-size: 4rem;
-  }
-  .transporte{
-    font-size: 3.5rem;
-  }
-  .educacao .part1,
-.educacao .part2 {
-  font-size: 5rem;
-}
+    .step-title {
+      margin-top: -1rem;
+      padding-bottom: 1.5rem;
+      min-width: 10rem;
+      margin-left: -5rem;
+      margin-right: -2rem;
+   
+    }
+    .step-background {
+      min-width: 200px !important;
+    }
+    .reformasurbanas {
+      font-size: 4rem;
+    }
+    .transporte {
+      font-size: 3.5rem;
+    }
+    .educacao .part1,
+    .educacao .part2 {
+      font-size: 5rem;
+    }
   }
 </style>
