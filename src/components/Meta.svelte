@@ -1,7 +1,7 @@
 <script>
   export let title = "Legado Olímpico";
-  export let description = "An introduction to aztec gods";
-  export let url = "https://pudding.cool/2022/06/aztec-gods";
+  export let description = "O que seria do Rio sem as Olimpíadas?";
+  export let url = "https://dados.rio/";
 </script>
 
 <svelte:head>
@@ -25,12 +25,6 @@
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="600" />
 
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:site" content="https://pudding.cool" />
-  <meta name="twitter:creator" content="@puddingviz" />
-  <meta name="twitter:title" content={title} />
-  <meta name="twitter:description" content={description} />
-  <meta name="twitter:image:src" content="{url}/assets/social-twitter.jpg" />
 
   <meta name="robots" content="max-image-preview:large" />
 

@@ -429,7 +429,7 @@
       z-index: 0;
     }
   } */
-  @media only screen and (max-width: 1890px) and (min-width: 1800px) {
+  /* @media only screen and (max-width: 1890px) and (min-width: 1800px) {
     figure {
       position: -webkit-sticky;
       position: sticky;
@@ -478,6 +478,7 @@
       z-index: 0;
     }
   }
+   */
   @media only screen and (width: 1024px) {
     figure {
       /* background-color: red; */
