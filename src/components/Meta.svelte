@@ -1,7 +1,7 @@
 <script>
   export let title = "Legado Olímpico";
   export let description = "O que seria do Rio sem as Olimpíadas?";
-  export let url = "https://dados.rio/";
+  export let url = "https://prefeitura-rio.github.io/LegadoOlimpico2/";
 </script>
 
 <svelte:head>
@@ -25,6 +25,9 @@
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="600" />
 
+  <meta name="twitter:title" content={title} />
+	<meta name="twitter:description" content={description} />
+	<meta name="twitter:image:src" content="{url}/assets/social-facebook.jpg" />
 
   <meta name="robots" content="max-image-preview:large" />
 
