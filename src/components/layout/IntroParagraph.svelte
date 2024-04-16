@@ -8,7 +8,7 @@
     max-width: 42em;
     margin-bottom: 1rem;
     font-family: var(--serif);
-    text-align: left;
+    text-align: justify;
     font-size: 1rem;
     line-height: 1.65;
   }

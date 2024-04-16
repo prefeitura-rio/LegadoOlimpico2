@@ -37,6 +37,10 @@
   font-family: "CeraProBold";
   src: url("./cera/CeraProBold.otf");
 }
+@font-face {
+  font-family: "CeraProMedium";
+  src: url("./cera/CeraProMedium.otf");
+}
 
 @font-face {
   font-family: "National 2 Web";

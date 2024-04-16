@@ -8,6 +8,13 @@
   import { max, scaleLinear, scaleOrdinal } from "d3";
   import { setContext } from "svelte";
   import { derived, writable } from "svelte/store";
+  import { onMount } from 'svelte';
+
+let isMobile = false;
+
+onMount(() => {
+  isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+});
 
   export let activeStep = doc.pantheon[0];
 
@@ -100,10 +107,14 @@
   $: if (activeStep !== "") {
     console.log("activeStep", activeStep)
     let god = $_nodes.find((node) => node.name === activeStep.selected);
+    if (isMobile) {
+      selection.highlight(undefined);
+    }
+    else {
     selection.highlight(god);
-  } else {
-    selection.highlight(undefined);
   }
+   
+  } 
 
   $: if (activeStep.keyword == "") {
     keyword.highlight(activeStep.keyword);
