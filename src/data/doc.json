@@ -110,7 +110,13 @@
     }
   ],
   "tezca2-steps": [
-
+    {
+      "id": "mapa_03",
+      "title": "",
+      "text": "",
+      "background_text": "",
+      "description":""
+    },
     {
       "id": "terminal_gentileza",
       "title": "Terminal Intermodal Gentileza",

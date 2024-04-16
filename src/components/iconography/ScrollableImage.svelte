@@ -63,7 +63,7 @@
               <img class="photo_logo" src="assets/img/boulevard_olimpico.png" alt="Foto" />
             </div>
           {:else if step.text == "terminal_intermodal_gentileza"}
-            <div class="image-container" id="terminal_intermodal_gentileza" >
+            <div class="image-container" id="terminal_intermodal_gentileza">
               <img
                 class="photo_logo"
                 src="assets/img/terminal_intermodal_gentileza.png"
@@ -415,19 +415,23 @@
   }
 
   @media only screen and (max-width: 650px) {
-    
     .step {
-      margin-bottom: 1000px;
+      margin-bottom: 1200px;
 
       padding-top: 6.5rem;
       background-color: white;
-      border-radius: 8px;
-      border: solid 3px grey;
+      /* border-radius: 8px; */
+      border: solid 3px #014a7f;
+      padding-bottom: 2rem;
     }
 
     .step:first-child {
       padding-top: 0rem;
       padding-bottom: 2rem;
+    }
+    .step:first-child.step-tezca2 {
+      background-color: red;
+      visibility: hidden;
     }
     figure {
       position: -webkit-sticky;
@@ -443,25 +447,29 @@
       transform: scale(1.5);
       padding-bottom: 4rem;
     }
-    #terminal_intermodal_gentileza{
-        padding-top: 6.5rem;
+    #terminal_intermodal_gentileza {
+      /* padding-top: 6.5rem; */
     }
     .image-container::before {
-    display: none;
+      display: none;
     }
 
     .step-description {
-      margin-left: -13vw;
-      min-width: 15rem;
+      margin-left: -10vw;
+      text-align: justify;
+      margin: -1rem -3rem !important;
+      font-family: "CeraProRegular";
+      overflow: hidden;
     }
-
+    .scroll-area {
+      max-width: 100vw;
+    }
     .step-title {
       margin-top: -1rem;
       padding-bottom: 1.5rem;
       min-width: 10rem;
       margin-left: -5rem;
       margin-right: -2rem;
-   
     }
     .step-background {
       min-width: 200px !important;

@@ -55,7 +55,14 @@ export const tezcaPositions = {
   ]
 };
 export const tezca2Positions = {
-
+  mapa_03: [
+    {
+      cx: 0.5,
+      cy: 0.5,
+      rx: 0.5,
+      ry: 0.5
+    }
+  ],
   terminal_gentileza: [
     {
       cx: 0.725,

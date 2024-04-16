@@ -128,7 +128,7 @@
 <!-- <Sources /> -->
 <style>
   .background-image {
-    background-image: url("capa_final3.jpg");
+    background-image: url("capa_final_R04.png");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -243,6 +243,9 @@
   }
 
   @media only screen and (max-width: 650px) {
+    .background-image {
+    background-image: url("capa_final_MOBILE.png");
+    }
     .credits{
       padding-bottom: 2.2rem;
     }
@@ -250,7 +253,7 @@
       padding-top: 5rem;
     }
     .title {
-      font-size: 2.3rem !important;
+      font-size: 2.0rem !important;
       margin-top: 0rem;
       line-height: 2.6rem;
       /* min-width: 25rem !important; */
