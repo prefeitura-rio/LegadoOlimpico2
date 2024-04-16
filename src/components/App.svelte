@@ -152,7 +152,7 @@
   flex-direction: column;
   text-align: center;
   height: 100%;
-  text-shadow: 2px 2px 4px white;
+  /* text-shadow: 2px 2px 4px white; */
 }
 
   .introduction {
@@ -233,7 +233,7 @@
   }
 
   .title {
-    font-family: var(--serif);
+    font-family: "CeraProMedium" !important;
     text-align: center;
     font-size: 2.9rem !important;
     line-height: 1;

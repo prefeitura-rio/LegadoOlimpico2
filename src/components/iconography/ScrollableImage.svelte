@@ -41,16 +41,9 @@
 <Section id="gods-iconography-{title}" fullBleed>
   <div id="scrolly">
     <figure>
-      <!-- <div class="illustration-source">
-        {#if sourceUrl}
-          (<a href={sourceUrl}>{@html source}</a>)
-        {:else}
-          ({@html source})
-        {/if}
-      </div> -->
-
       <MaskedImage {name} selected={activeStep.id} {imgPath} {positions} {imageRange} />
     </figure>
+
     <div class="scroll-area">
       {#each steps as step, i}
         <div class="step step-{title}" id="id-{i}">
@@ -279,21 +272,14 @@
   figure {
     position: -webkit-sticky;
     position: sticky;
-
     width: 45vw;
     height: 100vh;
-
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-
     left: 0;
     top: 0;
-
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
     z-index: 0;
   }
 
@@ -413,6 +399,102 @@
       margin: 50rem auto 2rem auto;
     }
   }
+  /* @media only screen and (max-width: 2050px) and (min-width: 1920px) {
+    figure {
+      position: -webkit-sticky;
+      position: sticky;
+      width: 45vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      left: -10rem;
+      top: 0;
+      z-index: 0;
+    }
+  }
+  @media only screen and (max-width: 1920px) and (min-width: 1890px) {
+    figure {
+      position: -webkit-sticky;
+      position: sticky;
+      width: 45vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      left: 5rem;
+      top: 0;
+      z-index: 0;
+    }
+  } */
+  @media only screen and (max-width: 1890px) and (min-width: 1800px) {
+    figure {
+      position: -webkit-sticky;
+      position: sticky;
+      width: 45vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      left: 7rem;
+      top: 0;
+      z-index: 0;
+    }
+  }
+  @media only screen and (max-width: 1800px) and (min-width: 1550px) {
+    figure {
+      position: -webkit-sticky;
+      position: sticky;
+      width: 50vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      left: 8rem;
+      top: 0;
+      z-index: 0;
+    }
+    .step{
+      margin-left: 3rem;
+    }
+  }
+ 
+  @media only screen and (max-width: 1400px) and (min-width: 1200px) {
+    figure {
+      position: -webkit-sticky;
+      position: sticky;
+      width: 60vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      left: 10rem;
+      top: 0;
+      z-index: 0;
+    }
+  }
+  @media only screen and (width: 1024px) {
+    figure {
+      /* background-color: red; */
+      position: -webkit-sticky;
+      position: sticky;
+      width: 10vw;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      left: 30rem;
+      top: 8rem;
+      z-index: 0;
+    }
+  }
+
 
   @media only screen and (max-width: 650px) {
     .step {
@@ -421,7 +503,7 @@
       padding-top: 6.5rem;
       background-color: white;
       /* border-radius: 8px; */
-      border: solid 3px #014a7f;
+      border: solid 3px black;
       padding-bottom: 2rem;
     }
 
