@@ -10,11 +10,11 @@
   <meta name="viewport" content="width=device-width" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="description" content={description} />
-  <meta name="author" content="The Pudding" />
+  <meta name="author" content="Legado Olímpico" />
   <meta name="news_keywords" content="" />
 
   <meta property="og:title" content={title} />
-  <meta property="og:site_name" content="The Pudding" />
+  <meta property="og:site_name" content="Legado Olímpico" />
   <meta property="og:url" content={url} />
   <meta property="og:description" content={description} />
   <meta property="og:type" content="article" />
