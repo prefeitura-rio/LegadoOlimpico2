@@ -69,7 +69,7 @@
             </div>
           {:else if step.text == "cor"}
             <div class="image-container">
-              <img class="photo_logo" src="assets/img/cor.png" alt="Foto" />
+              <img class="photo_logo" src="assets/img/centro_de_operações_rio.png" alt="Foto" />
             </div>
           {:else if step.text == "derrubada_da_perimetral"}
             <div class="image-container">
@@ -149,7 +149,7 @@
             </div>
           {:else if step.text == "praca_maua"}
             <div class="image-container">
-              <img class="photo_logo" src="assets/img/praca_maua.png" alt="Foto" />
+              <img class="photo_logo" src="assets/img/praça_mauá.png" alt="Foto" />
             </div>
           {:else if step.text == "rede_hoteleira"}
             <div class="image-container">
@@ -189,7 +189,7 @@
             </div>
           {:else if step.text == "transolimpica"}
             <div class="image-container">
-              <img class="photo_logo" src="assets/img/transolimpica.png" alt="Foto" />
+              <img class="photo_logo" src="assets/img/transolímpica.png" alt="Foto" />
             </div>
           {:else if step.text == "vila_dos_atletas"}
             <div class="image-container">
