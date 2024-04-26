@@ -19,6 +19,14 @@ export const tezcaPositions = {
       ry: 0.15
     }
   ],
+  GEO_isabel_salgado: [
+    {
+      cx: 0.43,
+      cy: 0.56,
+      rx: 0.055,
+      ry: 0.055
+    }
+  ],
   GET_emiliano_galdino: [
     {
       cx: 0.145,
