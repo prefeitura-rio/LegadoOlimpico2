@@ -4,7 +4,7 @@ import fs from "fs";
 
 import { forceSimulation, forceX, forceY, quadtree } from "d3";
 
-const PADDING = 1;
+const PADDING = 0.8;
 
 const rectCollide = (padding) => {
   let nodes;

@@ -51,6 +51,13 @@
       "description":"O Centro de Operações Rio (COR) foi o primeiro equipamento olímpico entregue pela Prefeitura do Rio aos cariocas. Inaugurado em dezembro de 2010, seu legado permanece atuante 24 horas por dia, sete dias por semana. Com a integração de 50 órgãos públicos e o uso de mais de 3.500 câmeras, o COR monitora o dia a dia do Rio de Janeiro em áreas essenciais para o funcionamento da cidade, como mobilidade urbana e meteorologia, sempre com o objetivo de antecipar soluções e minimizar o impacto de ocorrências."
     },
     {
+      "id": "praca_maua",
+      "title": "Praça Mauá (Porto Maravilha)",
+      "text": "praca_maua",
+      "background_text": "reformas urbanas",
+      "description":"Construída no início do século XX, a histórica Praça Mauá foi reinaugurada em setembro de 2015, após ser revitalizada no âmbito do projeto Porto Maravilha. Com áreas verdes, dois novos espaços culturais — MAR e Museu do Amanhã — e sem o Elevado da Perimteral que impedia a vista para a Baía de Guabanara, a praça se consolidou como ponto de encontro e integração social não apenas da cidade, mas de toda a Região Metropolitana. A nova Praça Mauá acabou se tornando um dos principais símbolos do Porto Maravilha, programa de requalificação urbana de uma área de 5 milhões de m2 que foi lançado em 2009, como parte da preparação do Rio para os Jogos de 2016, e segue transformando aquela região."
+    },
+    {
       "id": "museu_do_amanhã",
       "title": "Museu do Amanhã",
       "text": "museu_do_amanhã",
@@ -63,13 +70,6 @@
       "text": "museu_de_arte_do_rio",
       "background_text": "lazer",
       "description":"Inaugurado em 2013, o Museu de Arte do Rio (MAR) é uma instituição cultural que preserva e promove a arte e a história da cidade. Vizinho ao Museu do Amanhã na Praça Mauá e também parte do projeto Porto Maravilha, o MAR é mais uma opção cultural que a cidade ganhou por causa dos Jogos e que atrai muitos moradores e turistas ."
-    },
-    {
-      "id": "praca_maua",
-      "title": "Praça Mauá",
-      "text": "praca_maua",
-      "background_text": "reformas urbanas",
-      "description":"Construída no início do século XX, a histórica Praça Mauá foi reinaugurada em setembro de 2015, após ser revitalizada no âmbito do projeto Porto Maravilha. Com áreas verdes, dois novos espaços culturais — MAR e Museu do Amanhã — e sem o Elevado da Perimteral que impedia a vista para a Baía de Guabanara, a praça se consolidou como ponto de encontro e integração social não apenas da cidade, mas de toda a Região Metropolitana. A nova Praça Mauá acabou se tornando um dos principais símbolos do Porto Maravilha, programa de requalificação urbana de uma área de 5 milhões de m2 que foi lançado em 2009, como parte da preparação do Rio para os Jogos de 2016, e segue transformando aquela região."
     }
   ],
   "iconography_tezca": "Tezcatlipoca",
@@ -95,7 +95,7 @@
       "title": "GEO Isabel Salgado",
       "text": "GEO_isabel_salgado",
       "background_text": "educação",
-      "description":"O GEO Isabel Salgado foi batizado em homenagem a um dos maiores nomes do vôlei mundial e atleta olímpica. A escola atenderá cerca de mil alunos, do primeiro ao nono ano, em tempo integral, e é formada por 24 salas de aulas, sala multiuso, sala de apoio pedagógico, refeitório, cozinha, vestiários e banheiros. Além, claro, das instalações esportivas, com duas quadras e locais para a prática de judô, lutas, tênis de mesa e ginástica."
+      "description":"O Rio de Janeiro entrou para história ao transformar pela primeira vez um estádio olímpico em escola pública. Localizada no Parque Olímpico, na Barra da Tijuca, a Arena Carioca 3 - que, em 2016, recebeu as competições de taekwondo e esgrima durante os Jogos Olímpicos e judô nos Paralímpicos - virou o maior colégio da rede municipal. O GEO (Ginásio Educacional Olímpico) Isabel Salgado foi batizado em homenagem a um dos maiores nomes do vôlei mundial e atleta olímpica. A escola atende cerca de mil alunos, do primeiro ao nono ano, em tempo integral, e é formada por 24 salas de aulas, sala multiuso, sala de apoio pedagógico, refeitório, cozinha, vestiários e banheiros. Além, claro, das instalações esportivas, com duas quadras e locais para a prática de judô, lutas, tênis de mesa e ginástica."
     },
     {
       "id": "GET_emiliano_galdino",
@@ -121,32 +121,11 @@
       "description":""
     },
     {
-      "id": "terminal_gentileza",
-      "title": "Terminal Intermodal Gentileza",
-      "text": "terminal_intermodal_gentileza",
-      "background_text": "transporte",
-      "description": "Inaugurado em 2024, oito anos depois dos Jogos, o Terminal Intermodal Gentileza (TIG), o mais moderno hub de integração de transportes do país, é também um legado olímpico. Dentro do conceito da arquitetura nômade, ele foi construído a partir das estruturas metálicas do IBC, o Centro Internacional de Transmissão que ficava no Parque Olímpico e foi responsável por gerar e distribuir as imagens dos Jogos para todo o mundo. Localizado em frente à Rodoviária Novo Rio, o TIG conecta os serviços do BRT Transbrasil,  duas linhas do VLT e  14 linhas de ônibus municipais regulares, além de um serviço expresso para o Aeroporto Internacional Tom Jobim. O Terminal Gentileza integra, portanto, alguns modais que fazem parte do novo sistema de transporte da cidade que começou a ser implementado por causa dos Olimpíadas, como o BRT e o VLT. Além disso, está localizado na região do Porto Maravilha, mais um símbolo de transformação dos Jogos Rio 2016."
-    },
-    {
-      "id": "sistema_vlt",
-      "title": "sistema vlt",
-      "text": "sistema_vlt",
-      "background_text": "transporte",
-      "description":"Na área de mobilidade, a região central do Rio ganhou, às vésperas dos Jogos Rio 2016, o Veículo Leve sobre Trilhos (VLT). O sistema de bondes elétricos se integra a todos os meios de transporte do Centro e da Zona Portuária: barcas, metrô, trem, ônibus, Rodoviária Novo Rio, Aeroporto Santos Dumont, teleférico da Providência, terminal de cruzeiros marítimos e, mais recentemento, o Terminal Gentileza e o BRT Transbrasil. Atualmente, existem quatro linhas de VLT em operação, que somam 29 paradas e estações."
-    },
-    {
       "id": "sistema_brt",
       "title": "sistema brt",
       "text": "sistema_brt",
       "background_text": "transporte",
       "description":"Um dos projetos mais importantes e transformadores para a mobilidade na cidade, o Sistema BRT ( Bus Rapid Transit) começou a ser construído e implantado para os Jogos Rio 2016. Com corredores exclusivos e modernos ônibus articulados, proporcionou deslocamentos mais rápidos e eficientes para os cariocas, integrando as áreas mais afastadas e melhorando a qualidade de vida dos usuários, principalmente da população das zonas Norte e Oeste. Atualmente, o Rio conta com quatro corredores de BRT que somam 150 km: Transoeste (inaugurada em 2012), Transcarioca (2014), Transolímpica (2016) e Transbrasil (2024)."
-    },
-    {
-      "id": "transcarioca",
-      "title": "transcarioca",
-      "text": "transcarioca",
-      "background_text": "transporte",
-      "description":"Inaugurada em junho de 2014, antes do início da Copa do Mundo, a Transcarioca foi o segundo corredor de BRT a entrar em operação no Rio. Liga a Barra da Tijuca ao Aeroporto Tom Jobim, na Ilha do Governador, cruzando o adensado subúrbio carioca. O corredor passa por 27 bairros das zonas Norte e Oeste, incluindo quatro dos maiores conjuntos de favelas do Rio: Cidade de Deus e os Complexos do Alemão, da Penha e da Maré. A Transcarioca facilitou os deslocamentos dos moradores na região, encurtando distâncias e reduzindo o tempo de viagem. Além disso, estimulou o desenvolvimento econômico e social ao longo de seu trajeto."
     },
     {
       "id": "transoeste",
@@ -156,11 +135,32 @@
       "description":"O primeiro BRT a ser entregue como um legado antecipado dos Jogos no Rio foi a Transoeste, em 2012, ligando a Barra da Tijuca a Campo Grande, Paciência e Santa Cruz. O corredor conta como o Túnel da Grota Funda, que foi o primeiro na cidade a cortar o Maciço da Pedra Branca, contribuindo para o fim do isolamento viário da Zona Oeste. A Transoeste proporcionou viagens mais rápidas e confortáveis para os cariocas dessa região, promovendo a integração urbana e facilitando o acesso a serviços e empregos."
     },
     {
+      "id": "transcarioca",
+      "title": "transcarioca",
+      "text": "transcarioca",
+      "background_text": "transporte",
+      "description":"Inaugurada em junho de 2014, antes do início da Copa do Mundo, a Transcarioca foi o segundo corredor de BRT a entrar em operação no Rio. Liga a Barra da Tijuca ao Aeroporto Tom Jobim, na Ilha do Governador, cruzando o adensado subúrbio carioca. O corredor passa por 27 bairros das zonas Norte e Oeste, incluindo quatro dos maiores conjuntos de favelas do Rio: Cidade de Deus e os Complexos do Alemão, da Penha e da Maré. A Transcarioca facilitou os deslocamentos dos moradores na região, encurtando distâncias e reduzindo o tempo de viagem. Além disso, estimulou o desenvolvimento econômico e social ao longo de seu trajeto."
+    },
+    {
       "id": "transolimpica",
       "title": "transolímpica",
       "text": "transolimpica",
       "background_text": "transporte",
       "description":"Principal ligação entre o Parque Olímpico da Barra e o Complexo Esportivo de Deodoro durante os Jogos de 2016, a Transolímpica foi o terceiro corredor de BRT a ser inaugurado. Ao concetar o Recreio dos Bandeirantes e a Barra da Tijuca a Deodoro, proporcionou à população a interligação de bairros da Zona Oeste até a Avenida Brasil. Além das pistas exclusivas para os ônibus articulados, o projeto também criou via expressa para automóveis e abriu novos caminhos no Maciço da Pedra Branca, com a construção de dois túneis duplos."
+    },
+    {
+      "id": "sistema_vlt",
+      "title": "sistema vlt",
+      "text": "sistema_vlt",
+      "background_text": "transporte",
+      "description":"Na área de mobilidade, a região central do Rio ganhou, às vésperas dos Jogos Rio 2016, o Veículo Leve sobre Trilhos (VLT). O sistema de bondes elétricos se integra a todos os meios de transporte do Centro e da Zona Portuária: barcas, metrô, trem, ônibus, Rodoviária Novo Rio, Aeroporto Santos Dumont, teleférico da Providência, terminal de cruzeiros marítimos e, mais recentemento, o Terminal Gentileza e o BRT Transbrasil. Atualmente, existem quatro linhas de VLT em operação, que somam 29 paradas e estações."
+    },
+    {
+      "id": "terminal_gentileza",
+      "title": "Terminal Intermodal Gentileza",
+      "text": "terminal_intermodal_gentileza",
+      "background_text": "transporte",
+      "description": "Inaugurado em 2024, oito anos depois dos Jogos, o Terminal Intermodal Gentileza (TIG), o mais moderno hub de integração de transportes do país, é também um legado olímpico. Dentro do conceito da arquitetura nômade, ele foi construído a partir das estruturas metálicas do IBC, o Centro Internacional de Transmissão que ficava no Parque Olímpico e foi responsável por gerar e distribuir as imagens dos Jogos para todo o mundo. Localizado em frente à Rodoviária Novo Rio, o TIG conecta os serviços do BRT Transbrasil,  duas linhas do VLT e  14 linhas de ônibus municipais regulares, além de um serviço expresso para o Aeroporto Internacional Tom Jobim. O Terminal Gentileza integra, portanto, alguns modais que fazem parte do novo sistema de transporte da cidade que começou a ser implementado por causa dos Olimpíadas, como o BRT e o VLT. Além disso, está localizado na região do Porto Maravilha, mais um símbolo de transformação dos Jogos Rio 2016."
     }
   ],
   "pantheon": [

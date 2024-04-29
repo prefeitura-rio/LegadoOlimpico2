@@ -96,7 +96,7 @@ onMount(() => {
 
   // FIXME: radiusScale can be removes everywhere is is used
   $: radiusScale = derived([bounds], ([$bounds]) => {
-    let base = $bounds.chartWidth * 0.12;
+    let base = $bounds.chartWidth * 0.17;
     return scaleOrdinal().domain(TYPE_SCALE).range([base]);
     // .range([base * (GR * 4), base * (GR * 3), base * (GR * 2), base * GR, base]);
   });
@@ -207,7 +207,7 @@ onMount(() => {
     .chart-html,
   .chart-svg {
     position: absolute;
-    top: 0;
+    top: 3rem !important;
     left: 0px !important;;
     overflow: hidden;
     max-width:90vw !important;

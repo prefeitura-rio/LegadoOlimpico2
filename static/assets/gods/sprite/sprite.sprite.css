@@ -4,7 +4,7 @@
 */
 
 .sprite {
-	background-image: url('sprite.sprite.png?v=i4ZcRjJznWTO3VHeUrERF8SV1LwplJYCeCZKb');
+	background-image: url('sprite.sprite.png?v=R9wPmU8zUTGp2gXs4Aii1VGge7TD4nPoDNBD3');
 	background-repeat: no-repeat;
 	display: inline-block;
 }
@@ -14,173 +14,73 @@
 	height: 400px;
 	background-position: -5px -5px;
 }
-.sprite.boulevard_olimpico {
+.sprite.boulevard_olímpico {
 	width: 400px;
 	height: 400px;
-	background-position: -5px -1090px;
+	background-position: -5px -410px;
 }
 .sprite.campo_de_golfe {
 	width: 400px;
 	height: 400px;
-	background-position: -5px -2175px;
-}
-.sprite.centro_de_operações_rio {
-	width: 400px;
-	height: 400px;
-	background-position: -5px -3260px;
+	background-position: -5px -815px;
 }
 .sprite.derrubada_da_perimetral {
 	width: 400px;
 	height: 400px;
-	background-position: -5px -4345px;
+	background-position: -5px -1220px;
 }
 .sprite.duplicação_do_joá {
 	width: 400px;
 	height: 400px;
-	background-position: -5px -5430px;
+	background-position: -5px -1625px;
 }
 .sprite.edifício_a_noite {
 	width: 400px;
 	height: 400px;
-	background-position: -5px -6515px;
+	background-position: -5px -2030px;
 }
 .sprite.entorno_do_engenhão {
 	width: 400px;
 	height: 400px;
-	background-position: -5px -7600px;
-}
-.sprite.GEO_isabel_salgado {
-	width: 400px;
-	height: 400px;
-	background-position: -5px -8685px;
-}
-.sprite.GET_emiliano_galdino {
-	width: 400px;
-	height: 400px;
-	background-position: -5px -9770px;
-}
-.sprite.GET_josé_mauro_de_vasconcellos {
-	width: 400px;
-	height: 400px;
-	background-position: -5px -10855px;
-}
-.sprite.largo_da_prainha {
-	width: 400px;
-	height: 400px;
-	background-position: -5px -11940px;
+	background-position: -5px -2435px;
 }
 .sprite.marina_da_glória {
 	width: 400px;
 	height: 400px;
-	background-position: -5px -13025px;
+	background-position: -5px -2840px;
 }
-.sprite.museu_de_arte_do_rio {
+.sprite.novos_túneis {
 	width: 400px;
 	height: 400px;
-	background-position: -5px -14110px;
-}
-.sprite.museu_do_amanhã {
-	width: 400px;
-	height: 400px;
-	background-position: -5px -15195px;
-}
-.sprite.novas_vias {
-	width: 400px;
-	height: 400px;
-	background-position: -5px -16280px;
-}
-.sprite.novos_tuneis {
-	width: 400px;
-	height: 400px;
-	background-position: -5px -17365px;
-}
-.sprite.parque_deodoro {
-	width: 400px;
-	height: 400px;
-	background-position: -5px -18450px;
-}
-.sprite.parque_madureira {
-	width: 400px;
-	height: 400px;
-	background-position: -5px -19535px;
-}
-.sprite.parque_rita_lee {
-	width: 400px;
-	height: 400px;
-	background-position: -5px -20620px;
+	background-position: -5px -3245px;
 }
 .sprite.pequena_áfrica {
 	width: 400px;
 	height: 400px;
-	background-position: -5px -21705px;
+	background-position: -5px -3650px;
 }
 .sprite.piscinões {
 	width: 400px;
 	height: 400px;
-	background-position: -5px -22790px;
-}
-.sprite.praça_mauá {
-	width: 400px;
-	height: 400px;
-	background-position: -5px -23875px;
+	background-position: -5px -4055px;
 }
 .sprite.rede_hoteleira {
 	width: 400px;
 	height: 400px;
-	background-position: -5px -24960px;
-}
-.sprite.rio_centro {
-	width: 400px;
-	height: 400px;
-	background-position: -5px -26045px;
+	background-position: -5px -4460px;
 }
 .sprite.sambódromo {
 	width: 400px;
 	height: 400px;
-	background-position: -5px -27130px;
-}
-.sprite.sistema_brt {
-	width: 400px;
-	height: 400px;
-	background-position: -5px -28215px;
-}
-.sprite.sistema_vlt {
-	width: 400px;
-	height: 400px;
-	background-position: -5px -29300px;
+	background-position: -5px -4865px;
 }
 .sprite.teleférico_providência {
 	width: 400px;
 	height: 400px;
-	background-position: -5px -30385px;
+	background-position: -5px -5270px;
 }
-.sprite.terminal_deodoro {
+.sprite.parque_madureira {
 	width: 400px;
 	height: 400px;
-	background-position: -5px -31470px;
-}
-.sprite.terminal_intermodal_gentileza {
-	width: 400px;
-	height: 400px;
-	background-position: -5px -32555px;
-}
-.sprite.transcarioca {
-	width: 400px;
-	height: 400px;
-	background-position: -5px -33640px;
-}
-.sprite.transoeste {
-	width: 400px;
-	height: 400px;
-	background-position: -5px -34725px;
-}
-.sprite.transolimpica {
-	width: 400px;
-	height: 400px;
-	background-position: -5px -35810px;
-}
-.sprite.vila_dos_atletas {
-	width: 400px;
-	height: 400px;
-	background-position: -5px -36895px;
+	background-position: -5px -5675px;
 }
