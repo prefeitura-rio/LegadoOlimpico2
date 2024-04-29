@@ -50,11 +50,11 @@
     </div>
   </Section>
 
-  <div class="introduction">
+  <!-- <div class="introduction">
     <a href="https://prefeitura-rio.github.io/LegadoOlimpico2_3D/" target="_blank" class="button"
       >Explore o mapa interativo</a
     >
-  </div>
+  </div> -->
   <!-- PANTHEON -->
 
 

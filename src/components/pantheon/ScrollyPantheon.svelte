@@ -29,11 +29,11 @@
     const scroller = scrollama();
 
     scroller
-      .setup({
-        step: "div .step-pantheon",
-        // debug: true,
-        offset: 0.5
-      })  
+      // .setup({
+      //   step: "div .step-pantheon",
+      //   // debug: true,
+      //   offset: 0.5
+      // })  
       .onStepEnter(handleStepEnter);
   });
 
