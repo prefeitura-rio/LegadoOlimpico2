@@ -270,7 +270,7 @@
   }
 
   figure {
-    position: -webkit-sticky;
+   
     position: sticky;
     width: 45vw;
     height: 100vh;
@@ -401,7 +401,7 @@
   }
   /* @media only screen and (max-width: 2050px) and (min-width: 1920px) {
     figure {
-      position: -webkit-sticky;
+     
       position: sticky;
       width: 45vw;
       height: 100vh;
@@ -416,7 +416,7 @@
   }
   @media only screen and (max-width: 1920px) and (min-width: 1890px) {
     figure {
-      position: -webkit-sticky;
+     
       position: sticky;
       width: 45vw;
       height: 100vh;
@@ -431,7 +431,7 @@
   } */
   /* @media only screen and (max-width: 1890px) and (min-width: 1800px) {
     figure {
-      position: -webkit-sticky;
+     
       position: sticky;
       width: 45vw;
       height: 100vh;
@@ -446,7 +446,7 @@
   }
   @media only screen and (max-width: 1800px) and (min-width: 1550px) {
     figure {
-      position: -webkit-sticky;
+     
       position: sticky;
       width: 50vw;
       height: 100vh;
@@ -465,7 +465,7 @@
  
   @media only screen and (max-width: 1400px) and (min-width: 1200px) {
     figure {
-      position: -webkit-sticky;
+     
       position: sticky;
       width: 60vw;
       height: 100vh;
@@ -482,7 +482,7 @@
   @media only screen and (width: 1024px) {
     figure {
       /* background-color: red; */
-      position: -webkit-sticky;
+     
       position: sticky;
       width: 10vw;
       height: 80vh;
@@ -517,7 +517,7 @@
       visibility: hidden;
     }
     figure {
-      /* position: -webkit-sticky; */
+      /* */
       position: sticky;
 
       width: 100vw;
