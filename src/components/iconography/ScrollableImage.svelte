@@ -517,7 +517,7 @@
       visibility: hidden;
     }
     figure {
-      position: -webkit-sticky;
+      /* position: -webkit-sticky; */
       position: sticky;
 
       width: 100vw;

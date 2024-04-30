@@ -8,9 +8,7 @@
   
   let imgPath;
   let iconPath = "icon2";
-  if (typeof window !== "undefined") {
-    imgPath = window.matchMedia("(max-width: 600px)").matches ? "geral_02.png" : "geral_02.png";
-  }
+  
 </script>
 
 <ScrollableImage
@@ -18,7 +16,7 @@
   source={doc.source_tezca_label}
   sourceUrl={doc.source_tezca_url}
   name="tezca"
-  {imgPath}
+  imgPath="geral_02.png"
   {iconPath}
   selected={0}
   {steps}

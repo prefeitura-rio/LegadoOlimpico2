@@ -8,10 +8,6 @@
 
   let imgPath;
 
-  if (typeof window !== "undefined") {
-    imgPath = window.matchMedia("(max-width: 600px)").matches ? "geral_01.png" : "geral_01.png";
-  }
-
 </script>
 
 <ScrollableImage
@@ -19,7 +15,7 @@
   source={doc.source_tlalte_label}
   sourceUrl={doc.source_tlalte_url}
   name="tlalte"
-  {imgPath}
+  imgPath="geral_01.png"
   iconPath="compass.png"
   selected={0}
   {steps}
