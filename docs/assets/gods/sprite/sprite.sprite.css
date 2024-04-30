@@ -4,83 +4,98 @@
 */
 
 .sprite {
-	background-image: url('sprite.sprite.png?v=R9wPmU8zUTGp2gXs4Aii1VGge7TD4nPoDNBD3');
+	background-image: url('sprite.sprite.png?v=0oteb9FcOca0zCBC3tp5icV6JOmH6EEJdaIbf');
 	background-repeat: no-repeat;
 	display: inline-block;
 }
 
-.sprite.avenida_rio_branco {
+.sprite.aterro_gramacho {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -5px;
 }
-.sprite.boulevard_olímpico {
+.sprite.bacia_jacarepagua {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -410px;
 }
-.sprite.campo_de_golfe {
+.sprite.boulevard_olímpico {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -815px;
 }
-.sprite.derrubada_da_perimetral {
+.sprite.campo_de_golfe {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -1220px;
 }
-.sprite.duplicação_do_joá {
+.sprite.combate_enchentes {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -1625px;
 }
-.sprite.edifício_a_noite {
+.sprite.ctr_seropedica {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -2030px;
 }
-.sprite.entorno_do_engenhão {
+.sprite.derrubada_da_perimetral {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -2435px;
 }
-.sprite.marina_da_glória {
+.sprite.duplicação_do_joá {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -2840px;
 }
-.sprite.novos_túneis {
+.sprite.edifício_a_noite {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -3245px;
 }
-.sprite.pequena_áfrica {
+.sprite.entorno_do_engenhão {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -3650px;
 }
-.sprite.piscinões {
+.sprite.marina_da_glória {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -4055px;
 }
-.sprite.rede_hoteleira {
+.sprite.novos_túneis {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -4460px;
 }
-.sprite.sambódromo {
+.sprite.parque_madureira {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -4865px;
 }
-.sprite.teleférico_providência {
+.sprite.pequena_áfrica {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -5270px;
 }
-.sprite.parque_madureira {
+.sprite.piscinões {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -5675px;
+}
+.sprite.rede_hoteleira {
+	width: 400px;
+	height: 400px;
+	background-position: -5px -6080px;
+}
+.sprite.sambódromo {
+	width: 400px;
+	height: 400px;
+	background-position: -5px -6485px;
+}
+.sprite.saneamento_zona_oeste {
+	width: 400px;
+	height: 400px;
+	background-position: -5px -6890px;
 }

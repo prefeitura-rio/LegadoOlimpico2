@@ -96,7 +96,7 @@ onMount(() => {
 
   // FIXME: radiusScale can be removes everywhere is is used
   $: radiusScale = derived([bounds], ([$bounds]) => {
-    let base = $bounds.chartWidth * 0.17;
+    let base = $bounds.chartWidth * 0.18;
     return scaleOrdinal().domain(TYPE_SCALE).range([base]);
     // .range([base * (GR * 4), base * (GR * 3), base * (GR * 2), base * GR, base]);
   });

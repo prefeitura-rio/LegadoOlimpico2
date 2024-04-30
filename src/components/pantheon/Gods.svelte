@@ -6,21 +6,24 @@
 
   // Order of images in the sprite
   const godIndices = [
-    "avenida_rio_branco",
+    "aterro_gramacho",
+    "bacia_jacarepagua",
       "boulevard_olímpico",
       "campo_de_golfe",
+      "combate_enchentes",
+      "ctr_seropedica",
       "derrubada_da_perimetral",
       "duplicação_do_joá",
       "edifício_a_noite",
       "entorno_do_engenhão",
       "marina_da_glória",
       "novos_túneis",
+      "parque_madureira",
       "pequena_áfrica",
       "piscinões",
       "rede_hoteleira",
       "sambódromo",
-      "teleférico_providência",
-      "parque_madureira"
+      "saneamento_zona_oeste"
   ];
 </script>
 

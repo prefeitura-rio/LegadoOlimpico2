@@ -63,9 +63,9 @@
    *
    */
 
-  const FULL_SPRITE_WIDTH = 6000;
+  const FULL_SPRITE_WIDTH = 7200;
   const SINGLE_IMAGE_WIDTH = 400;
-  const OFFSET = 28.5;
+  const OFFSET = 23.5;
 </script>
 
 <figure

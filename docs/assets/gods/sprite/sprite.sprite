@@ -1,21 +1,24 @@
 {
    "style_name": "sprite",
    "images": [
-      "avenida_rio_branco.png",
+      "aterro_gramacho.png",
+      "bacia_jacarepagua.png",
       "boulevard_olímpico.png",
       "campo_de_golfe.png",
+      "combate_enchentes.png",
+      "ctr_seropedica.png",
       "derrubada_da_perimetral.png",
       "duplicação_do_joá.png",
       "edifício_a_noite.png",
       "entorno_do_engenhão.png",
       "marina_da_glória.png",
       "novos_túneis.png",
+      "parque_madureira.png",
       "pequena_áfrica.png",
       "piscinões.png",
       "rede_hoteleira.png",
       "sambódromo.png",
-      "teleférico_providência.png",
-      "parque_madureira.png"
+      "saneamento_zona_oeste.png"
    ],
    "orientation": "vertical",
    "padding": 5,
