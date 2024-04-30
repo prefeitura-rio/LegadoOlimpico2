@@ -18,7 +18,7 @@ export const KEYWORDS = [
   "pleasure"
 ];
 
-export const FIELDS = ["educacao", "transporte", "reformas urbanas", "lazer"];
+export const FIELDS = ["saneamento", "transporte", "reformas urbanas", "lazer"];
 
 // Accessors
 export const getName = (d) => d.name;
