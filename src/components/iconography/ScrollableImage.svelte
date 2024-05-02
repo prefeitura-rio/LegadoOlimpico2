@@ -19,12 +19,25 @@
   // Default with first step
   let activeStep = steps[0];
 
+  let isVisible = true;
+  let isIphone = false;
+
   const handleStepEnter = (response) => {
     selected = response.index;
     activeStep = steps[response.index];
+    if (isIphone) {
+      isVisible = false; 
+    }
+  };
+
+  const handleStepExit = (response) => {
+    if (isIphone) {
+      isVisible = true; 
+    }
   };
 
   onMount(() => {
+    isIphone = /iPhone/i.test(navigator.userAgent);
     const scroller = scrollama();
     scroller
       .setup({
@@ -32,8 +45,10 @@
         // debug: true,
         offset: 0.5
       })
-      .onStepEnter(handleStepEnter);
+      .onStepEnter(handleStepEnter)
+      .onStepExit(handleStepExit);
   });
+
 </script>
 
 <svelte:window />
@@ -41,7 +56,9 @@
 <Section id="gods-iconography-{title}" fullBleed>
   <div id="scrolly">
     <figure>
-      <MaskedImage {name} selected={activeStep.id} {imgPath} {positions} {imageRange} />
+      {#if isVisible}
+        <MaskedImage {name} selected={activeStep.id} {imgPath} {positions} {imageRange} />
+      {/if}
     </figure>
 
     <div class="scroll-area">
