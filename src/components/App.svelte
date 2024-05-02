@@ -166,19 +166,8 @@
   right: 0;
     margin: 0 auto;
     bottom:3rem;
-  animation: bounce 2s infinite;
   }
-  @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
-}
+ 
   .title-container {
     display: flex;
     justify-content: center;
@@ -286,10 +275,10 @@
 
   .cover-image {
     position: relative;
-    width: 25vw; 
-    height: 25vw; 
-    max-width: 600px;
-    max-height: 600px;
+    width: 20vw; 
+    height: 20vw; 
+    max-width: 400px;
+    max-height: 400px;
   }
 
   .cover-image img {
@@ -378,6 +367,7 @@
   .cover-image-2{
     width: 80vw;
     height: auto;
+    margin-top: -2.5rem;
   }
   .cover-text-2{
       display: none;
