@@ -274,7 +274,7 @@
     /* Ajuste adicional para garantir que o título esteja centralizado corretamente */
   }
   .cover-container {
-    background-image: url("assets/capa_imgs/background.png");
+    background-image: url("background.png");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -327,7 +327,7 @@
   }
   @media only screen and (max-width: 650px) {
     .background-image {
-      background-image: url("capa_final_MOBILE.png");
+      /* background-image: url("capa_final_MOBILE.png"); */
     }
     .credits {
       padding-bottom: 2.2rem;
