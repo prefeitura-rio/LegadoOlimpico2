@@ -20,28 +20,38 @@
 <!-- <Hero /> -->
 
 <div class="container">
-  <div class="background-image">
-    <div class="logo">
-      <img class="photo_logo" src="assets/logo_preto_horizontal.png" alt="Foto" />
+  <div class="logo">
+    <img class="photo_logo" src="assets/capa_imgs/logo_ed.png" alt="Foto" />
+  </div>
+  <div class="cover-container">
+    <div class="cover-image cover-image-1">
+      <img src="assets/capa_imgs/capa_1.png" alt="Image 1" />
+      <div class="cover-text cover-text-1">O que seria</div>
     </div>
-    <div class="title-container">
-      <h1 class="title">O que seria do Rio <br />sem as Olimpíadas?</h1>
-      
+    <div class="cover-image cover-image-2">
+      <img src="assets/capa_imgs/capa_2.png" alt="Image 2" />
+      <div class="cover-text cover-text-2">do Rio sem</div>
+      <div class="cover-text cover-text-2-mobile">O que seria do <br>Rio sem as<br> Olimpiadas?</div>
     </div>
-   
+    <div class="cover-image cover-image-3">
+      <img src="assets/capa_imgs/capa_3.png" alt="Image 3" />
+      <div class="cover-text cover-text-3">as Olimpíadas?</div>
+    </div>
   </div>
-<br><br>
-<div class="credits">
-  <div class="credits-line">
-    <div>Produzido pelo</div>
-    <div><a href="https://www.dados.rio/">Escritório de Dados</a></div>
+  <div class="arrowDown">
+    <img class="arrowDownIcon" src="assets/capa_imgs/scroll_ic.png" alt="Foto" />
   </div>
-  <div class="credits-line">
-    <div>da</div>
-    <div><a href="https://prefeitura.rio/">Prefeitura da Cidade do Rio de Janeiro</a></div>
-  </div>
-</div>
 
+  <div class="credits">
+    <div class="credits-line">
+      <div>Produzido pelo</div>
+      <div><a href="https://www.dados.rio/">Escritório de Dados</a></div>
+    </div>
+    <div class="credits-line">
+      <div>da</div>
+      <div><a href="https://prefeitura.rio/">Prefeitura da Cidade do Rio de Janeiro</a></div>
+    </div>
+  </div>
   <Section>
     <div class="intro">
       {#each doc.introduction as p, i}
@@ -56,7 +66,6 @@
     >
   </div> -->
   <!-- PANTHEON -->
-
 
   <Section id="pantheon">
     <Paragraph hasCap={true}>{@html doc.pantheon_intro}</Paragraph>
@@ -139,24 +148,48 @@
     text-align: center;
   }
   .logo {
+    position: absolute;
     display: flex;
     justify-content: center;
     max-width: 200px;
+    left: 0;
+  right: 0;
     margin: 0 auto;
     padding-top: 1.5rem;
   }
-  .title-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  height: 100%;
-  /* text-shadow: 2px 2px 4px white; */
+  .arrowDown {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    max-width: 50px;
+    left: 0;
+  right: 0;
+    margin: 0 auto;
+    bottom:3rem;
+  animation: bounce 2s infinite;
+  }
+  @keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }
+  .title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    /* text-shadow: 2px 2px 4px white; */
+  }
 
   .introduction {
-
     padding-bottom: 5rem;
     display: flex;
     flex-direction: column;
@@ -189,7 +222,6 @@
     display: flex;
     flex-direction: column;
 
-    
     /* padding-top: 4rem; */
     /* padding-bottom: 4rem; */
   }
@@ -241,25 +273,75 @@
     padding-bottom: 5rem;
     /* Ajuste adicional para garantir que o título esteja centralizado corretamente */
   }
+  .cover-container {
+    background-image: url("assets/capa_imgs/background.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
 
+  .cover-image {
+    position: relative;
+    width: 25vw; 
+    height: 25vw; 
+    max-width: 600px;
+    max-height: 600px;
+  }
+
+  .cover-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .cover-text {
+    font-family: "CeraProRegular";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 2em; 
+    text-align: center;
+    white-space: nowrap;
+  }
+  @media only screen and (max-width: 1000px) and (min-width: 600px) {
+    .cover-text {
+      font-size: 1.5em; 
+    white-space: normal 
+  }
+  }
+  @media only screen and (min-width: 1920px) {
+    .cover-text {
+    font-size: 3em; 
+  }
+  }
+  @media only screen and (max-width: 1920px) and (min-width: 1300px) {
+    .cover-text {
+    font-size: 2.5em; 
+  }
+  }
   @media only screen and (max-width: 650px) {
     .background-image {
-    background-image: url("capa_final_MOBILE.png");
+      background-image: url("capa_final_MOBILE.png");
     }
-    .credits{
+    .credits {
       padding-bottom: 2.2rem;
     }
     .introduction {
       padding-top: 5rem;
     }
     .title {
-      font-size: 2.0rem !important;
+      font-size: 2rem !important;
       margin-top: 0rem;
       line-height: 2.6rem;
       /* min-width: 25rem !important; */
     }
-    .title-container{
-
+    .title-container {
     }
   }
   @media only screen and (min-width: 30em) {
@@ -279,9 +361,26 @@
       font-size: 5rem;
       margin: 10rem auto;
     }
-    .credits{
+    .credits {
       white-space: nowrap;
     }
-    
   }
+
+  @media only screen and (min-width: 600px) {
+    .cover-text-2-mobile{
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+  .cover-image-1, .cover-image-3 {
+    display: none;
+  }
+  .cover-image-2{
+    width: 80vw;
+    height: auto;
+  }
+  .cover-text-2{
+      display: none;
+    }
+}
 </style>
