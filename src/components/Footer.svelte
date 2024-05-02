@@ -10,8 +10,9 @@
 	<h3 id="autores">Autores</h3>
 	<h6>Caio Jacintho</h6>
 	<h6>Judite Cypreste</h6>
-	<h6>Pedro Meneghel</h6>
 	<h6>Lucas Tavares</h6>
+	<h6>Pedro Meneghel</h6>
+	<h6>Rafael Lisboa</h6>
   
 	<br>
 	<br>
@@ -21,7 +22,6 @@
 	<h6>Joice Nascimento</h6>
 	<h6>Michel Castellar</h6>
 	<h6>Pedro Simões</h6>
-	<h6>Rafael Lisboa</h6>
 	<h6>Teresa Fayal</h6>
 
 	<br>
