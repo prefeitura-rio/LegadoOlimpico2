@@ -22,7 +22,7 @@
 	<meta property="og:type" content="article" />
 	<meta property="og:locale" content="pt_BR" />
 
-	<meta property="og:image" content="{url}/assets/images/capa.jpg" />
+	<meta property="og:image" content="{url}/assets/images/capa_teste.jpg" />
 	<meta property="og:image:type" content="image/jpeg" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="600" />
