@@ -22,7 +22,7 @@
 	<meta property="og:type" content="article" />
 	<meta property="og:locale" content="pt_BR" />
 
-	<meta property="og:image" content="{url}/assets/images/capa_teste.jpg" />
+	<meta property="og:image" content="https://prefeitura-rio.github.io/LegadoOlimpico2/assets/images/capa.jpg" />
 	<meta property="og:image:type" content="image/jpeg" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="600" />
@@ -32,7 +32,7 @@
 	<meta name="twitter:creator" content="@puddingviz" />
 	<meta name="twitter:title" content={title} />
 	<meta name="twitter:description" content={description} />
-	<meta name="twitter:image:src" content="{url}/assets/images/social-twitter.jpg" />
+	<meta name="twitter:image:src" content="https://prefeitura-rio.github.io/LegadoOlimpico2/assets/images/capa.jpg" />
 
 	<meta name="robots" content="max-image-preview:large" />
 
