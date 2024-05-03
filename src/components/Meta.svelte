@@ -2,7 +2,7 @@
 	export let title = "Legado Olímpico";
 	export let description = "O que seria do Rio sem as Olimpíadas?";
 	export let url = "https://prefeitura-rio.github.io/LegadoOlimpico2/";
-	export let keywords = "Legado olímpico, elefante branco, arquitetura nomade";
+	export let keywords = "Legado olímpico";
 	export let preloadFont = [];
 </script>
 
@@ -32,7 +32,7 @@
 	<meta name="twitter:creator" content="@puddingviz" />
 	<meta name="twitter:title" content={title} />
 	<meta name="twitter:description" content={description} />
-	<meta name="twitter:image:src" content="{url}/assets/images/capa.jpg" />
+	<meta name="twitter:image:src" content="{url}/assets/images/social-twitter.jpg" />
 
 	<meta name="robots" content="max-image-preview:large" />
 
