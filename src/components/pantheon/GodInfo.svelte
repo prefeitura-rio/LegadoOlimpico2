@@ -181,7 +181,9 @@
     max-width: 25rem;
     text-align: justify;
     font-family: "CeraProRegular" !important;
+    overflow: auto;
   }
+
   .type {
     font-size: 0.825rem;
     line-height: 1.2;
