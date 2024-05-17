@@ -4,42 +4,42 @@
 */
 
 .sprite {
-	background-image: url('sprite.sprite.png?v=fPMxwpBM26eBBgjk66AOs82lCjEYh4YU2jFNc');
+	background-image: url('sprite.sprite.png?v=0ydSpf61UgGiOqLI9goMFSiQ400qHpVcMUbKF');
 	background-repeat: no-repeat;
 	display: inline-block;
 }
 
-.sprite.saneamento_zona_oeste {
+.sprite.campo_de_golfe {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -5px;
 }
-.sprite.sambódromo {
+.sprite.combate_enchentes {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -410px;
 }
-.sprite.rede_hoteleira {
+.sprite.ctr_seropedica {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -815px;
 }
-.sprite.piscinões {
+.sprite.derrubada_da_perimetral {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -1220px;
 }
-.sprite.pequena_áfrica {
+.sprite.duplicação_do_joá {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -1625px;
 }
-.sprite.parque_madureira {
+.sprite.edifício_a_noite {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -2030px;
 }
-.sprite.novos_túneis {
+.sprite.entorno_do_engenhão {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -2435px;
@@ -49,38 +49,33 @@
 	height: 400px;
 	background-position: -5px -2840px;
 }
-.sprite.entorno_do_engenhão {
+.sprite.novos_túneis {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -3245px;
 }
-.sprite.edifício_a_noite {
+.sprite.parque_madureira {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -3650px;
 }
-.sprite.duplicação_do_joá {
+.sprite.pequena_áfrica {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -4055px;
 }
-.sprite.derrubada_da_perimetral {
+.sprite.rede_hoteleira {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -4460px;
 }
-.sprite.ctr_seropedica {
+.sprite.sambódromo {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -4865px;
 }
-.sprite.combate_enchentes {
+.sprite.saneamento_zona_oeste {
 	width: 400px;
 	height: 400px;
 	background-position: -5px -5270px;
-}
-.sprite.campo_de_golfe {
-	width: 400px;
-	height: 400px;
-	background-position: -5px -5675px;
 }

@@ -6,7 +6,7 @@
 
   // Order of images in the sprite
   const godIndices = [
-      "campo_de_golfe",
+    "campo_de_golfe",
       "combate_enchentes",
       "ctr_seropedica",
       "derrubada_da_perimetral",
