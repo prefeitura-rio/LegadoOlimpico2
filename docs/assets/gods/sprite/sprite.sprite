@@ -1,9 +1,6 @@
 {
    "style_name": "sprite",
    "images": [
-      "aterro_gramacho.png",
-      "bacia_jacarepagua.png",
-      "boulevard_olímpico.png",
       "campo_de_golfe.png",
       "combate_enchentes.png",
       "ctr_seropedica.png",
@@ -15,7 +12,6 @@
       "novos_túneis.png",
       "parque_madureira.png",
       "pequena_áfrica.png",
-      "piscinões.png",
       "rede_hoteleira.png",
       "sambódromo.png",
       "saneamento_zona_oeste.png"
